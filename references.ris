@@ -1,0 +1,295 @@
+TY  - GEN
+TI  - Detection of LLM-Paraphrased Code and Identification of the Responsible LLM Using Coding Style Features
+AU  - Park, Shinwoo
+AU  - Jin, Hyundong
+AU  - Cha, Jeong-won
+AU  - Han, Yo-Sub
+PY  - 2025
+T2  - arXiv:2502.17749
+UR  - https://arxiv.org/abs/2502.17749
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - Dos and Don'ts of Machine Learning in Computer Security
+AU  - Arp, Daniel
+AU  - Quiring, Erwin
+AU  - Pendlebury, Feargus
+AU  - Warnecke, Alexander
+AU  - Pierazzi, Fabio
+AU  - Wressnegger, Christian
+AU  - Cavallaro, Lorenzo
+AU  - Rieck, Konrad
+PY  - 2022
+T2  - 31st USENIX Security Symposium, pp. 3971–3988
+UR  - https://arxiv.org/abs/2010.09470
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs
+AU  - Guo, Hanxi
+AU  - Cheng, Siyuan
+AU  - Zhang, Kaiyuan
+AU  - Shen, Guangyu
+AU  - Zhang, Xiangyu
+PY  - 2025
+T2  - arXiv:2506.11059
+UR  - https://arxiv.org/abs/2506.11059
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - Automatic Detection of LLM-Generated Code: A Comparative Case Study of Contemporary Models Across Function and Class Granularities
+AU  - Rahman, Musfiqur
+AU  - Khatoonabadi, SayedHassan
+AU  - Abdellatif, Ahmad
+AU  - Shihab, Emad
+PY  - 2024
+T2  - arXiv:2409.01382
+UR  - https://arxiv.org/abs/2409.01382
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - Is This You, LLM? Recognizing AI-written Programs with Multilingual Code Stylometry
+AU  - Gurioli, Andrea
+AU  - Gabbrielli, Maurizio
+AU  - Zacchiroli, Stefano
+PY  - 2024
+T2  - arXiv:2412.14611
+UR  - https://arxiv.org/abs/2412.14611
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature
+AU  - Mitchell, Eric
+AU  - Lee, Yoonho
+AU  - Khazatsky, Alexander
+AU  - Manning, Christopher D.
+AU  - Finn, Chelsea
+PY  - 2023
+T2  - arXiv:2301.11305
+UR  - https://arxiv.org/abs/2301.11305
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - Fast-DetectGPT: Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature
+AU  - Bao, Guangsheng
+AU  - Zhao, Yanbin
+AU  - Teng, Zhiyang
+AU  - Yang, Linyi
+AU  - Zhang, Yue
+PY  - 2023
+T2  - arXiv:2310.05130
+UR  - https://arxiv.org/abs/2310.05130
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - Can AI-Generated Text be Reliably Detected?
+AU  - Sadasivan, Vinu Sankar
+AU  - Kumar, Aounon
+AU  - Balasubramanian, Sriram
+AU  - Wang, Wenxiao
+AU  - Feizi, Soheil
+PY  - 2023
+T2  - arXiv:2303.11156
+UR  - https://arxiv.org/abs/2303.11156
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - De-anonymizing Programmers via Code Stylometry
+AU  - Caliskan-Islam, Aylin
+AU  - Harang, Richard
+AU  - Liu, Andrew
+AU  - Narayanan, Arvind
+AU  - Voss, Clare
+AU  - Yamaguchi, Fabian
+AU  - Greenstadt, Rachel
+PY  - 2015
+T2  - 24th USENIX Security Symposium, pp. 255–270
+UR  - https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/caliskan-islam
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - Authorship Attribution of Source Code: A Language-Agnostic Approach and Applicability in Software Engineering
+AU  - Bogomolov, Egor
+AU  - Kovalenko, Vladimir
+AU  - Rebryk, Yurii
+AU  - Bacchelli, Alberto
+AU  - Bryksin, Timofey
+PY  - 2021
+T2  - 29th ACM Joint ESEC/FSE
+UR  - https://arxiv.org/abs/2001.11593
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - CodeBERT: A Pre-Trained Model for Programming and Natural Languages
+AU  - Feng, Zhangyin
+AU  - Guo, Daya
+AU  - Tang, Duyu
+AU  - Duan, Nan
+AU  - Feng, Xiaocheng
+AU  - Gong, Ming
+AU  - Shou, Linjun
+AU  - Qin, Bing
+AU  - Liu, Ting
+AU  - Jiang, Daxin
+AU  - Zhou, Ming
+PY  - 2020
+T2  - arXiv:2002.08155
+UR  - https://arxiv.org/abs/2002.08155
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - GraphCodeBERT: Pre-training Code Representations with Data Flow
+AU  - Guo, Daya
+AU  - Ren, Shuo
+AU  - Lu, Shuai
+AU  - Feng, Zhangyin
+AU  - Tang, Duyu
+AU  - Liu, Shujie
+AU  - Zhou, Long
+AU  - Duan, Nan
+AU  - Svyatkovskiy, Alexey
+AU  - Fu, Shengyu
+AU  - Tufano, Michele
+AU  - Deng, Shao Kun
+AU  - Clement, Colin
+AU  - Drain, Dawn
+AU  - Sundaresan, Neel
+AU  - Yin, Jian
+AU  - Jiang, Daxin
+AU  - Zhou, Ming
+PY  - 2020
+T2  - arXiv:2009.08366
+UR  - https://arxiv.org/abs/2009.08366
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation
+AU  - Wang, Yue
+AU  - Wang, Weishi
+AU  - Joty, Shafiq
+AU  - Hoi, Steven C. H.
+PY  - 2021
+T2  - arXiv:2109.00859
+UR  - https://arxiv.org/abs/2109.00859
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - UniXcoder: Unified Cross-Modal Pre-training for Code Representation
+AU  - Guo, Daya
+AU  - Lu, Shuai
+AU  - Duan, Nan
+AU  - Wang, Yanlin
+AU  - Zhou, Ming
+AU  - Yin, Jian
+PY  - 2022
+T2  - arXiv:2203.03850
+UR  - https://arxiv.org/abs/2203.03850
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - CodeSearchNet Challenge: Evaluating the State of Semantic Code Search
+AU  - Husain, Hamel
+AU  - Wu, Ho-Hsiang
+AU  - Gazit, Tiferet
+AU  - Allamanis, Miltiadis
+AU  - Brockschmidt, Marc
+PY  - 2019
+T2  - arXiv:1909.09436
+UR  - https://arxiv.org/abs/1909.09436
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - Misleading Authorship Attribution of Source Code using Adversarial Learning
+AU  - Quiring, Erwin
+AU  - Maier, Alwin
+AU  - Rieck, Konrad
+PY  - 2019
+T2  - 28th USENIX Security Symposium, pp. 479–496
+UR  - https://arxiv.org/abs/1905.12386
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - RoPGen: Towards Robust Code Authorship Attribution via Automatic Coding Style Transformation
+AU  - Li, Zhen
+AU  - Chen, Guenevere (Qian)
+AU  - Chen, Chen
+AU  - Zou, Yayi
+AU  - Xu, Shouhuai
+PY  - 2022
+T2  - 44th International Conference on Software Engineering
+UR  - https://arxiv.org/abs/2202.06043
+DO  - 10.1145/3510003.3510181
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - XGBoost: A Scalable Tree Boosting System
+AU  - Chen, Tianqi
+AU  - Guestrin, Carlos
+PY  - 2016
+T2  - arXiv:1603.02754
+UR  - https://arxiv.org/abs/1603.02754
+DO  - 10.1145/2939672.2939785
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - Scikit-learn: Machine Learning in Python
+AU  - Pedregosa, Fabian
+AU  - Varoquaux, Gaël
+AU  - Gramfort, Alexandre
+AU  - Michel, Vincent
+AU  - Thirion, Bertrand
+AU  - Grisel, Olivier
+AU  - Blondel, Mathieu
+AU  - Prettenhofer, Peter
+AU  - Weiss, Ron
+AU  - Dubourg, Vincent
+AU  - Vanderplas, Jake
+AU  - Passos, Alexandre
+AU  - Cournapeau, David
+AU  - Brucher, Matthieu
+AU  - Perrot, Matthieu
+AU  - Duchesnay, Édouard
+PY  - 2011
+T2  - Journal of Machine Learning Research 12(85):2825–2830
+UR  - https://www.jmlr.org/papers/v12/pedregosa11a.html
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - No Unbiased Estimator of the Variance of K-Fold Cross-Validation
+AU  - Bengio, Yoshua
+AU  - Grandvalet, Yves
+PY  - 2004
+T2  - Journal of Machine Learning Research 5:1089–1105
+UR  - https://www.jmlr.org/papers/volume5/grandvalet04a/grandvalet04a.pdf
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -
+
+TY  - GEN
+TI  - All Models are Wrong, but Many are Useful: Learning a Variable’s Importance by Studying an Entire Class of Prediction Models Simultaneously
+AU  - Fisher, Aaron
+AU  - Rudin, Cynthia
+AU  - Dominici, Francesca
+PY  - 2019
+T2  - Journal of Machine Learning Research 20(177):1–81
+UR  - https://jmlr.org/papers/v20/18-760.html
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -

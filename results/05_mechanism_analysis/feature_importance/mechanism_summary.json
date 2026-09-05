@@ -1,0 +1,4164 @@
+{
+  "frozen_registry_sha256": "f18c06f33f3f7f4037c074c58543ed7ff96342108bb4d39838262b626974df62",
+  "rank_stability": [
+    {
+      "left_environment": "clean",
+      "metric": "jaccard_top_10_permutation",
+      "right_environment": "combined_attack",
+      "value": 0.5384615384615384
+    },
+    {
+      "left_environment": "clean",
+      "metric": "jaccard_top_10_permutation",
+      "right_environment": "cross_language",
+      "value": 0.42857142857142855
+    },
+    {
+      "left_environment": "clean",
+      "metric": "jaccard_top_10_permutation",
+      "right_environment": "unseen_llm",
+      "value": 0.5384615384615384
+    },
+    {
+      "left_environment": "combined_attack",
+      "metric": "jaccard_top_10_permutation",
+      "right_environment": "cross_language",
+      "value": 0.42857142857142855
+    },
+    {
+      "left_environment": "combined_attack",
+      "metric": "jaccard_top_10_permutation",
+      "right_environment": "unseen_llm",
+      "value": 0.6666666666666666
+    },
+    {
+      "left_environment": "cross_language",
+      "metric": "jaccard_top_10_permutation",
+      "right_environment": "unseen_llm",
+      "value": 0.42857142857142855
+    }
+  ],
+  "rankings": {
+    "clean": {
+      "feature_rows": [
+        {
+          "feature": "human_absolute:original_style_00",
+          "gain_mean": 0.0018883037536623268,
+          "gain_sd": 0.0007521891392616889,
+          "n_folds": 60,
+          "permutation_mean": 2.7753224057906292e-05,
+          "permutation_sd": 0.0008258008405688149
+        },
+        {
+          "feature": "human_absolute:original_style_01",
+          "gain_mean": 0.0019202727035969524,
+          "gain_sd": 0.0007474523913171989,
+          "n_folds": 60,
+          "permutation_mean": 0.00012038339555194473,
+          "permutation_sd": 0.000673072283795395
+        },
+        {
+          "feature": "human_absolute:original_style_02",
+          "gain_mean": 0.0016080809531525927,
+          "gain_sd": 0.0017587388486104804,
+          "n_folds": 60,
+          "permutation_mean": 5.720833038945772e-05,
+          "permutation_sd": 0.00025669948028348815
+        },
+        {
+          "feature": "human_absolute:original_style_03",
+          "gain_mean": 0.0020422784069213423,
+          "gain_sd": 0.001815399810557892,
+          "n_folds": 60,
+          "permutation_mean": 6.292858820937108e-05,
+          "permutation_sd": 0.0003558643949273773
+        },
+        {
+          "feature": "human_absolute:original_style_04",
+          "gain_mean": 0.0018734865496398102,
+          "gain_sd": 0.0006956505464065983,
+          "n_folds": 60,
+          "permutation_mean": -5.1847799666354666e-05,
+          "permutation_sd": 0.000621859815647042
+        },
+        {
+          "feature": "human_absolute:original_style_05",
+          "gain_mean": 0.0023358731905043007,
+          "gain_sd": 0.0014611710602332028,
+          "n_folds": 60,
+          "permutation_mean": -4.723518582080052e-06,
+          "permutation_sd": 0.0003622929662827956
+        },
+        {
+          "feature": "human_absolute:original_style_06",
+          "gain_mean": 0.00203047511983668,
+          "gain_sd": 0.000574693033253914,
+          "n_folds": 60,
+          "permutation_mean": 0.00010529269478580054,
+          "permutation_sd": 0.0005511308917166198
+        },
+        {
+          "feature": "human_absolute:original_style_07",
+          "gain_mean": 0.0018122858648587825,
+          "gain_sd": 0.0005316316719599642,
+          "n_folds": 60,
+          "permutation_mean": -1.6831016835751796e-05,
+          "permutation_sd": 0.0009699363436483225
+        },
+        {
+          "feature": "human_absolute:original_style_08",
+          "gain_mean": 0.0021490646457109175,
+          "gain_sd": 0.0007556567026186096,
+          "n_folds": 60,
+          "permutation_mean": 9.469036647998437e-06,
+          "permutation_sd": 0.0008463675011926188
+        },
+        {
+          "feature": "human_absolute:original_style_09",
+          "gain_mean": 0.0019430065677915485,
+          "gain_sd": 0.0005419757041039592,
+          "n_folds": 60,
+          "permutation_mean": -6.353600500241437e-05,
+          "permutation_sd": 0.0007824769272817957
+        },
+        {
+          "feature": "human_absolute:lexical_00",
+          "gain_mean": 0.0029561652604140768,
+          "gain_sd": 0.0007415624641443814,
+          "n_folds": 60,
+          "permutation_mean": 0.0004217608035377777,
+          "permutation_sd": 0.0012396116301915106
+        },
+        {
+          "feature": "human_absolute:lexical_01",
+          "gain_mean": 0.002674108393929454,
+          "gain_sd": 0.0008996038238460639,
+          "n_folds": 60,
+          "permutation_mean": -6.17442120676955e-05,
+          "permutation_sd": 0.0008616995966987247
+        },
+        {
+          "feature": "human_absolute:lexical_02",
+          "gain_mean": 0.002581265202629704,
+          "gain_sd": 0.0008823786898166756,
+          "n_folds": 60,
+          "permutation_mean": 5.003289070592184e-05,
+          "permutation_sd": 0.000888907589685878
+        },
+        {
+          "feature": "human_absolute:lexical_03",
+          "gain_mean": 0.0022404852921650794,
+          "gain_sd": 0.0008647103171076052,
+          "n_folds": 60,
+          "permutation_mean": -3.733083548796238e-05,
+          "permutation_sd": 0.0007398412130594907
+        },
+        {
+          "feature": "human_absolute:lexical_04",
+          "gain_mean": 0.00222251887377284,
+          "gain_sd": 0.0006964674620763472,
+          "n_folds": 60,
+          "permutation_mean": -5.3908811204478325e-05,
+          "permutation_sd": 0.0008935259573677719
+        },
+        {
+          "feature": "human_absolute:lexical_05",
+          "gain_mean": 0.0027850554637633006,
+          "gain_sd": 0.0010693805657777142,
+          "n_folds": 60,
+          "permutation_mean": 0.00012177006010224422,
+          "permutation_sd": 0.0009552902535971742
+        },
+        {
+          "feature": "human_absolute:structural_syntax_00",
+          "gain_mean": 0.001909349295688126,
+          "gain_sd": 0.0005943042762808769,
+          "n_folds": 60,
+          "permutation_mean": -5.070686988119151e-05,
+          "permutation_sd": 0.000809596828733645
+        },
+        {
+          "feature": "human_absolute:structural_syntax_01",
+          "gain_mean": 0.001661187400227267,
+          "gain_sd": 0.0005797599335226394,
+          "n_folds": 60,
+          "permutation_mean": 0.00015023295334147627,
+          "permutation_sd": 0.0007328266622611576
+        },
+        {
+          "feature": "human_absolute:structural_syntax_02",
+          "gain_mean": 0.0024782895933876067,
+          "gain_sd": 0.0014790383875575171,
+          "n_folds": 60,
+          "permutation_mean": 5.500050228826973e-05,
+          "permutation_sd": 0.0007114764837015611
+        },
+        {
+          "feature": "human_absolute:structural_syntax_03",
+          "gain_mean": 0.0030865273728913484,
+          "gain_sd": 0.0018051101843315307,
+          "n_folds": 60,
+          "permutation_mean": 1.3098093101141887e-05,
+          "permutation_sd": 0.00039843229951255294
+        },
+        {
+          "feature": "human_absolute:structural_syntax_04",
+          "gain_mean": 0.00198132020425247,
+          "gain_sd": 0.0005775947204965337,
+          "n_folds": 60,
+          "permutation_mean": -0.0001358722249502786,
+          "permutation_sd": 0.000797793176951934
+        },
+        {
+          "feature": "human_absolute:structural_syntax_05",
+          "gain_mean": 0.001864589529498836,
+          "gain_sd": 0.0007794911796345104,
+          "n_folds": 60,
+          "permutation_mean": 5.6964693394556676e-05,
+          "permutation_sd": 0.00036710440183213336
+        },
+        {
+          "feature": "human_absolute:structural_syntax_06",
+          "gain_mean": 0.0021821420916186564,
+          "gain_sd": 0.0007429426466381219,
+          "n_folds": 60,
+          "permutation_mean": 4.044465781830227e-05,
+          "permutation_sd": 0.0005984453263228973
+        },
+        {
+          "feature": "human_absolute:structural_syntax_07",
+          "gain_mean": 0.0006586275026412204,
+          "gain_sd": 0.0008680703126995267,
+          "n_folds": 60,
+          "permutation_mean": 1.0832365883619206e-05,
+          "permutation_sd": 0.0001340509631149006
+        },
+        {
+          "feature": "human_absolute:formatting_layout_00",
+          "gain_mean": 0.0017374109438164757,
+          "gain_sd": 0.0005471796084276236,
+          "n_folds": 60,
+          "permutation_mean": 1.1017627125590549e-05,
+          "permutation_sd": 0.0007940095358534415
+        },
+        {
+          "feature": "human_absolute:formatting_layout_01",
+          "gain_mean": 0.00218956705121573,
+          "gain_sd": 0.0007896805215669501,
+          "n_folds": 60,
+          "permutation_mean": -7.118081143395183e-05,
+          "permutation_sd": 0.0009327066024574449
+        },
+        {
+          "feature": "human_absolute:formatting_layout_02",
+          "gain_mean": 0.0020225575522896866,
+          "gain_sd": 0.0006046622278358728,
+          "n_folds": 60,
+          "permutation_mean": 7.094102961330284e-05,
+          "permutation_sd": 0.000682161478221002
+        },
+        {
+          "feature": "human_absolute:formatting_layout_03",
+          "gain_mean": 0.0020563221131080648,
+          "gain_sd": 0.00074114203097455,
+          "n_folds": 60,
+          "permutation_mean": 6.912959861351171e-05,
+          "permutation_sd": 0.0007284898281486417
+        },
+        {
+          "feature": "candidate_absolute:original_style_00",
+          "gain_mean": 0.002102133312195982,
+          "gain_sd": 0.0010309114707776708,
+          "n_folds": 60,
+          "permutation_mean": 2.7485550571384096e-05,
+          "permutation_sd": 0.00039944126748269935
+        },
+        {
+          "feature": "candidate_absolute:original_style_01",
+          "gain_mean": 0.0016751980398217769,
+          "gain_sd": 0.0005979198924534589,
+          "n_folds": 60,
+          "permutation_mean": 2.0447820308675905e-05,
+          "permutation_sd": 0.0006636426896298874
+        },
+        {
+          "feature": "candidate_absolute:original_style_02",
+          "gain_mean": 0.0017627426497777863,
+          "gain_sd": 0.0015737883851426764,
+          "n_folds": 60,
+          "permutation_mean": -6.913178600302753e-05,
+          "permutation_sd": 0.0003559336556669051
+        },
+        {
+          "feature": "candidate_absolute:original_style_03",
+          "gain_mean": 0.0021339199710208295,
+          "gain_sd": 0.00166205700398739,
+          "n_folds": 60,
+          "permutation_mean": 9.923651714959791e-05,
+          "permutation_sd": 0.00033099663924021525
+        },
+        {
+          "feature": "candidate_absolute:original_style_04",
+          "gain_mean": 0.0018516831176034027,
+          "gain_sd": 0.0009806547627761472,
+          "n_folds": 60,
+          "permutation_mean": 4.749404991834701e-06,
+          "permutation_sd": 0.0003735942678513383
+        },
+        {
+          "feature": "candidate_absolute:original_style_05",
+          "gain_mean": 0.0023047465822287378,
+          "gain_sd": 0.001108731390737334,
+          "n_folds": 60,
+          "permutation_mean": 7.560020739296735e-05,
+          "permutation_sd": 0.001116442848222655
+        },
+        {
+          "feature": "candidate_absolute:original_style_06",
+          "gain_mean": 0.0026738012782006075,
+          "gain_sd": 0.000912505725791849,
+          "n_folds": 60,
+          "permutation_mean": -1.2925019239732697e-05,
+          "permutation_sd": 0.0008576962624038504
+        },
+        {
+          "feature": "candidate_absolute:original_style_07",
+          "gain_mean": 0.002407382643967247,
+          "gain_sd": 0.0007618303105832359,
+          "n_folds": 60,
+          "permutation_mean": 0.0002967645450874264,
+          "permutation_sd": 0.0006632679997976579
+        },
+        {
+          "feature": "candidate_absolute:original_style_08",
+          "gain_mean": 0.002732942721533033,
+          "gain_sd": 0.0013232459178381427,
+          "n_folds": 60,
+          "permutation_mean": 0.00011615667163558663,
+          "permutation_sd": 0.0006963465336190384
+        },
+        {
+          "feature": "candidate_absolute:original_style_09",
+          "gain_mean": 0.002367751666333942,
+          "gain_sd": 0.0008820891611380312,
+          "n_folds": 60,
+          "permutation_mean": 2.315354095431451e-05,
+          "permutation_sd": 0.0005847016499400601
+        },
+        {
+          "feature": "candidate_absolute:lexical_00",
+          "gain_mean": 0.003540329266895737,
+          "gain_sd": 0.0007549787838500724,
+          "n_folds": 60,
+          "permutation_mean": 0.0007032086843747935,
+          "permutation_sd": 0.0014027410232033896
+        },
+        {
+          "feature": "candidate_absolute:lexical_01",
+          "gain_mean": 0.003181179674200412,
+          "gain_sd": 0.0010055866230269778,
+          "n_folds": 60,
+          "permutation_mean": 9.691918155287545e-05,
+          "permutation_sd": 0.001055422549171863
+        },
+        {
+          "feature": "candidate_absolute:lexical_02",
+          "gain_mean": 0.003067187574206907,
+          "gain_sd": 0.0010081061003170027,
+          "n_folds": 60,
+          "permutation_mean": 4.903845618013565e-05,
+          "permutation_sd": 0.0010550934948348745
+        },
+        {
+          "feature": "candidate_absolute:lexical_03",
+          "gain_mean": 0.002272367187723427,
+          "gain_sd": 0.0009536431782223365,
+          "n_folds": 60,
+          "permutation_mean": -7.93926915990284e-05,
+          "permutation_sd": 0.0006018552472795803
+        },
+        {
+          "feature": "candidate_absolute:lexical_04",
+          "gain_mean": 0.002266099739978776,
+          "gain_sd": 0.0006435354848236652,
+          "n_folds": 60,
+          "permutation_mean": 0.0002781442356944164,
+          "permutation_sd": 0.0013471892751694852
+        },
+        {
+          "feature": "candidate_absolute:lexical_05",
+          "gain_mean": 0.002935612940369219,
+          "gain_sd": 0.0010767204236240863,
+          "n_folds": 60,
+          "permutation_mean": 0.0003076409574365039,
+          "permutation_sd": 0.0011877179744697684
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_00",
+          "gain_mean": 0.0032978487747751307,
+          "gain_sd": 0.0013447985728977042,
+          "n_folds": 60,
+          "permutation_mean": 0.0005514492525035682,
+          "permutation_sd": 0.0013815589945559497
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_01",
+          "gain_mean": 0.0016398175329243462,
+          "gain_sd": 0.0005901679034529273,
+          "n_folds": 60,
+          "permutation_mean": -3.797322038422794e-05,
+          "permutation_sd": 0.0008589965413456194
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_02",
+          "gain_mean": 0.0024261861325745055,
+          "gain_sd": 0.001511348288437585,
+          "n_folds": 60,
+          "permutation_mean": 4.002798215599161e-05,
+          "permutation_sd": 0.0004604638268838635
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_03",
+          "gain_mean": 0.010167021088590932,
+          "gain_sd": 0.005668913612699345,
+          "n_folds": 60,
+          "permutation_mean": 3.805554544292026e-05,
+          "permutation_sd": 0.0006852504864585606
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_04",
+          "gain_mean": 0.002537057514198144,
+          "gain_sd": 0.0014194584610753428,
+          "n_folds": 60,
+          "permutation_mean": 0.00014951152839342194,
+          "permutation_sd": 0.0011113451995913434
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_05",
+          "gain_mean": 0.0024810787442363716,
+          "gain_sd": 0.001486345460184019,
+          "n_folds": 60,
+          "permutation_mean": -2.6517585079275745e-05,
+          "permutation_sd": 0.0004982870079753592
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_06",
+          "gain_mean": 0.0022817191641534428,
+          "gain_sd": 0.0007817380624763986,
+          "n_folds": 60,
+          "permutation_mean": 0.00010210231443310938,
+          "permutation_sd": 0.000574977312925932
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_07",
+          "gain_mean": 0.001306267585759921,
+          "gain_sd": 0.0015728511657099823,
+          "n_folds": 60,
+          "permutation_mean": -4.898385640929777e-06,
+          "permutation_sd": 0.00026691837826911584
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_00",
+          "gain_mean": 0.0016891884814106877,
+          "gain_sd": 0.0006271875685538013,
+          "n_folds": 60,
+          "permutation_mean": 2.2956802449723238e-05,
+          "permutation_sd": 0.0008175055457893723
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_01",
+          "gain_mean": 0.0018316439076737883,
+          "gain_sd": 0.000519589399672602,
+          "n_folds": 60,
+          "permutation_mean": 0.0001490232393483763,
+          "permutation_sd": 0.0007695762392075016
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_02",
+          "gain_mean": 0.0017636844147975747,
+          "gain_sd": 0.0003491022496941624,
+          "n_folds": 60,
+          "permutation_mean": 0.00014077818859990117,
+          "permutation_sd": 0.0006962865132635226
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_03",
+          "gain_mean": 0.002109256311097005,
+          "gain_sd": 0.0008372084816805547,
+          "n_folds": 60,
+          "permutation_mean": 7.756790568754409e-06,
+          "permutation_sd": 0.0005899424816780702
+        },
+        {
+          "feature": "delta:original_style_00",
+          "gain_mean": 0.007389772448454588,
+          "gain_sd": 0.007269049562245075,
+          "n_folds": 60,
+          "permutation_mean": 0.00022925404276728697,
+          "permutation_sd": 0.001291360718601544
+        },
+        {
+          "feature": "delta:original_style_01",
+          "gain_mean": 0.00619934024466462,
+          "gain_sd": 0.0030871903751986717,
+          "n_folds": 60,
+          "permutation_mean": 0.0007677032095698644,
+          "permutation_sd": 0.0017222214122013678
+        },
+        {
+          "feature": "delta:original_style_02",
+          "gain_mean": 0.005543958365229524,
+          "gain_sd": 0.004466150812327978,
+          "n_folds": 60,
+          "permutation_mean": 0.0005076024272870701,
+          "permutation_sd": 0.0012715381938865641
+        },
+        {
+          "feature": "delta:original_style_03",
+          "gain_mean": 0.003907131322933353,
+          "gain_sd": 0.0024738605123737828,
+          "n_folds": 60,
+          "permutation_mean": 0.00038458679455918854,
+          "permutation_sd": 0.0012115686931363971
+        },
+        {
+          "feature": "delta:original_style_04",
+          "gain_mean": 0.003986322068601802,
+          "gain_sd": 0.0021613434326959724,
+          "n_folds": 60,
+          "permutation_mean": -5.521850384941722e-05,
+          "permutation_sd": 0.0008266672081562775
+        },
+        {
+          "feature": "delta:original_style_05",
+          "gain_mean": 0.008730164242268322,
+          "gain_sd": 0.0067685326302325995,
+          "n_folds": 60,
+          "permutation_mean": 0.00030495926630191665,
+          "permutation_sd": 0.0017447503387930342
+        },
+        {
+          "feature": "delta:original_style_06",
+          "gain_mean": 0.01180780502367386,
+          "gain_sd": 0.006019848303612651,
+          "n_folds": 60,
+          "permutation_mean": 0.00034960883157409973,
+          "permutation_sd": 0.0015052442091709989
+        },
+        {
+          "feature": "delta:original_style_07",
+          "gain_mean": 0.002967114795016274,
+          "gain_sd": 0.0018927486497426465,
+          "n_folds": 60,
+          "permutation_mean": 0.00031463668102706214,
+          "permutation_sd": 0.0009094166802517543
+        },
+        {
+          "feature": "delta:original_style_08",
+          "gain_mean": 0.020948304793986083,
+          "gain_sd": 0.014635625892068467,
+          "n_folds": 60,
+          "permutation_mean": 0.003953297919163242,
+          "permutation_sd": 0.0035009429865894967
+        },
+        {
+          "feature": "delta:original_style_09",
+          "gain_mean": 0.00850474988864228,
+          "gain_sd": 0.004865889095978161,
+          "n_folds": 60,
+          "permutation_mean": 0.0007536262511849061,
+          "permutation_sd": 0.001789778772263381
+        },
+        {
+          "feature": "delta:lexical_00",
+          "gain_mean": 0.049124383575590035,
+          "gain_sd": 0.01679043483279619,
+          "n_folds": 60,
+          "permutation_mean": 0.0022705799267453883,
+          "permutation_sd": 0.002838004016369946
+        },
+        {
+          "feature": "delta:lexical_01",
+          "gain_mean": 0.016297107944562923,
+          "gain_sd": 0.005159271516623713,
+          "n_folds": 60,
+          "permutation_mean": 0.0009145601730312536,
+          "permutation_sd": 0.002152117456488133
+        },
+        {
+          "feature": "delta:lexical_02",
+          "gain_mean": 0.017143109245812863,
+          "gain_sd": 0.008892501492166357,
+          "n_folds": 60,
+          "permutation_mean": 0.0008679064237779329,
+          "permutation_sd": 0.0026072395610169225
+        },
+        {
+          "feature": "delta:lexical_03",
+          "gain_mean": 0.01398375789948039,
+          "gain_sd": 0.005455710492244523,
+          "n_folds": 60,
+          "permutation_mean": -3.364887741759322e-05,
+          "permutation_sd": 0.0018611479881391736
+        },
+        {
+          "feature": "delta:lexical_04",
+          "gain_mean": 0.01520610837607205,
+          "gain_sd": 0.008382829570010273,
+          "n_folds": 60,
+          "permutation_mean": 0.00038070459448144394,
+          "permutation_sd": 0.0023120632451229255
+        },
+        {
+          "feature": "delta:lexical_05",
+          "gain_mean": 0.017636314202120466,
+          "gain_sd": 0.008613503645897058,
+          "n_folds": 60,
+          "permutation_mean": 0.0010392609623924927,
+          "permutation_sd": 0.0024709311539812383
+        },
+        {
+          "feature": "delta:structural_syntax_00",
+          "gain_mean": 0.007404850604891469,
+          "gain_sd": 0.004249265661242457,
+          "n_folds": 60,
+          "permutation_mean": 0.00019657552224225383,
+          "permutation_sd": 0.0009529138021934013
+        },
+        {
+          "feature": "delta:structural_syntax_01",
+          "gain_mean": 0.011306413149433757,
+          "gain_sd": 0.004824383344456779,
+          "n_folds": 60,
+          "permutation_mean": 0.00014752923577020146,
+          "permutation_sd": 0.0019873309186756952
+        },
+        {
+          "feature": "delta:structural_syntax_02",
+          "gain_mean": 0.0082875439676089,
+          "gain_sd": 0.006490691702066355,
+          "n_folds": 60,
+          "permutation_mean": 0.0003331067923248036,
+          "permutation_sd": 0.0017010864350095233
+        },
+        {
+          "feature": "delta:structural_syntax_03",
+          "gain_mean": 0.11426902437650974,
+          "gain_sd": 0.03246366095037617,
+          "n_folds": 60,
+          "permutation_mean": 0.0012640188920081895,
+          "permutation_sd": 0.002455696842377288
+        },
+        {
+          "feature": "delta:structural_syntax_04",
+          "gain_mean": 0.0036786936458405735,
+          "gain_sd": 0.0015320500836918695,
+          "n_folds": 60,
+          "permutation_mean": 0.00020921833529136865,
+          "permutation_sd": 0.0007972111777235876
+        },
+        {
+          "feature": "delta:structural_syntax_05",
+          "gain_mean": 0.008243080321338307,
+          "gain_sd": 0.00546009163520509,
+          "n_folds": 60,
+          "permutation_mean": 0.0002540578655522504,
+          "permutation_sd": 0.000853047983040275
+        },
+        {
+          "feature": "delta:structural_syntax_06",
+          "gain_mean": 0.015706547300318285,
+          "gain_sd": 0.01950755074910099,
+          "n_folds": 60,
+          "permutation_mean": 0.0003468805619934086,
+          "permutation_sd": 0.0016597569327315303
+        },
+        {
+          "feature": "delta:structural_syntax_07",
+          "gain_mean": 0.0014679519662687,
+          "gain_sd": 0.0014736447511297217,
+          "n_folds": 60,
+          "permutation_mean": 3.1373269041849264e-05,
+          "permutation_sd": 0.0003955435894221122
+        },
+        {
+          "feature": "delta:formatting_layout_00",
+          "gain_mean": 0.003437084720084446,
+          "gain_sd": 0.0008451853219003071,
+          "n_folds": 60,
+          "permutation_mean": 0.0003666991583355298,
+          "permutation_sd": 0.0012713437517617096
+        },
+        {
+          "feature": "delta:formatting_layout_01",
+          "gain_mean": 0.005058368492717485,
+          "gain_sd": 0.0016791966162459776,
+          "n_folds": 60,
+          "permutation_mean": 0.0001362617272998375,
+          "permutation_sd": 0.0012188214839171639
+        },
+        {
+          "feature": "delta:formatting_layout_02",
+          "gain_mean": 0.003471605973989072,
+          "gain_sd": 0.0010710705096314784,
+          "n_folds": 60,
+          "permutation_mean": -2.0934517002061764e-06,
+          "permutation_sd": 0.0009344889018322558
+        },
+        {
+          "feature": "delta:formatting_layout_03",
+          "gain_mean": 0.002923114840720692,
+          "gain_sd": 0.0008634224227536617,
+          "n_folds": 60,
+          "permutation_mean": 6.185967596719077e-05,
+          "permutation_sd": 0.000682421525977472
+        },
+        {
+          "feature": "relative_delta:original_style_00",
+          "gain_mean": 0.0032037985856338564,
+          "gain_sd": 0.0033760106353678057,
+          "n_folds": 60,
+          "permutation_mean": -7.80213844731962e-06,
+          "permutation_sd": 0.0004106812788689348
+        },
+        {
+          "feature": "relative_delta:original_style_01",
+          "gain_mean": 0.003284715424893221,
+          "gain_sd": 0.002924530831814584,
+          "n_folds": 60,
+          "permutation_mean": 0.00011322330391045725,
+          "permutation_sd": 0.0005594858935614751
+        },
+        {
+          "feature": "relative_delta:original_style_02",
+          "gain_mean": 0.0061058398701506755,
+          "gain_sd": 0.006097588146202761,
+          "n_folds": 60,
+          "permutation_mean": 0.0001463502936753236,
+          "permutation_sd": 0.000619148644276066
+        },
+        {
+          "feature": "relative_delta:original_style_03",
+          "gain_mean": 0.0037645590137609934,
+          "gain_sd": 0.0035523144487060966,
+          "n_folds": 60,
+          "permutation_mean": 6.959040320265546e-05,
+          "permutation_sd": 0.0005289116290108878
+        },
+        {
+          "feature": "relative_delta:original_style_04",
+          "gain_mean": 0.0034688538145104366,
+          "gain_sd": 0.0014877051569671734,
+          "n_folds": 60,
+          "permutation_mean": -0.00040353592275877613,
+          "permutation_sd": 0.001061180290165409
+        },
+        {
+          "feature": "relative_delta:original_style_05",
+          "gain_mean": 0.006122619766931642,
+          "gain_sd": 0.01308107201451743,
+          "n_folds": 60,
+          "permutation_mean": 4.137973560766617e-05,
+          "permutation_sd": 0.0005055877050492552
+        },
+        {
+          "feature": "relative_delta:original_style_06",
+          "gain_mean": 0.0070941727640056575,
+          "gain_sd": 0.004649914060772687,
+          "n_folds": 60,
+          "permutation_mean": -6.553620410901795e-05,
+          "permutation_sd": 0.0009333082372675528
+        },
+        {
+          "feature": "relative_delta:original_style_07",
+          "gain_mean": 0.005172054438450308,
+          "gain_sd": 0.0015020595990204917,
+          "n_folds": 60,
+          "permutation_mean": 0.0006401380503077407,
+          "permutation_sd": 0.0016989697439492564
+        },
+        {
+          "feature": "relative_delta:original_style_08",
+          "gain_mean": 0.00996826848616713,
+          "gain_sd": 0.018948249672704146,
+          "n_folds": 60,
+          "permutation_mean": 0.0001133605883933797,
+          "permutation_sd": 0.0006353702485719905
+        },
+        {
+          "feature": "relative_delta:original_style_09",
+          "gain_mean": 0.008387081187694928,
+          "gain_sd": 0.00990506106896331,
+          "n_folds": 60,
+          "permutation_mean": 1.8316736040607795e-05,
+          "permutation_sd": 0.0005546843122568418
+        },
+        {
+          "feature": "relative_delta:lexical_00",
+          "gain_mean": 0.015546652646923054,
+          "gain_sd": 0.011518040465720589,
+          "n_folds": 60,
+          "permutation_mean": -0.00013708054735856086,
+          "permutation_sd": 0.00137962437987489
+        },
+        {
+          "feature": "relative_delta:lexical_01",
+          "gain_mean": 0.029047483173343012,
+          "gain_sd": 0.014066497683732977,
+          "n_folds": 60,
+          "permutation_mean": 0.0017027171199700782,
+          "permutation_sd": 0.0031328709562231847
+        },
+        {
+          "feature": "relative_delta:lexical_02",
+          "gain_mean": 0.01882814534550376,
+          "gain_sd": 0.007890614735842802,
+          "n_folds": 60,
+          "permutation_mean": 0.0009586708836589131,
+          "permutation_sd": 0.0022849584368354226
+        },
+        {
+          "feature": "relative_delta:lexical_03",
+          "gain_mean": 0.018648876978450975,
+          "gain_sd": 0.010756920315989101,
+          "n_folds": 60,
+          "permutation_mean": 0.00010479427055888705,
+          "permutation_sd": 0.0015000049232083146
+        },
+        {
+          "feature": "relative_delta:lexical_04",
+          "gain_mean": 0.0058530098052045065,
+          "gain_sd": 0.0033976629235926465,
+          "n_folds": 60,
+          "permutation_mean": 0.00014945869081516293,
+          "permutation_sd": 0.0014145902857305758
+        },
+        {
+          "feature": "relative_delta:lexical_05",
+          "gain_mean": 0.019274265215433063,
+          "gain_sd": 0.009791473408670566,
+          "n_folds": 60,
+          "permutation_mean": 0.0005176609300838205,
+          "permutation_sd": 0.0017896677018912335
+        },
+        {
+          "feature": "relative_delta:structural_syntax_00",
+          "gain_mean": 0.006816898657465588,
+          "gain_sd": 0.005002217414822963,
+          "n_folds": 60,
+          "permutation_mean": 0.0005445326784049779,
+          "permutation_sd": 0.0014770583235711155
+        },
+        {
+          "feature": "relative_delta:structural_syntax_01",
+          "gain_mean": 0.020656745342801614,
+          "gain_sd": 0.009200352284408984,
+          "n_folds": 60,
+          "permutation_mean": 0.00016827391514462515,
+          "permutation_sd": 0.001483772497494002
+        },
+        {
+          "feature": "relative_delta:structural_syntax_02",
+          "gain_mean": 0.04842375980880515,
+          "gain_sd": 0.040114634092757964,
+          "n_folds": 60,
+          "permutation_mean": 0.0014353855432842528,
+          "permutation_sd": 0.0028922629122663146
+        },
+        {
+          "feature": "relative_delta:structural_syntax_03",
+          "gain_mean": 0.10378266026310985,
+          "gain_sd": 0.05253833110814926,
+          "n_folds": 60,
+          "permutation_mean": 0.0034758584377368932,
+          "permutation_sd": 0.006336092624368947
+        },
+        {
+          "feature": "relative_delta:structural_syntax_04",
+          "gain_mean": 0.0043825418420915105,
+          "gain_sd": 0.0032967044580966623,
+          "n_folds": 60,
+          "permutation_mean": 8.06808597536753e-06,
+          "permutation_sd": 0.0007050426174978423
+        },
+        {
+          "feature": "relative_delta:structural_syntax_05",
+          "gain_mean": 0.046060755747697364,
+          "gain_sd": 0.020984646581270267,
+          "n_folds": 60,
+          "permutation_mean": 0.0002919472812525803,
+          "permutation_sd": 0.0023996508422479607
+        },
+        {
+          "feature": "relative_delta:structural_syntax_06",
+          "gain_mean": 0.06036998286050774,
+          "gain_sd": 0.021371825892168225,
+          "n_folds": 60,
+          "permutation_mean": 0.0020741538762945135,
+          "permutation_sd": 0.0028093495665572547
+        },
+        {
+          "feature": "relative_delta:structural_syntax_07",
+          "gain_mean": 0.004974226313163375,
+          "gain_sd": 0.005706748412525408,
+          "n_folds": 60,
+          "permutation_mean": 0.00046398296166342835,
+          "permutation_sd": 0.0008342061465794401
+        },
+        {
+          "feature": "relative_delta:formatting_layout_00",
+          "gain_mean": 0.0025142833797590436,
+          "gain_sd": 0.0008606348921505011,
+          "n_folds": 60,
+          "permutation_mean": 5.5880133492212476e-05,
+          "permutation_sd": 0.0010137114084936654
+        },
+        {
+          "feature": "relative_delta:formatting_layout_01",
+          "gain_mean": 0.005451332569770183,
+          "gain_sd": 0.0024870725550948857,
+          "n_folds": 60,
+          "permutation_mean": 2.7254949622399863e-05,
+          "permutation_sd": 0.0013729680466693429
+        },
+        {
+          "feature": "relative_delta:formatting_layout_02",
+          "gain_mean": 0.003977090001144988,
+          "gain_sd": 0.0017769730603892416,
+          "n_folds": 60,
+          "permutation_mean": -5.713930602200638e-06,
+          "permutation_sd": 0.0012132893870675095
+        },
+        {
+          "feature": "relative_delta:formatting_layout_03",
+          "gain_mean": 0.0024931379885606026,
+          "gain_sd": 0.001312976445298876,
+          "n_folds": 60,
+          "permutation_mean": 1.3681464859209106e-05,
+          "permutation_sd": 0.0006763015717819524
+        }
+      ],
+      "group_rows": [
+        {
+          "gain_mean": 0.019603127755675256,
+          "gain_sd": 0.0036559946139218084,
+          "group": "human_absolute:original_style",
+          "n_folds": 60,
+          "permutation_mean": 0.0002460969295558779,
+          "permutation_sd": 0.002829207718887629
+        },
+        {
+          "gain_mean": 0.015459598486674457,
+          "gain_sd": 0.0036699697972699167,
+          "group": "human_absolute:lexical",
+          "n_folds": 60,
+          "permutation_mean": 0.0004405798955858076,
+          "permutation_sd": 0.003314258243276436
+        },
+        {
+          "gain_mean": 0.015822032990205532,
+          "gain_sd": 0.0038734459556176246,
+          "group": "human_absolute:structural_syntax",
+          "n_folds": 60,
+          "permutation_mean": 0.0001399941709958959,
+          "permutation_sd": 0.0020572807748515374
+        },
+        {
+          "gain_mean": 0.008005857660429957,
+          "gain_sd": 0.0021028906920760302,
+          "group": "human_absolute:formatting_layout",
+          "n_folds": 60,
+          "permutation_mean": 7.990744391845329e-05,
+          "permutation_sd": 0.0018915167942758064
+        },
+        {
+          "gain_mean": 0.022012301982683346,
+          "gain_sd": 0.0029906488805982374,
+          "group": "candidate_absolute:original_style",
+          "n_folds": 60,
+          "permutation_mean": 0.0005815374528490273,
+          "permutation_sd": 0.0027463614218034386
+        },
+        {
+          "gain_mean": 0.01726277638337448,
+          "gain_sd": 0.003929206651536461,
+          "group": "candidate_absolute:lexical",
+          "n_folds": 60,
+          "permutation_mean": 0.0013555588236396966,
+          "permutation_sd": 0.003911082092837295
+        },
+        {
+          "gain_mean": 0.026136996537212798,
+          "gain_sd": 0.005501015021875014,
+          "group": "candidate_absolute:structural_syntax",
+          "n_folds": 60,
+          "permutation_mean": 0.0008117574318245779,
+          "permutation_sd": 0.003215864250917153
+        },
+        {
+          "gain_mean": 0.007393773114979056,
+          "gain_sd": 0.0017852283161580802,
+          "group": "candidate_absolute:formatting_layout",
+          "n_folds": 60,
+          "permutation_mean": 0.0003205150209667551,
+          "permutation_sd": 0.0019153102839439343
+        },
+        {
+          "gain_mean": 0.07998466319347072,
+          "gain_sd": 0.036917675273811276,
+          "group": "delta:original_style",
+          "n_folds": 60,
+          "permutation_mean": 0.007510056919585219,
+          "permutation_sd": 0.008509016986360373
+        },
+        {
+          "gain_mean": 0.12939078124363873,
+          "gain_sd": 0.018455257681128056,
+          "group": "delta:lexical",
+          "n_folds": 60,
+          "permutation_mean": 0.005439363203010918,
+          "permutation_sd": 0.008141877928999527
+        },
+        {
+          "gain_mean": 0.17036410533220978,
+          "gain_sd": 0.033705551202273726,
+          "group": "delta:structural_syntax",
+          "n_folds": 60,
+          "permutation_mean": 0.0027827604742243256,
+          "permutation_sd": 0.005712742597131587
+        },
+        {
+          "gain_mean": 0.014890174027511695,
+          "gain_sd": 0.0026127470479323307,
+          "group": "delta:formatting_layout",
+          "n_folds": 60,
+          "permutation_mean": 0.0005627271099023519,
+          "permutation_sd": 0.0020958727287653184
+        },
+        {
+          "gain_mean": 0.05657196335219885,
+          "gain_sd": 0.02719562816838501,
+          "group": "relative_delta:original_style",
+          "n_folds": 60,
+          "permutation_mean": 0.0006654848458227169,
+          "permutation_sd": 0.0032755845903924487
+        },
+        {
+          "gain_mean": 0.10719843316485837,
+          "gain_sd": 0.026717172451808997,
+          "group": "relative_delta:lexical",
+          "n_folds": 60,
+          "permutation_mean": 0.003296221347728301,
+          "permutation_sd": 0.006466495531759129
+        },
+        {
+          "gain_mean": 0.2954675708356422,
+          "gain_sd": 0.04258044624362915,
+          "group": "relative_delta:structural_syntax",
+          "n_folds": 60,
+          "permutation_mean": 0.00846220277975664,
+          "permutation_sd": 0.010260236775496468
+        },
+        {
+          "gain_mean": 0.014435843939234817,
+          "gain_sd": 0.0046647442171054475,
+          "group": "relative_delta:formatting_layout",
+          "n_folds": 60,
+          "permutation_mean": 9.110261737162081e-05,
+          "permutation_sd": 0.0023699801553911997
+        }
+      ]
+    },
+    "combined_attack": {
+      "feature_rows": [
+        {
+          "feature": "human_absolute:original_style_00",
+          "gain_mean": 0.0018883037536623268,
+          "gain_sd": 0.0007521891392616889,
+          "n_folds": 60,
+          "permutation_mean": -5.713163394466258e-06,
+          "permutation_sd": 0.0007245409118711766
+        },
+        {
+          "feature": "human_absolute:original_style_01",
+          "gain_mean": 0.0019202727035969524,
+          "gain_sd": 0.0007474523913171989,
+          "n_folds": 60,
+          "permutation_mean": 5.148528829441353e-05,
+          "permutation_sd": 0.0007773119497127052
+        },
+        {
+          "feature": "human_absolute:original_style_02",
+          "gain_mean": 0.0016080809531525927,
+          "gain_sd": 0.0017587388486104804,
+          "n_folds": 60,
+          "permutation_mean": 3.235577947874694e-05,
+          "permutation_sd": 0.00040399066434464577
+        },
+        {
+          "feature": "human_absolute:original_style_03",
+          "gain_mean": 0.0020422784069213423,
+          "gain_sd": 0.001815399810557892,
+          "n_folds": 60,
+          "permutation_mean": -4.1056757366135045e-05,
+          "permutation_sd": 0.0004254890563062987
+        },
+        {
+          "feature": "human_absolute:original_style_04",
+          "gain_mean": 0.0018734865496398102,
+          "gain_sd": 0.0006956505464065983,
+          "n_folds": 60,
+          "permutation_mean": -0.00019809310332576194,
+          "permutation_sd": 0.0006842832886890615
+        },
+        {
+          "feature": "human_absolute:original_style_05",
+          "gain_mean": 0.0023358731905043007,
+          "gain_sd": 0.0014611710602332028,
+          "n_folds": 60,
+          "permutation_mean": -0.00012085343368141155,
+          "permutation_sd": 0.0004852905895262494
+        },
+        {
+          "feature": "human_absolute:original_style_06",
+          "gain_mean": 0.00203047511983668,
+          "gain_sd": 0.000574693033253914,
+          "n_folds": 60,
+          "permutation_mean": 4.5880025599972135e-05,
+          "permutation_sd": 0.0007746314737664752
+        },
+        {
+          "feature": "human_absolute:original_style_07",
+          "gain_mean": 0.0018122858648587825,
+          "gain_sd": 0.0005316316719599642,
+          "n_folds": 60,
+          "permutation_mean": 8.057266851868582e-06,
+          "permutation_sd": 0.0008604098301078225
+        },
+        {
+          "feature": "human_absolute:original_style_08",
+          "gain_mean": 0.0021490646457109175,
+          "gain_sd": 0.0007556567026186096,
+          "n_folds": 60,
+          "permutation_mean": 0.0001755404901332284,
+          "permutation_sd": 0.0010207064622859774
+        },
+        {
+          "feature": "human_absolute:original_style_09",
+          "gain_mean": 0.0019430065677915485,
+          "gain_sd": 0.0005419757041039592,
+          "n_folds": 60,
+          "permutation_mean": -5.6390943610832674e-05,
+          "permutation_sd": 0.0007673948476645444
+        },
+        {
+          "feature": "human_absolute:lexical_00",
+          "gain_mean": 0.0029561652604140768,
+          "gain_sd": 0.0007415624641443814,
+          "n_folds": 60,
+          "permutation_mean": 0.0004620703069690535,
+          "permutation_sd": 0.0014194102196430902
+        },
+        {
+          "feature": "human_absolute:lexical_01",
+          "gain_mean": 0.002674108393929454,
+          "gain_sd": 0.0008996038238460639,
+          "n_folds": 60,
+          "permutation_mean": -0.0005848240769054047,
+          "permutation_sd": 0.001209932424613165
+        },
+        {
+          "feature": "human_absolute:lexical_02",
+          "gain_mean": 0.002581265202629704,
+          "gain_sd": 0.0008823786898166756,
+          "n_folds": 60,
+          "permutation_mean": -0.0003320893175201308,
+          "permutation_sd": 0.0015989577102238114
+        },
+        {
+          "feature": "human_absolute:lexical_03",
+          "gain_mean": 0.0022404852921650794,
+          "gain_sd": 0.0008647103171076052,
+          "n_folds": 60,
+          "permutation_mean": -1.3354496631743743e-05,
+          "permutation_sd": 0.001092598445031845
+        },
+        {
+          "feature": "human_absolute:lexical_04",
+          "gain_mean": 0.00222251887377284,
+          "gain_sd": 0.0006964674620763472,
+          "n_folds": 60,
+          "permutation_mean": -3.800058856015346e-05,
+          "permutation_sd": 0.0012146737725795477
+        },
+        {
+          "feature": "human_absolute:lexical_05",
+          "gain_mean": 0.0027850554637633006,
+          "gain_sd": 0.0010693805657777142,
+          "n_folds": 60,
+          "permutation_mean": 0.00020508020872454514,
+          "permutation_sd": 0.0014713581280373894
+        },
+        {
+          "feature": "human_absolute:structural_syntax_00",
+          "gain_mean": 0.001909349295688126,
+          "gain_sd": 0.0005943042762808769,
+          "n_folds": 60,
+          "permutation_mean": 0.00011495817714832213,
+          "permutation_sd": 0.0008294595425366999
+        },
+        {
+          "feature": "human_absolute:structural_syntax_01",
+          "gain_mean": 0.001661187400227267,
+          "gain_sd": 0.0005797599335226394,
+          "n_folds": 60,
+          "permutation_mean": -0.0001758744540457935,
+          "permutation_sd": 0.0007665396057843648
+        },
+        {
+          "feature": "human_absolute:structural_syntax_02",
+          "gain_mean": 0.0024782895933876067,
+          "gain_sd": 0.0014790383875575171,
+          "n_folds": 60,
+          "permutation_mean": 0.00011972052070907494,
+          "permutation_sd": 0.0006381574710138546
+        },
+        {
+          "feature": "human_absolute:structural_syntax_03",
+          "gain_mean": 0.0030865273728913484,
+          "gain_sd": 0.0018051101843315307,
+          "n_folds": 60,
+          "permutation_mean": 1.1314941830511034e-05,
+          "permutation_sd": 0.000558015287879698
+        },
+        {
+          "feature": "human_absolute:structural_syntax_04",
+          "gain_mean": 0.00198132020425247,
+          "gain_sd": 0.0005775947204965337,
+          "n_folds": 60,
+          "permutation_mean": 6.110845915504222e-05,
+          "permutation_sd": 0.0011003487959285365
+        },
+        {
+          "feature": "human_absolute:structural_syntax_05",
+          "gain_mean": 0.001864589529498836,
+          "gain_sd": 0.0007794911796345104,
+          "n_folds": 60,
+          "permutation_mean": 2.6700284698523886e-05,
+          "permutation_sd": 0.0002698417629118194
+        },
+        {
+          "feature": "human_absolute:structural_syntax_06",
+          "gain_mean": 0.0021821420916186564,
+          "gain_sd": 0.0007429426466381219,
+          "n_folds": 60,
+          "permutation_mean": -0.00014990040178730808,
+          "permutation_sd": 0.0007828665954857359
+        },
+        {
+          "feature": "human_absolute:structural_syntax_07",
+          "gain_mean": 0.0006586275026412204,
+          "gain_sd": 0.0008680703126995267,
+          "n_folds": 60,
+          "permutation_mean": 1.2014034554600853e-05,
+          "permutation_sd": 0.00013794945140383776
+        },
+        {
+          "feature": "human_absolute:formatting_layout_00",
+          "gain_mean": 0.0017374109438164757,
+          "gain_sd": 0.0005471796084276236,
+          "n_folds": 60,
+          "permutation_mean": -4.596028784466892e-05,
+          "permutation_sd": 0.0012639069205645044
+        },
+        {
+          "feature": "human_absolute:formatting_layout_01",
+          "gain_mean": 0.00218956705121573,
+          "gain_sd": 0.0007896805215669501,
+          "n_folds": 60,
+          "permutation_mean": 3.188383258284263e-05,
+          "permutation_sd": 0.0014026650471927187
+        },
+        {
+          "feature": "human_absolute:formatting_layout_02",
+          "gain_mean": 0.0020225575522896866,
+          "gain_sd": 0.0006046622278358728,
+          "n_folds": 60,
+          "permutation_mean": -3.7916833899441044e-05,
+          "permutation_sd": 0.0007281066366869314
+        },
+        {
+          "feature": "human_absolute:formatting_layout_03",
+          "gain_mean": 0.0020563221131080648,
+          "gain_sd": 0.00074114203097455,
+          "n_folds": 60,
+          "permutation_mean": 3.513472729266831e-05,
+          "permutation_sd": 0.0006999503237145277
+        },
+        {
+          "feature": "candidate_absolute:original_style_00",
+          "gain_mean": 0.002102133312195982,
+          "gain_sd": 0.0010309114707776708,
+          "n_folds": 60,
+          "permutation_mean": 7.500444051095993e-05,
+          "permutation_sd": 0.0009944705216822104
+        },
+        {
+          "feature": "candidate_absolute:original_style_01",
+          "gain_mean": 0.0016751980398217769,
+          "gain_sd": 0.0005979198924534589,
+          "n_folds": 60,
+          "permutation_mean": -2.3263040675395676e-05,
+          "permutation_sd": 0.0008265514157414275
+        },
+        {
+          "feature": "candidate_absolute:original_style_02",
+          "gain_mean": 0.0017627426497777863,
+          "gain_sd": 0.0015737883851426764,
+          "n_folds": 60,
+          "permutation_mean": 1.3059093480638494e-05,
+          "permutation_sd": 0.0004798840493960083
+        },
+        {
+          "feature": "candidate_absolute:original_style_03",
+          "gain_mean": 0.0021339199710208295,
+          "gain_sd": 0.00166205700398739,
+          "n_folds": 60,
+          "permutation_mean": 1.5350106070718036e-05,
+          "permutation_sd": 0.0003101225779510843
+        },
+        {
+          "feature": "candidate_absolute:original_style_04",
+          "gain_mean": 0.0018516831176034027,
+          "gain_sd": 0.0009806547627761472,
+          "n_folds": 60,
+          "permutation_mean": -0.00015468065505367575,
+          "permutation_sd": 0.0007664166104120297
+        },
+        {
+          "feature": "candidate_absolute:original_style_05",
+          "gain_mean": 0.0023047465822287378,
+          "gain_sd": 0.001108731390737334,
+          "n_folds": 60,
+          "permutation_mean": 6.085045556391e-05,
+          "permutation_sd": 0.0011526507710163368
+        },
+        {
+          "feature": "candidate_absolute:original_style_06",
+          "gain_mean": 0.0026738012782006075,
+          "gain_sd": 0.000912505725791849,
+          "n_folds": 60,
+          "permutation_mean": -2.8264555966820795e-05,
+          "permutation_sd": 0.0009318483516949048
+        },
+        {
+          "feature": "candidate_absolute:original_style_07",
+          "gain_mean": 0.002407382643967247,
+          "gain_sd": 0.0007618303105832359,
+          "n_folds": 60,
+          "permutation_mean": 0.00019417751016985544,
+          "permutation_sd": 0.00043944227017401045
+        },
+        {
+          "feature": "candidate_absolute:original_style_08",
+          "gain_mean": 0.002732942721533033,
+          "gain_sd": 0.0013232459178381427,
+          "n_folds": 60,
+          "permutation_mean": 7.446026981598093e-05,
+          "permutation_sd": 0.000969545458919317
+        },
+        {
+          "feature": "candidate_absolute:original_style_09",
+          "gain_mean": 0.002367751666333942,
+          "gain_sd": 0.0008820891611380312,
+          "n_folds": 60,
+          "permutation_mean": 4.738323076010816e-05,
+          "permutation_sd": 0.0008774352307447849
+        },
+        {
+          "feature": "candidate_absolute:lexical_00",
+          "gain_mean": 0.003540329266895737,
+          "gain_sd": 0.0007549787838500724,
+          "n_folds": 60,
+          "permutation_mean": 0.00026061452309788515,
+          "permutation_sd": 0.001914931110633656
+        },
+        {
+          "feature": "candidate_absolute:lexical_01",
+          "gain_mean": 0.003181179674200412,
+          "gain_sd": 0.0010055866230269778,
+          "n_folds": 60,
+          "permutation_mean": -0.000257211125830048,
+          "permutation_sd": 0.0010572855987312363
+        },
+        {
+          "feature": "candidate_absolute:lexical_02",
+          "gain_mean": 0.003067187574206907,
+          "gain_sd": 0.0010081061003170027,
+          "n_folds": 60,
+          "permutation_mean": -1.2605232923664408e-05,
+          "permutation_sd": 0.001418417381660614
+        },
+        {
+          "feature": "candidate_absolute:lexical_03",
+          "gain_mean": 0.002272367187723427,
+          "gain_sd": 0.0009536431782223365,
+          "n_folds": 60,
+          "permutation_mean": -0.00010643500574858597,
+          "permutation_sd": 0.0008212113008452091
+        },
+        {
+          "feature": "candidate_absolute:lexical_04",
+          "gain_mean": 0.002266099739978776,
+          "gain_sd": 0.0006435354848236652,
+          "n_folds": 60,
+          "permutation_mean": 9.199964376360355e-05,
+          "permutation_sd": 0.001334802018140546
+        },
+        {
+          "feature": "candidate_absolute:lexical_05",
+          "gain_mean": 0.002935612940369219,
+          "gain_sd": 0.0010767204236240863,
+          "n_folds": 60,
+          "permutation_mean": 7.876399265229576e-05,
+          "permutation_sd": 0.001487317694273472
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_00",
+          "gain_mean": 0.0032978487747751307,
+          "gain_sd": 0.0013447985728977042,
+          "n_folds": 60,
+          "permutation_mean": -6.999870577887128e-05,
+          "permutation_sd": 0.00093707337642902
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_01",
+          "gain_mean": 0.0016398175329243462,
+          "gain_sd": 0.0005901679034529273,
+          "n_folds": 60,
+          "permutation_mean": -0.0001292610768673245,
+          "permutation_sd": 0.0007725587896488849
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_02",
+          "gain_mean": 0.0024261861325745055,
+          "gain_sd": 0.001511348288437585,
+          "n_folds": 60,
+          "permutation_mean": -7.098931720100898e-06,
+          "permutation_sd": 0.0008173555922053082
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_03",
+          "gain_mean": 0.010167021088590932,
+          "gain_sd": 0.005668913612699345,
+          "n_folds": 60,
+          "permutation_mean": 0.00019788677015742385,
+          "permutation_sd": 0.000966015806138959
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_04",
+          "gain_mean": 0.002537057514198144,
+          "gain_sd": 0.0014194584610753428,
+          "n_folds": 60,
+          "permutation_mean": 4.3961014925027646e-05,
+          "permutation_sd": 0.0007613790558814217
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_05",
+          "gain_mean": 0.0024810787442363716,
+          "gain_sd": 0.001486345460184019,
+          "n_folds": 60,
+          "permutation_mean": -5.118311679874754e-06,
+          "permutation_sd": 0.0005442514085840375
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_06",
+          "gain_mean": 0.0022817191641534428,
+          "gain_sd": 0.0007817380624763986,
+          "n_folds": 60,
+          "permutation_mean": -0.00017776457826354692,
+          "permutation_sd": 0.0011783968555611779
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_07",
+          "gain_mean": 0.001306267585759921,
+          "gain_sd": 0.0015728511657099823,
+          "n_folds": 60,
+          "permutation_mean": 3.345151672454379e-05,
+          "permutation_sd": 0.00014166677872681693
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_00",
+          "gain_mean": 0.0016891884814106877,
+          "gain_sd": 0.0006271875685538013,
+          "n_folds": 60,
+          "permutation_mean": -0.000234986029312656,
+          "permutation_sd": 0.0008610250177673579
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_01",
+          "gain_mean": 0.0018316439076737883,
+          "gain_sd": 0.000519589399672602,
+          "n_folds": 60,
+          "permutation_mean": 0.00018494455289933912,
+          "permutation_sd": 0.001232241520814684
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_02",
+          "gain_mean": 0.0017636844147975747,
+          "gain_sd": 0.0003491022496941624,
+          "n_folds": 60,
+          "permutation_mean": -0.00015186390832599612,
+          "permutation_sd": 0.0010560188169919157
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_03",
+          "gain_mean": 0.002109256311097005,
+          "gain_sd": 0.0008372084816805547,
+          "n_folds": 60,
+          "permutation_mean": 0.00015462199731725208,
+          "permutation_sd": 0.0009259854754985078
+        },
+        {
+          "feature": "delta:original_style_00",
+          "gain_mean": 0.007389772448454588,
+          "gain_sd": 0.007269049562245075,
+          "n_folds": 60,
+          "permutation_mean": 0.0003805491345760692,
+          "permutation_sd": 0.0010878680069441294
+        },
+        {
+          "feature": "delta:original_style_01",
+          "gain_mean": 0.00619934024466462,
+          "gain_sd": 0.0030871903751986717,
+          "n_folds": 60,
+          "permutation_mean": -0.00023032580911801307,
+          "permutation_sd": 0.0021106024816537517
+        },
+        {
+          "feature": "delta:original_style_02",
+          "gain_mean": 0.005543958365229524,
+          "gain_sd": 0.004466150812327978,
+          "n_folds": 60,
+          "permutation_mean": 0.00075166188897966,
+          "permutation_sd": 0.001647344063610086
+        },
+        {
+          "feature": "delta:original_style_03",
+          "gain_mean": 0.003907131322933353,
+          "gain_sd": 0.0024738605123737828,
+          "n_folds": 60,
+          "permutation_mean": 0.0007343249358976068,
+          "permutation_sd": 0.001133051916304876
+        },
+        {
+          "feature": "delta:original_style_04",
+          "gain_mean": 0.003986322068601802,
+          "gain_sd": 0.0021613434326959724,
+          "n_folds": 60,
+          "permutation_mean": -1.8666552747080106e-05,
+          "permutation_sd": 0.0014903313298702905
+        },
+        {
+          "feature": "delta:original_style_05",
+          "gain_mean": 0.008730164242268322,
+          "gain_sd": 0.0067685326302325995,
+          "n_folds": 60,
+          "permutation_mean": 0.0006000049701641049,
+          "permutation_sd": 0.002009333265736213
+        },
+        {
+          "feature": "delta:original_style_06",
+          "gain_mean": 0.01180780502367386,
+          "gain_sd": 0.006019848303612651,
+          "n_folds": 60,
+          "permutation_mean": 0.0010011391648635534,
+          "permutation_sd": 0.00265814071245147
+        },
+        {
+          "feature": "delta:original_style_07",
+          "gain_mean": 0.002967114795016274,
+          "gain_sd": 0.0018927486497426465,
+          "n_folds": 60,
+          "permutation_mean": -8.394626084162749e-06,
+          "permutation_sd": 0.0008985678311614403
+        },
+        {
+          "feature": "delta:original_style_08",
+          "gain_mean": 0.020948304793986083,
+          "gain_sd": 0.014635625892068467,
+          "n_folds": 60,
+          "permutation_mean": 0.007985656639268084,
+          "permutation_sd": 0.006052739219559363
+        },
+        {
+          "feature": "delta:original_style_09",
+          "gain_mean": 0.00850474988864228,
+          "gain_sd": 0.004865889095978161,
+          "n_folds": 60,
+          "permutation_mean": 3.3619908632694555e-05,
+          "permutation_sd": 0.0017987878000096122
+        },
+        {
+          "feature": "delta:lexical_00",
+          "gain_mean": 0.049124383575590035,
+          "gain_sd": 0.01679043483279619,
+          "n_folds": 60,
+          "permutation_mean": 0.003877524062794193,
+          "permutation_sd": 0.004627087844714347
+        },
+        {
+          "feature": "delta:lexical_01",
+          "gain_mean": 0.016297107944562923,
+          "gain_sd": 0.005159271516623713,
+          "n_folds": 60,
+          "permutation_mean": -0.0012762923012934783,
+          "permutation_sd": 0.0025979641013550523
+        },
+        {
+          "feature": "delta:lexical_02",
+          "gain_mean": 0.017143109245812863,
+          "gain_sd": 0.008892501492166357,
+          "n_folds": 60,
+          "permutation_mean": 0.0005721888493228023,
+          "permutation_sd": 0.0034769033409599607
+        },
+        {
+          "feature": "delta:lexical_03",
+          "gain_mean": 0.01398375789948039,
+          "gain_sd": 0.005455710492244523,
+          "n_folds": 60,
+          "permutation_mean": 0.0010293270916132394,
+          "permutation_sd": 0.002514908301314802
+        },
+        {
+          "feature": "delta:lexical_04",
+          "gain_mean": 0.01520610837607205,
+          "gain_sd": 0.008382829570010273,
+          "n_folds": 60,
+          "permutation_mean": 0.0025801103816051013,
+          "permutation_sd": 0.003259131601471547
+        },
+        {
+          "feature": "delta:lexical_05",
+          "gain_mean": 0.017636314202120466,
+          "gain_sd": 0.008613503645897058,
+          "n_folds": 60,
+          "permutation_mean": 0.003322174506771897,
+          "permutation_sd": 0.004672064191280849
+        },
+        {
+          "feature": "delta:structural_syntax_00",
+          "gain_mean": 0.007404850604891469,
+          "gain_sd": 0.004249265661242457,
+          "n_folds": 60,
+          "permutation_mean": 0.0004984053853427262,
+          "permutation_sd": 0.0014892652226718552
+        },
+        {
+          "feature": "delta:structural_syntax_01",
+          "gain_mean": 0.011306413149433757,
+          "gain_sd": 0.004824383344456779,
+          "n_folds": 60,
+          "permutation_mean": 0.000715584331598131,
+          "permutation_sd": 0.002728951408283582
+        },
+        {
+          "feature": "delta:structural_syntax_02",
+          "gain_mean": 0.0082875439676089,
+          "gain_sd": 0.006490691702066355,
+          "n_folds": 60,
+          "permutation_mean": 0.0006706640803728421,
+          "permutation_sd": 0.0024141431202023595
+        },
+        {
+          "feature": "delta:structural_syntax_03",
+          "gain_mean": 0.11426902437650974,
+          "gain_sd": 0.03246366095037617,
+          "n_folds": 60,
+          "permutation_mean": 0.003167502086991708,
+          "permutation_sd": 0.004205490585238273
+        },
+        {
+          "feature": "delta:structural_syntax_04",
+          "gain_mean": 0.0036786936458405735,
+          "gain_sd": 0.0015320500836918695,
+          "n_folds": 60,
+          "permutation_mean": 3.207956152342558e-05,
+          "permutation_sd": 0.0012550384903779568
+        },
+        {
+          "feature": "delta:structural_syntax_05",
+          "gain_mean": 0.008243080321338307,
+          "gain_sd": 0.00546009163520509,
+          "n_folds": 60,
+          "permutation_mean": 0.0001678253030871768,
+          "permutation_sd": 0.0013657979498389037
+        },
+        {
+          "feature": "delta:structural_syntax_06",
+          "gain_mean": 0.015706547300318285,
+          "gain_sd": 0.01950755074910099,
+          "n_folds": 60,
+          "permutation_mean": 0.000615395324199471,
+          "permutation_sd": 0.00232766462218033
+        },
+        {
+          "feature": "delta:structural_syntax_07",
+          "gain_mean": 0.0014679519662687,
+          "gain_sd": 0.0014736447511297217,
+          "n_folds": 60,
+          "permutation_mean": 6.808165390053874e-05,
+          "permutation_sd": 0.0005675180685079917
+        },
+        {
+          "feature": "delta:formatting_layout_00",
+          "gain_mean": 0.003437084720084446,
+          "gain_sd": 0.0008451853219003071,
+          "n_folds": 60,
+          "permutation_mean": 0.0004446611223589969,
+          "permutation_sd": 0.0023315757416000073
+        },
+        {
+          "feature": "delta:formatting_layout_01",
+          "gain_mean": 0.005058368492717485,
+          "gain_sd": 0.0016791966162459776,
+          "n_folds": 60,
+          "permutation_mean": -0.00013901306612678263,
+          "permutation_sd": 0.0015602234549024192
+        },
+        {
+          "feature": "delta:formatting_layout_02",
+          "gain_mean": 0.003471605973989072,
+          "gain_sd": 0.0010710705096314784,
+          "n_folds": 60,
+          "permutation_mean": -0.0002831906401485784,
+          "permutation_sd": 0.0014984960653174186
+        },
+        {
+          "feature": "delta:formatting_layout_03",
+          "gain_mean": 0.002923114840720692,
+          "gain_sd": 0.0008634224227536617,
+          "n_folds": 60,
+          "permutation_mean": 0.00010888837954999657,
+          "permutation_sd": 0.0009023475894386552
+        },
+        {
+          "feature": "relative_delta:original_style_00",
+          "gain_mean": 0.0032037985856338564,
+          "gain_sd": 0.0033760106353678057,
+          "n_folds": 60,
+          "permutation_mean": -7.748151259764543e-05,
+          "permutation_sd": 0.0005784154151867351
+        },
+        {
+          "feature": "relative_delta:original_style_01",
+          "gain_mean": 0.003284715424893221,
+          "gain_sd": 0.002924530831814584,
+          "n_folds": 60,
+          "permutation_mean": 7.193508247166914e-05,
+          "permutation_sd": 0.0005762569330021818
+        },
+        {
+          "feature": "relative_delta:original_style_02",
+          "gain_mean": 0.0061058398701506755,
+          "gain_sd": 0.006097588146202761,
+          "n_folds": 60,
+          "permutation_mean": 0.00020667612704455645,
+          "permutation_sd": 0.0007809965249013086
+        },
+        {
+          "feature": "relative_delta:original_style_03",
+          "gain_mean": 0.0037645590137609934,
+          "gain_sd": 0.0035523144487060966,
+          "n_folds": 60,
+          "permutation_mean": 0.00018633204398592617,
+          "permutation_sd": 0.0004324667853532108
+        },
+        {
+          "feature": "relative_delta:original_style_04",
+          "gain_mean": 0.0034688538145104366,
+          "gain_sd": 0.0014877051569671734,
+          "n_folds": 60,
+          "permutation_mean": -1.3098151390204352e-06,
+          "permutation_sd": 0.0012524069083281872
+        },
+        {
+          "feature": "relative_delta:original_style_05",
+          "gain_mean": 0.006122619766931642,
+          "gain_sd": 0.01308107201451743,
+          "n_folds": 60,
+          "permutation_mean": 8.105142528686179e-05,
+          "permutation_sd": 0.0009063769455817015
+        },
+        {
+          "feature": "relative_delta:original_style_06",
+          "gain_mean": 0.0070941727640056575,
+          "gain_sd": 0.004649914060772687,
+          "n_folds": 60,
+          "permutation_mean": 0.0002735563373344518,
+          "permutation_sd": 0.0018725786108517366
+        },
+        {
+          "feature": "relative_delta:original_style_07",
+          "gain_mean": 0.005172054438450308,
+          "gain_sd": 0.0015020595990204917,
+          "n_folds": 60,
+          "permutation_mean": 0.0005970042911990343,
+          "permutation_sd": 0.001760600353783689
+        },
+        {
+          "feature": "relative_delta:original_style_08",
+          "gain_mean": 0.00996826848616713,
+          "gain_sd": 0.018948249672704146,
+          "n_folds": 60,
+          "permutation_mean": 0.0005096479166430412,
+          "permutation_sd": 0.0016669631809896307
+        },
+        {
+          "feature": "relative_delta:original_style_09",
+          "gain_mean": 0.008387081187694928,
+          "gain_sd": 0.00990506106896331,
+          "n_folds": 60,
+          "permutation_mean": -0.00011513743315119118,
+          "permutation_sd": 0.0014155725670353498
+        },
+        {
+          "feature": "relative_delta:lexical_00",
+          "gain_mean": 0.015546652646923054,
+          "gain_sd": 0.011518040465720589,
+          "n_folds": 60,
+          "permutation_mean": -0.000349538963464574,
+          "permutation_sd": 0.0017255402841401043
+        },
+        {
+          "feature": "relative_delta:lexical_01",
+          "gain_mean": 0.029047483173343012,
+          "gain_sd": 0.014066497683732977,
+          "n_folds": 60,
+          "permutation_mean": -0.0014669462419024523,
+          "permutation_sd": 0.003507916819065685
+        },
+        {
+          "feature": "relative_delta:lexical_02",
+          "gain_mean": 0.01882814534550376,
+          "gain_sd": 0.007890614735842802,
+          "n_folds": 60,
+          "permutation_mean": 0.0002468057349446847,
+          "permutation_sd": 0.0028561377936678315
+        },
+        {
+          "feature": "relative_delta:lexical_03",
+          "gain_mean": 0.018648876978450975,
+          "gain_sd": 0.010756920315989101,
+          "n_folds": 60,
+          "permutation_mean": 0.0013512029133508185,
+          "permutation_sd": 0.0029067268369011127
+        },
+        {
+          "feature": "relative_delta:lexical_04",
+          "gain_mean": 0.0058530098052045065,
+          "gain_sd": 0.0033976629235926465,
+          "n_folds": 60,
+          "permutation_mean": 0.00012364457756759242,
+          "permutation_sd": 0.001420747858068776
+        },
+        {
+          "feature": "relative_delta:lexical_05",
+          "gain_mean": 0.019274265215433063,
+          "gain_sd": 0.009791473408670566,
+          "n_folds": 60,
+          "permutation_mean": 0.002379337552241147,
+          "permutation_sd": 0.0035925091593347544
+        },
+        {
+          "feature": "relative_delta:structural_syntax_00",
+          "gain_mean": 0.006816898657465588,
+          "gain_sd": 0.005002217414822963,
+          "n_folds": 60,
+          "permutation_mean": 0.0008753797601834904,
+          "permutation_sd": 0.0025347371040973536
+        },
+        {
+          "feature": "relative_delta:structural_syntax_01",
+          "gain_mean": 0.020656745342801614,
+          "gain_sd": 0.009200352284408984,
+          "n_folds": 60,
+          "permutation_mean": 0.00011927543838762081,
+          "permutation_sd": 0.0023325843557302044
+        },
+        {
+          "feature": "relative_delta:structural_syntax_02",
+          "gain_mean": 0.04842375980880515,
+          "gain_sd": 0.040114634092757964,
+          "n_folds": 60,
+          "permutation_mean": 0.005916915173577567,
+          "permutation_sd": 0.005813456225232464
+        },
+        {
+          "feature": "relative_delta:structural_syntax_03",
+          "gain_mean": 0.10378266026310985,
+          "gain_sd": 0.05253833110814926,
+          "n_folds": 60,
+          "permutation_mean": 0.009052543338931834,
+          "permutation_sd": 0.013254825623841891
+        },
+        {
+          "feature": "relative_delta:structural_syntax_04",
+          "gain_mean": 0.0043825418420915105,
+          "gain_sd": 0.0032967044580966623,
+          "n_folds": 60,
+          "permutation_mean": 0.00011381852281106923,
+          "permutation_sd": 0.001088725747970453
+        },
+        {
+          "feature": "relative_delta:structural_syntax_05",
+          "gain_mean": 0.046060755747697364,
+          "gain_sd": 0.020984646581270267,
+          "n_folds": 60,
+          "permutation_mean": 0.0011867415763325599,
+          "permutation_sd": 0.0033617233471145112
+        },
+        {
+          "feature": "relative_delta:structural_syntax_06",
+          "gain_mean": 0.06036998286050774,
+          "gain_sd": 0.021371825892168225,
+          "n_folds": 60,
+          "permutation_mean": 0.006142919469049087,
+          "permutation_sd": 0.006338428519940804
+        },
+        {
+          "feature": "relative_delta:structural_syntax_07",
+          "gain_mean": 0.004974226313163375,
+          "gain_sd": 0.005706748412525408,
+          "n_folds": 60,
+          "permutation_mean": 0.0009127502032236889,
+          "permutation_sd": 0.0012726636460264952
+        },
+        {
+          "feature": "relative_delta:formatting_layout_00",
+          "gain_mean": 0.0025142833797590436,
+          "gain_sd": 0.0008606348921505011,
+          "n_folds": 60,
+          "permutation_mean": -0.00025907919293079634,
+          "permutation_sd": 0.00114897611963326
+        },
+        {
+          "feature": "relative_delta:formatting_layout_01",
+          "gain_mean": 0.005451332569770183,
+          "gain_sd": 0.0024870725550948857,
+          "n_folds": 60,
+          "permutation_mean": -0.000692942579030903,
+          "permutation_sd": 0.0026770013094122385
+        },
+        {
+          "feature": "relative_delta:formatting_layout_02",
+          "gain_mean": 0.003977090001144988,
+          "gain_sd": 0.0017769730603892416,
+          "n_folds": 60,
+          "permutation_mean": 1.8286288711459136e-05,
+          "permutation_sd": 0.0015202819031245598
+        },
+        {
+          "feature": "relative_delta:formatting_layout_03",
+          "gain_mean": 0.0024931379885606026,
+          "gain_sd": 0.001312976445298876,
+          "n_folds": 60,
+          "permutation_mean": 0.0001971689763910933,
+          "permutation_sd": 0.001073245920520602
+        }
+      ],
+      "group_rows": [
+        {
+          "gain_mean": 0.019603127755675256,
+          "gain_sd": 0.0036559946139218084,
+          "group": "human_absolute:original_style",
+          "n_folds": 60,
+          "permutation_mean": -0.00010878855102037787,
+          "permutation_sd": 0.003132789649925538
+        },
+        {
+          "gain_mean": 0.015459598486674457,
+          "gain_sd": 0.0036699697972699167,
+          "group": "human_absolute:lexical",
+          "n_folds": 60,
+          "permutation_mean": -0.0003011179639238341,
+          "permutation_sd": 0.004151393092640871
+        },
+        {
+          "gain_mean": 0.015822032990205532,
+          "gain_sd": 0.0038734459556176246,
+          "group": "human_absolute:structural_syntax",
+          "n_folds": 60,
+          "permutation_mean": 2.004156226297349e-05,
+          "permutation_sd": 0.0025252563531452878
+        },
+        {
+          "gain_mean": 0.008005857660429957,
+          "gain_sd": 0.0021028906920760302,
+          "group": "human_absolute:formatting_layout",
+          "n_folds": 60,
+          "permutation_mean": -1.685856186859902e-05,
+          "permutation_sd": 0.002336951926828287
+        },
+        {
+          "gain_mean": 0.022012301982683346,
+          "gain_sd": 0.0029906488805982374,
+          "group": "candidate_absolute:original_style",
+          "n_folds": 60,
+          "permutation_mean": 0.00027407685467627875,
+          "permutation_sd": 0.003426196350171642
+        },
+        {
+          "gain_mean": 0.01726277638337448,
+          "gain_sd": 0.003929206651536461,
+          "group": "candidate_absolute:lexical",
+          "n_folds": 60,
+          "permutation_mean": 5.512679501148606e-05,
+          "permutation_sd": 0.004099804441573307
+        },
+        {
+          "gain_mean": 0.026136996537212798,
+          "gain_sd": 0.005501015021875014,
+          "group": "candidate_absolute:structural_syntax",
+          "n_folds": 60,
+          "permutation_mean": -0.00011394230250272308,
+          "permutation_sd": 0.0030539819153200926
+        },
+        {
+          "gain_mean": 0.007393773114979056,
+          "gain_sd": 0.0017852283161580802,
+          "group": "candidate_absolute:formatting_layout",
+          "n_folds": 60,
+          "permutation_mean": -4.728338742206091e-05,
+          "permutation_sd": 0.00232004393927599
+        },
+        {
+          "gain_mean": 0.07998466319347072,
+          "gain_sd": 0.036917675273811276,
+          "group": "delta:original_style",
+          "n_folds": 60,
+          "permutation_mean": 0.011229569654432515,
+          "permutation_sd": 0.010475657435377726
+        },
+        {
+          "gain_mean": 0.12939078124363873,
+          "gain_sd": 0.018455257681128056,
+          "group": "delta:lexical",
+          "n_folds": 60,
+          "permutation_mean": 0.010105032590813754,
+          "permutation_sd": 0.012176756481491401
+        },
+        {
+          "gain_mean": 0.17036410533220978,
+          "gain_sd": 0.033705551202273726,
+          "group": "delta:structural_syntax",
+          "n_folds": 60,
+          "permutation_mean": 0.00593553772701602,
+          "permutation_sd": 0.008616461122870737
+        },
+        {
+          "gain_mean": 0.014890174027511695,
+          "gain_sd": 0.0026127470479323307,
+          "group": "delta:formatting_layout",
+          "n_folds": 60,
+          "permutation_mean": 0.00013134579563363243,
+          "permutation_sd": 0.004049483343751195
+        },
+        {
+          "gain_mean": 0.05657196335219885,
+          "gain_sd": 0.02719562816838501,
+          "group": "relative_delta:original_style",
+          "n_folds": 60,
+          "permutation_mean": 0.0017322744630776838,
+          "permutation_sd": 0.004619688992218251
+        },
+        {
+          "gain_mean": 0.10719843316485837,
+          "gain_sd": 0.026717172451808997,
+          "group": "relative_delta:lexical",
+          "n_folds": 60,
+          "permutation_mean": 0.0022845055727372166,
+          "permutation_sd": 0.008262266502991666
+        },
+        {
+          "gain_mean": 0.2954675708356422,
+          "gain_sd": 0.04258044624362915,
+          "group": "relative_delta:structural_syntax",
+          "n_folds": 60,
+          "permutation_mean": 0.02432034348249692,
+          "permutation_sd": 0.01988913164524222
+        },
+        {
+          "gain_mean": 0.014435843939234817,
+          "gain_sd": 0.0046647442171054475,
+          "group": "relative_delta:formatting_layout",
+          "n_folds": 60,
+          "permutation_mean": -0.0007365665068591469,
+          "permutation_sd": 0.004304386540650872
+        }
+      ]
+    },
+    "cross_language": {
+      "feature_rows": [
+        {
+          "feature": "human_absolute:original_style_00",
+          "gain_mean": 0.001180625338377285,
+          "gain_sd": 0.00037455973590999446,
+          "n_folds": 12,
+          "permutation_mean": -3.080383173989509e-05,
+          "permutation_sd": 8.000457307934529e-05
+        },
+        {
+          "feature": "human_absolute:original_style_01",
+          "gain_mean": 0.001361438955792876,
+          "gain_sd": 0.0004429124667317545,
+          "n_folds": 12,
+          "permutation_mean": 0.00010081008170180021,
+          "permutation_sd": 0.00027664546159583583
+        },
+        {
+          "feature": "human_absolute:original_style_02",
+          "gain_mean": 0.0014213872645295709,
+          "gain_sd": 0.0005951417786450658,
+          "n_folds": 12,
+          "permutation_mean": 5.1648520261821096e-05,
+          "permutation_sd": 0.000100320143947869
+        },
+        {
+          "feature": "human_absolute:original_style_03",
+          "gain_mean": 0.004751006668567538,
+          "gain_sd": 0.001414841423609198,
+          "n_folds": 12,
+          "permutation_mean": 0.00025627441373088367,
+          "permutation_sd": 0.0004357078280796163
+        },
+        {
+          "feature": "human_absolute:original_style_04",
+          "gain_mean": 0.0012028214246877886,
+          "gain_sd": 0.00018362463056060223,
+          "n_folds": 12,
+          "permutation_mean": 5.898255579100028e-05,
+          "permutation_sd": 0.00020696383087110334
+        },
+        {
+          "feature": "human_absolute:original_style_05",
+          "gain_mean": 0.0014683828928614966,
+          "gain_sd": 0.0003692720114956464,
+          "n_folds": 12,
+          "permutation_mean": -6.415367146646773e-05,
+          "permutation_sd": 0.00024840556430156787
+        },
+        {
+          "feature": "human_absolute:original_style_06",
+          "gain_mean": 0.0015436140756801646,
+          "gain_sd": 0.00023561718818058467,
+          "n_folds": 12,
+          "permutation_mean": -0.0001267422570015997,
+          "permutation_sd": 0.000269618689946694
+        },
+        {
+          "feature": "human_absolute:original_style_07",
+          "gain_mean": 0.0015015306839854551,
+          "gain_sd": 0.0001924625569604205,
+          "n_folds": 12,
+          "permutation_mean": 0.0002756755614243915,
+          "permutation_sd": 0.00042194535316956376
+        },
+        {
+          "feature": "human_absolute:original_style_08",
+          "gain_mean": 0.001569293420114078,
+          "gain_sd": 0.0003754427658694525,
+          "n_folds": 12,
+          "permutation_mean": -5.946418037201343e-05,
+          "permutation_sd": 0.00021780053093119848
+        },
+        {
+          "feature": "human_absolute:original_style_09",
+          "gain_mean": 0.0013778578833337305,
+          "gain_sd": 0.0003292209731927851,
+          "n_folds": 12,
+          "permutation_mean": 3.199826391874402e-05,
+          "permutation_sd": 0.00030190314720074233
+        },
+        {
+          "feature": "human_absolute:lexical_00",
+          "gain_mean": 0.0021200750056484924,
+          "gain_sd": 0.00033560029181617374,
+          "n_folds": 12,
+          "permutation_mean": 0.00013805863846663713,
+          "permutation_sd": 0.0011609263940981062
+        },
+        {
+          "feature": "human_absolute:lexical_01",
+          "gain_mean": 0.0017312757466794902,
+          "gain_sd": 0.00030298143700917436,
+          "n_folds": 12,
+          "permutation_mean": -0.00013832100678044337,
+          "permutation_sd": 0.0006177304304957221
+        },
+        {
+          "feature": "human_absolute:lexical_02",
+          "gain_mean": 0.001856610447389811,
+          "gain_sd": 0.0002635760447748284,
+          "n_folds": 12,
+          "permutation_mean": 0.00014352022847158308,
+          "permutation_sd": 0.0006286329757841595
+        },
+        {
+          "feature": "human_absolute:lexical_03",
+          "gain_mean": 0.0014336511179454425,
+          "gain_sd": 0.00027672548352302524,
+          "n_folds": 12,
+          "permutation_mean": 1.1845079154165772e-05,
+          "permutation_sd": 0.00028554021427849087
+        },
+        {
+          "feature": "human_absolute:lexical_04",
+          "gain_mean": 0.001370441649200584,
+          "gain_sd": 0.0003936854342601675,
+          "n_folds": 12,
+          "permutation_mean": 2.227049146237096e-05,
+          "permutation_sd": 0.00036898371084466777
+        },
+        {
+          "feature": "human_absolute:lexical_05",
+          "gain_mean": 0.001497225238693916,
+          "gain_sd": 0.0003569987150273607,
+          "n_folds": 12,
+          "permutation_mean": -0.00011052371417331434,
+          "permutation_sd": 0.0003470563192725829
+        },
+        {
+          "feature": "human_absolute:structural_syntax_00",
+          "gain_mean": 0.0010580513319684776,
+          "gain_sd": 0.00019298333767877527,
+          "n_folds": 12,
+          "permutation_mean": 2.3146034413510746e-05,
+          "permutation_sd": 9.19886142732001e-05
+        },
+        {
+          "feature": "human_absolute:structural_syntax_01",
+          "gain_mean": 0.0011773802323346324,
+          "gain_sd": 0.00022833286646485094,
+          "n_folds": 12,
+          "permutation_mean": -8.134049263028298e-05,
+          "permutation_sd": 0.00014084796947372728
+        },
+        {
+          "feature": "human_absolute:structural_syntax_02",
+          "gain_mean": 0.001353590626998022,
+          "gain_sd": 0.0003513752059959672,
+          "n_folds": 12,
+          "permutation_mean": 2.5923157782742345e-05,
+          "permutation_sd": 0.00023692793648384477
+        },
+        {
+          "feature": "human_absolute:structural_syntax_03",
+          "gain_mean": 0.002234312060086471,
+          "gain_sd": 0.0005642604379455669,
+          "n_folds": 12,
+          "permutation_mean": -1.3786173285521933e-05,
+          "permutation_sd": 8.186761463587648e-05
+        },
+        {
+          "feature": "human_absolute:structural_syntax_04",
+          "gain_mean": 0.0012136516156206895,
+          "gain_sd": 0.00020672731923245644,
+          "n_folds": 12,
+          "permutation_mean": -5.525060433756816e-06,
+          "permutation_sd": 0.00025869158593472285
+        },
+        {
+          "feature": "human_absolute:structural_syntax_05",
+          "gain_mean": 0.0014383216926752431,
+          "gain_sd": 0.00014973775996245337,
+          "n_folds": 12,
+          "permutation_mean": 0.00014323413450231803,
+          "permutation_sd": 0.00017903727421615431
+        },
+        {
+          "feature": "human_absolute:structural_syntax_06",
+          "gain_mean": 0.0011692331903955559,
+          "gain_sd": 0.0002460781529706971,
+          "n_folds": 12,
+          "permutation_mean": -8.564398734072405e-05,
+          "permutation_sd": 0.000385860240123966
+        },
+        {
+          "feature": "human_absolute:structural_syntax_07",
+          "gain_mean": 0.0012796054827698886,
+          "gain_sd": 0.0003320966330000123,
+          "n_folds": 12,
+          "permutation_mean": -5.6019198367747896e-06,
+          "permutation_sd": 1.9958668954547542e-05
+        },
+        {
+          "feature": "human_absolute:formatting_layout_00",
+          "gain_mean": 0.001089883345801435,
+          "gain_sd": 0.00015123760011282863,
+          "n_folds": 12,
+          "permutation_mean": 8.249608482465328e-06,
+          "permutation_sd": 0.0004933726437629983
+        },
+        {
+          "feature": "human_absolute:formatting_layout_01",
+          "gain_mean": 0.0011352892239792779,
+          "gain_sd": 0.00018738844607570757,
+          "n_folds": 12,
+          "permutation_mean": 0.000140444019359263,
+          "permutation_sd": 0.00018938329426089628
+        },
+        {
+          "feature": "human_absolute:formatting_layout_02",
+          "gain_mean": 0.0011850547700490018,
+          "gain_sd": 0.00011231522844131061,
+          "n_folds": 12,
+          "permutation_mean": 0.00011670307698247173,
+          "permutation_sd": 0.00020863128033723883
+        },
+        {
+          "feature": "human_absolute:formatting_layout_03",
+          "gain_mean": 0.0013871541739227681,
+          "gain_sd": 0.00019654532009796935,
+          "n_folds": 12,
+          "permutation_mean": 7.114460514914822e-05,
+          "permutation_sd": 0.00020848882005362066
+        },
+        {
+          "feature": "candidate_absolute:original_style_00",
+          "gain_mean": 0.0016749452237842918,
+          "gain_sd": 0.001129654602820861,
+          "n_folds": 12,
+          "permutation_mean": -3.320985080815242e-05,
+          "permutation_sd": 0.0001783168613970354
+        },
+        {
+          "feature": "candidate_absolute:original_style_01",
+          "gain_mean": 0.001322191231403083,
+          "gain_sd": 0.0005311062639702855,
+          "n_folds": 12,
+          "permutation_mean": 0.00011786007627162531,
+          "permutation_sd": 0.0003129495470635503
+        },
+        {
+          "feature": "candidate_absolute:original_style_02",
+          "gain_mean": 0.001197587678103871,
+          "gain_sd": 0.0008956822329501277,
+          "n_folds": 12,
+          "permutation_mean": -3.7527694110676504e-06,
+          "permutation_sd": 0.00011444074622642386
+        },
+        {
+          "feature": "candidate_absolute:original_style_03",
+          "gain_mean": 0.005227406632301888,
+          "gain_sd": 0.0011038597403114031,
+          "n_folds": 12,
+          "permutation_mean": 0.00041135145376578847,
+          "permutation_sd": 0.0006145969795259695
+        },
+        {
+          "feature": "candidate_absolute:original_style_04",
+          "gain_mean": 0.0010947230932356288,
+          "gain_sd": 0.00018193660816527132,
+          "n_folds": 12,
+          "permutation_mean": -7.187858850449258e-05,
+          "permutation_sd": 0.00019606541143030282
+        },
+        {
+          "feature": "candidate_absolute:original_style_05",
+          "gain_mean": 0.0017810364091005247,
+          "gain_sd": 0.00034121507630294494,
+          "n_folds": 12,
+          "permutation_mean": 0.00029343310093707387,
+          "permutation_sd": 0.0005452203684241351
+        },
+        {
+          "feature": "candidate_absolute:original_style_06",
+          "gain_mean": 0.0015717400780287348,
+          "gain_sd": 0.00026189278154581147,
+          "n_folds": 12,
+          "permutation_mean": -8.308649260537389e-05,
+          "permutation_sd": 0.0005333702912201266
+        },
+        {
+          "feature": "candidate_absolute:original_style_07",
+          "gain_mean": 0.0025189496275807143,
+          "gain_sd": 0.0002349940400081756,
+          "n_folds": 12,
+          "permutation_mean": 0.00042211218910714887,
+          "permutation_sd": 0.0006819793967539368
+        },
+        {
+          "feature": "candidate_absolute:original_style_08",
+          "gain_mean": 0.0027796948194406604,
+          "gain_sd": 0.0008660631526443697,
+          "n_folds": 12,
+          "permutation_mean": 0.0004240185073649816,
+          "permutation_sd": 0.0005137690672020589
+        },
+        {
+          "feature": "candidate_absolute:original_style_09",
+          "gain_mean": 0.0016601620899428834,
+          "gain_sd": 0.00047336181067791564,
+          "n_folds": 12,
+          "permutation_mean": -3.476983223383671e-05,
+          "permutation_sd": 0.00020244827630168862
+        },
+        {
+          "feature": "candidate_absolute:lexical_00",
+          "gain_mean": 0.0026349831794358317,
+          "gain_sd": 0.00046415601727126934,
+          "n_folds": 12,
+          "permutation_mean": 0.0007865532125709654,
+          "permutation_sd": 0.0010596821291332852
+        },
+        {
+          "feature": "candidate_absolute:lexical_01",
+          "gain_mean": 0.0017588649948302186,
+          "gain_sd": 0.0003569641068464782,
+          "n_folds": 12,
+          "permutation_mean": -0.00011058657865384292,
+          "permutation_sd": 0.000665941419018315
+        },
+        {
+          "feature": "candidate_absolute:lexical_02",
+          "gain_mean": 0.0021369213410123472,
+          "gain_sd": 0.0003492079142097871,
+          "n_folds": 12,
+          "permutation_mean": 0.0001880535483253972,
+          "permutation_sd": 0.00039546526485925677
+        },
+        {
+          "feature": "candidate_absolute:lexical_03",
+          "gain_mean": 0.0014236331175604662,
+          "gain_sd": 0.00019300655242795027,
+          "n_folds": 12,
+          "permutation_mean": -9.313925844587716e-05,
+          "permutation_sd": 0.0004074361455459964
+        },
+        {
+          "feature": "candidate_absolute:lexical_04",
+          "gain_mean": 0.002271020171866465,
+          "gain_sd": 0.0003639012467627545,
+          "n_folds": 12,
+          "permutation_mean": 0.00044381852080143297,
+          "permutation_sd": 0.0005695401649750602
+        },
+        {
+          "feature": "candidate_absolute:lexical_05",
+          "gain_mean": 0.0014935814246802195,
+          "gain_sd": 0.0003956232133075635,
+          "n_folds": 12,
+          "permutation_mean": -0.00014191532828867573,
+          "permutation_sd": 0.0004686449175049839
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_00",
+          "gain_mean": 0.00246646218681802,
+          "gain_sd": 0.0003322889390705123,
+          "n_folds": 12,
+          "permutation_mean": 0.0003882428487153311,
+          "permutation_sd": 0.0004868416606027135
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_01",
+          "gain_mean": 0.0010811354855083713,
+          "gain_sd": 0.0001954473263198665,
+          "n_folds": 12,
+          "permutation_mean": 8.968482087025793e-05,
+          "permutation_sd": 0.00020754710382758323
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_02",
+          "gain_mean": 0.0010249170129845886,
+          "gain_sd": 0.00022170078270876713,
+          "n_folds": 12,
+          "permutation_mean": -4.056530901255795e-05,
+          "permutation_sd": 0.00018420886103445735
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_03",
+          "gain_mean": 0.016099029357582288,
+          "gain_sd": 0.006837031893919345,
+          "n_folds": 12,
+          "permutation_mean": 0.0001573177138539661,
+          "permutation_sd": 0.0002944529062139048
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_04",
+          "gain_mean": 0.0014080711882339125,
+          "gain_sd": 0.00033023573828955033,
+          "n_folds": 12,
+          "permutation_mean": 0.00013257131240258327,
+          "permutation_sd": 0.000410685138931874
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_05",
+          "gain_mean": 0.0014800885184297237,
+          "gain_sd": 0.0006403303790410878,
+          "n_folds": 12,
+          "permutation_mean": 5.167724256858556e-06,
+          "permutation_sd": 0.00013150618575285197
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_06",
+          "gain_mean": 0.0012508180240708101,
+          "gain_sd": 0.0002834148479296647,
+          "n_folds": 12,
+          "permutation_mean": -6.0537908303172815e-05,
+          "permutation_sd": 0.00027439517533971386
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_07",
+          "gain_mean": 0.0008741535542137196,
+          "gain_sd": 0.00035687660607399937,
+          "n_folds": 12,
+          "permutation_mean": -7.172801050336908e-06,
+          "permutation_sd": 0.00013357767995151606
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_00",
+          "gain_mean": 0.0010745643438803468,
+          "gain_sd": 0.00015213865819455651,
+          "n_folds": 12,
+          "permutation_mean": 8.826381048209393e-05,
+          "permutation_sd": 0.00029469599828589593
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_01",
+          "gain_mean": 0.0010642721239811825,
+          "gain_sd": 0.00023166722329036427,
+          "n_folds": 12,
+          "permutation_mean": -3.759064365554954e-05,
+          "permutation_sd": 0.0002325911076249446
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_02",
+          "gain_mean": 0.0012521327813978234,
+          "gain_sd": 0.0001669767694199707,
+          "n_folds": 12,
+          "permutation_mean": -2.867197357806865e-05,
+          "permutation_sd": 0.0002446436635926849
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_03",
+          "gain_mean": 0.0012808229672639536,
+          "gain_sd": 0.00017521155495544316,
+          "n_folds": 12,
+          "permutation_mean": -3.62465179266358e-05,
+          "permutation_sd": 0.00029600583687648403
+        },
+        {
+          "feature": "delta:original_style_00",
+          "gain_mean": 0.0052399405802632665,
+          "gain_sd": 0.0017084021731794262,
+          "n_folds": 12,
+          "permutation_mean": 0.0002230753606054884,
+          "permutation_sd": 0.00047526573990891175
+        },
+        {
+          "feature": "delta:original_style_01",
+          "gain_mean": 0.008611604020164379,
+          "gain_sd": 0.0016187405352724041,
+          "n_folds": 12,
+          "permutation_mean": 0.0010222710550856957,
+          "permutation_sd": 0.0007572921976838499
+        },
+        {
+          "feature": "delta:original_style_02",
+          "gain_mean": 0.00565614487947845,
+          "gain_sd": 0.0016632447168915467,
+          "n_folds": 12,
+          "permutation_mean": 0.00032291897378532625,
+          "permutation_sd": 0.0006641125455355289
+        },
+        {
+          "feature": "delta:original_style_03",
+          "gain_mean": 0.005895116768329655,
+          "gain_sd": 0.0012703885421156017,
+          "n_folds": 12,
+          "permutation_mean": 0.000918303340421626,
+          "permutation_sd": 0.0005309186964626396
+        },
+        {
+          "feature": "delta:original_style_04",
+          "gain_mean": 0.0029435279783308773,
+          "gain_sd": 0.0009429446289539436,
+          "n_folds": 12,
+          "permutation_mean": 3.458426986192401e-05,
+          "permutation_sd": 0.0003251716402684298
+        },
+        {
+          "feature": "delta:original_style_05",
+          "gain_mean": 0.004589960849917187,
+          "gain_sd": 0.0015487112175411463,
+          "n_folds": 12,
+          "permutation_mean": 0.00045040000686151954,
+          "permutation_sd": 0.0006996406242558168
+        },
+        {
+          "feature": "delta:original_style_06",
+          "gain_mean": 0.01559096932850728,
+          "gain_sd": 0.003846053000277985,
+          "n_folds": 12,
+          "permutation_mean": 0.0005162957185561775,
+          "permutation_sd": 0.0009143528328627986
+        },
+        {
+          "feature": "delta:original_style_07",
+          "gain_mean": 0.002214830389075564,
+          "gain_sd": 0.0007736678681042961,
+          "n_folds": 12,
+          "permutation_mean": 0.00028132312207832894,
+          "permutation_sd": 0.000507061745178301
+        },
+        {
+          "feature": "delta:original_style_08",
+          "gain_mean": 0.024047993172448833,
+          "gain_sd": 0.008966510458835886,
+          "n_folds": 12,
+          "permutation_mean": 0.004471019767170857,
+          "permutation_sd": 0.002122422806448513
+        },
+        {
+          "feature": "delta:original_style_09",
+          "gain_mean": 0.008854251378253485,
+          "gain_sd": 0.0025539312847099997,
+          "n_folds": 12,
+          "permutation_mean": 0.0012152669676640433,
+          "permutation_sd": 0.000968593617747514
+        },
+        {
+          "feature": "delta:lexical_00",
+          "gain_mean": 0.04473414532705897,
+          "gain_sd": 0.008511833295790989,
+          "n_folds": 12,
+          "permutation_mean": 0.003060770920512055,
+          "permutation_sd": 0.0016567159144434843
+        },
+        {
+          "feature": "delta:lexical_01",
+          "gain_mean": 0.014386134168625804,
+          "gain_sd": 0.0020259784370638967,
+          "n_folds": 12,
+          "permutation_mean": 0.0013140233659549767,
+          "permutation_sd": 0.0009723327015738764
+        },
+        {
+          "feature": "delta:lexical_02",
+          "gain_mean": 0.014212140744530847,
+          "gain_sd": 0.004821945149465252,
+          "n_folds": 12,
+          "permutation_mean": 0.0012377462883336836,
+          "permutation_sd": 0.0013773710427779874
+        },
+        {
+          "feature": "delta:lexical_03",
+          "gain_mean": 0.017051860459463938,
+          "gain_sd": 0.006182001139143117,
+          "n_folds": 12,
+          "permutation_mean": 0.0009043680584745287,
+          "permutation_sd": 0.0013540814678907657
+        },
+        {
+          "feature": "delta:lexical_04",
+          "gain_mean": 0.016391008226425776,
+          "gain_sd": 0.004716088547639388,
+          "n_folds": 12,
+          "permutation_mean": 0.0013109174475806433,
+          "permutation_sd": 0.0012873237284036266
+        },
+        {
+          "feature": "delta:lexical_05",
+          "gain_mean": 0.01373480689280056,
+          "gain_sd": 0.005977264565733078,
+          "n_folds": 12,
+          "permutation_mean": 0.0010694441509278934,
+          "permutation_sd": 0.0007336066917748062
+        },
+        {
+          "feature": "delta:structural_syntax_00",
+          "gain_mean": 0.006941355063991925,
+          "gain_sd": 0.0015413657245292851,
+          "n_folds": 12,
+          "permutation_mean": 0.001218427827355456,
+          "permutation_sd": 0.0009683035170510385
+        },
+        {
+          "feature": "delta:structural_syntax_01",
+          "gain_mean": 0.00829189469587975,
+          "gain_sd": 0.0025014293892878627,
+          "n_folds": 12,
+          "permutation_mean": 0.00037813910044864896,
+          "permutation_sd": 0.0006356198762378331
+        },
+        {
+          "feature": "delta:structural_syntax_02",
+          "gain_mean": 0.004012430183212563,
+          "gain_sd": 0.0014322870887030729,
+          "n_folds": 12,
+          "permutation_mean": -0.0002072769507404463,
+          "permutation_sd": 0.0005780930682100061
+        },
+        {
+          "feature": "delta:structural_syntax_03",
+          "gain_mean": 0.12599101329769288,
+          "gain_sd": 0.025513588998199475,
+          "n_folds": 12,
+          "permutation_mean": 0.004470987590247055,
+          "permutation_sd": 0.003099842743768961
+        },
+        {
+          "feature": "delta:structural_syntax_04",
+          "gain_mean": 0.0028471583290498787,
+          "gain_sd": 0.0007122917967086247,
+          "n_folds": 12,
+          "permutation_mean": 3.9857426493585445e-05,
+          "permutation_sd": 0.00048714622119517956
+        },
+        {
+          "feature": "delta:structural_syntax_05",
+          "gain_mean": 0.005717432197860659,
+          "gain_sd": 0.003917663028656283,
+          "n_folds": 12,
+          "permutation_mean": -0.00012156797245787183,
+          "permutation_sd": 0.00054587056079404
+        },
+        {
+          "feature": "delta:structural_syntax_06",
+          "gain_mean": 0.005711868802550664,
+          "gain_sd": 0.00352118222167035,
+          "n_folds": 12,
+          "permutation_mean": 0.0005315322455265078,
+          "permutation_sd": 0.0009617660197623019
+        },
+        {
+          "feature": "delta:structural_syntax_07",
+          "gain_mean": 0.0022254473430741574,
+          "gain_sd": 0.0004630686012897499,
+          "n_folds": 12,
+          "permutation_mean": 0.00010275343208474934,
+          "permutation_sd": 0.00022036624361837783
+        },
+        {
+          "feature": "delta:formatting_layout_00",
+          "gain_mean": 0.003701663189671098,
+          "gain_sd": 0.0005781631594058106,
+          "n_folds": 12,
+          "permutation_mean": 0.00047004966990401204,
+          "permutation_sd": 0.000860364274527658
+        },
+        {
+          "feature": "delta:formatting_layout_01",
+          "gain_mean": 0.007328631623386504,
+          "gain_sd": 0.0018721881314767,
+          "n_folds": 12,
+          "permutation_mean": 2.493339886882236e-05,
+          "permutation_sd": 0.0007106589013505793
+        },
+        {
+          "feature": "delta:formatting_layout_02",
+          "gain_mean": 0.0032333588743047557,
+          "gain_sd": 0.0008911259464562138,
+          "n_folds": 12,
+          "permutation_mean": 6.188797554026089e-05,
+          "permutation_sd": 0.0003730289398964854
+        },
+        {
+          "feature": "delta:formatting_layout_03",
+          "gain_mean": 0.002694664741414689,
+          "gain_sd": 0.0009758463934851631,
+          "n_folds": 12,
+          "permutation_mean": 8.849835999868993e-05,
+          "permutation_sd": 0.00035612884670863977
+        },
+        {
+          "feature": "relative_delta:original_style_00",
+          "gain_mean": 0.001583438873353535,
+          "gain_sd": 0.0008420404291406555,
+          "n_folds": 12,
+          "permutation_mean": -2.4092495682720427e-05,
+          "permutation_sd": 0.00015351876389450806
+        },
+        {
+          "feature": "relative_delta:original_style_01",
+          "gain_mean": 0.0022405773022456258,
+          "gain_sd": 0.0012759376958830595,
+          "n_folds": 12,
+          "permutation_mean": 4.772698326517092e-05,
+          "permutation_sd": 0.00023326415651508497
+        },
+        {
+          "feature": "relative_delta:original_style_02",
+          "gain_mean": 0.007870564693375099,
+          "gain_sd": 0.003873523152231877,
+          "n_folds": 12,
+          "permutation_mean": 9.10004805614965e-05,
+          "permutation_sd": 0.00035796788770028876
+        },
+        {
+          "feature": "relative_delta:original_style_03",
+          "gain_mean": 0.006959138760911611,
+          "gain_sd": 0.002395853788800689,
+          "n_folds": 12,
+          "permutation_mean": 0.00035262730085630634,
+          "permutation_sd": 0.00041453627165624916
+        },
+        {
+          "feature": "relative_delta:original_style_04",
+          "gain_mean": 0.0026554384582611265,
+          "gain_sd": 0.0007474755778016354,
+          "n_folds": 12,
+          "permutation_mean": -6.411245974993762e-05,
+          "permutation_sd": 0.00032178021783977966
+        },
+        {
+          "feature": "relative_delta:original_style_05",
+          "gain_mean": 0.0027045014416461634,
+          "gain_sd": 0.004185063612349299,
+          "n_folds": 12,
+          "permutation_mean": 2.949180188951961e-05,
+          "permutation_sd": 7.56738359520191e-05
+        },
+        {
+          "feature": "relative_delta:original_style_06",
+          "gain_mean": 0.0038080935183577185,
+          "gain_sd": 0.0016564481711045917,
+          "n_folds": 12,
+          "permutation_mean": 0.00010283908103578265,
+          "permutation_sd": 0.0003999010983789973
+        },
+        {
+          "feature": "relative_delta:original_style_07",
+          "gain_mean": 0.006536643484340909,
+          "gain_sd": 0.0007113640131985378,
+          "n_folds": 12,
+          "permutation_mean": 0.000848566185386368,
+          "permutation_sd": 0.0011581774574011027
+        },
+        {
+          "feature": "relative_delta:original_style_08",
+          "gain_mean": 0.00911189920956621,
+          "gain_sd": 0.015112582907910212,
+          "n_folds": 12,
+          "permutation_mean": 0.0001673173021943438,
+          "permutation_sd": 0.0003875456406431128
+        },
+        {
+          "feature": "relative_delta:original_style_09",
+          "gain_mean": 0.01290081328517974,
+          "gain_sd": 0.009262091753267875,
+          "n_folds": 12,
+          "permutation_mean": -2.4575197942642662e-05,
+          "permutation_sd": 0.0003405698819896912
+        },
+        {
+          "feature": "relative_delta:lexical_00",
+          "gain_mean": 0.016634646096810857,
+          "gain_sd": 0.014434181096568091,
+          "n_folds": 12,
+          "permutation_mean": 0.00015695043082554946,
+          "permutation_sd": 0.0006518130316401723
+        },
+        {
+          "feature": "relative_delta:lexical_01",
+          "gain_mean": 0.017752315127594197,
+          "gain_sd": 0.004401484459098823,
+          "n_folds": 12,
+          "permutation_mean": 0.0011958972170015754,
+          "permutation_sd": 0.0007907329405212629
+        },
+        {
+          "feature": "relative_delta:lexical_02",
+          "gain_mean": 0.019600663795001364,
+          "gain_sd": 0.004026728153260392,
+          "n_folds": 12,
+          "permutation_mean": 0.0014276106691319956,
+          "permutation_sd": 0.001921888148775815
+        },
+        {
+          "feature": "relative_delta:lexical_03",
+          "gain_mean": 0.02781650598386066,
+          "gain_sd": 0.00879835765260289,
+          "n_folds": 12,
+          "permutation_mean": 0.0009577560524629732,
+          "permutation_sd": 0.0006420820933813906
+        },
+        {
+          "feature": "relative_delta:lexical_04",
+          "gain_mean": 0.0032619823424230097,
+          "gain_sd": 0.0012240380436706847,
+          "n_folds": 12,
+          "permutation_mean": 0.00016315388586530624,
+          "permutation_sd": 0.0005889819545278177
+        },
+        {
+          "feature": "relative_delta:lexical_05",
+          "gain_mean": 0.01844920530925764,
+          "gain_sd": 0.00668391231250127,
+          "n_folds": 12,
+          "permutation_mean": 0.0012953367890807532,
+          "permutation_sd": 0.001127123250183862
+        },
+        {
+          "feature": "relative_delta:structural_syntax_00",
+          "gain_mean": 0.004276691095414232,
+          "gain_sd": 0.0043460089341016885,
+          "n_folds": 12,
+          "permutation_mean": 0.0003200712669616616,
+          "permutation_sd": 0.0007499954258487091
+        },
+        {
+          "feature": "relative_delta:structural_syntax_01",
+          "gain_mean": 0.02136466406662611,
+          "gain_sd": 0.005730936330086257,
+          "n_folds": 12,
+          "permutation_mean": 0.0005628785863144211,
+          "permutation_sd": 0.0007037097863072296
+        },
+        {
+          "feature": "relative_delta:structural_syntax_02",
+          "gain_mean": 0.02922180040423188,
+          "gain_sd": 0.008964257485794358,
+          "n_folds": 12,
+          "permutation_mean": 0.0011340229553413645,
+          "permutation_sd": 0.0016297701179203963
+        },
+        {
+          "feature": "relative_delta:structural_syntax_03",
+          "gain_mean": 0.12208882077020784,
+          "gain_sd": 0.07105647825090794,
+          "n_folds": 12,
+          "permutation_mean": 0.001145631435532803,
+          "permutation_sd": 0.00116724972497524
+        },
+        {
+          "feature": "relative_delta:structural_syntax_04",
+          "gain_mean": 0.0027078481997814606,
+          "gain_sd": 0.0015577214529073303,
+          "n_folds": 12,
+          "permutation_mean": 4.115149204276617e-05,
+          "permutation_sd": 0.00026519458114900556
+        },
+        {
+          "feature": "relative_delta:structural_syntax_05",
+          "gain_mean": 0.062035764623393636,
+          "gain_sd": 0.018521506467858512,
+          "n_folds": 12,
+          "permutation_mean": 0.0009235989122873822,
+          "permutation_sd": 0.0008274889853962068
+        },
+        {
+          "feature": "relative_delta:structural_syntax_06",
+          "gain_mean": 0.09085379867582548,
+          "gain_sd": 0.01929604603068373,
+          "n_folds": 12,
+          "permutation_mean": 0.0027623173506377643,
+          "permutation_sd": 0.001444464075437182
+        },
+        {
+          "feature": "relative_delta:structural_syntax_07",
+          "gain_mean": 0.007122572826407231,
+          "gain_sd": 0.002138251877736648,
+          "n_folds": 12,
+          "permutation_mean": 0.00028886631458050854,
+          "permutation_sd": 0.0007136894492514226
+        },
+        {
+          "feature": "relative_delta:formatting_layout_00",
+          "gain_mean": 0.0017149808193036898,
+          "gain_sd": 0.0005555030290566364,
+          "n_folds": 12,
+          "permutation_mean": -2.9612418329355572e-05,
+          "permutation_sd": 0.0003848640993761592
+        },
+        {
+          "feature": "relative_delta:formatting_layout_01",
+          "gain_mean": 0.005538286157085925,
+          "gain_sd": 0.0018730120040672223,
+          "n_folds": 12,
+          "permutation_mean": -0.00014238915523063592,
+          "permutation_sd": 0.0006644231263219484
+        },
+        {
+          "feature": "relative_delta:formatting_layout_02",
+          "gain_mean": 0.002620479397575674,
+          "gain_sd": 0.000985223694514921,
+          "n_folds": 12,
+          "permutation_mean": 6.71674419317388e-05,
+          "permutation_sd": 0.00038011045851444025
+        },
+        {
+          "feature": "relative_delta:formatting_layout_03",
+          "gain_mean": 0.001703837559435241,
+          "gain_sd": 0.0005049268583991859,
+          "n_folds": 12,
+          "permutation_mean": 6.195339312559112e-05,
+          "permutation_sd": 0.00013206323040990977
+        }
+      ],
+      "group_rows": [
+        {
+          "gain_mean": 0.017377958607929983,
+          "gain_sd": 0.00201322559159361,
+          "group": "human_absolute:original_style",
+          "n_folds": 12,
+          "permutation_mean": 0.0004942254562486648,
+          "permutation_sd": 0.001467473427010572
+        },
+        {
+          "gain_mean": 0.010009279205557737,
+          "gain_sd": 0.0013034138532950013,
+          "group": "human_absolute:lexical",
+          "n_folds": 12,
+          "permutation_mean": 6.684971660099921e-05,
+          "permutation_sd": 0.0020162196534806278
+        },
+        {
+          "gain_mean": 0.01092414623284898,
+          "gain_sd": 0.0010370673452339185,
+          "group": "human_absolute:structural_syntax",
+          "n_folds": 12,
+          "permutation_mean": 4.056931715105498e-07,
+          "permutation_sd": 0.0007553399327741971
+        },
+        {
+          "gain_mean": 0.004797381513752483,
+          "gain_sd": 0.0004522176185625349,
+          "group": "human_absolute:formatting_layout",
+          "n_folds": 12,
+          "permutation_mean": 0.0003365413099733483,
+          "permutation_sd": 0.0009442615195275239
+        },
+        {
+          "gain_mean": 0.020828436882922283,
+          "gain_sd": 0.00251469721170614,
+          "group": "candidate_absolute:original_style",
+          "n_folds": 12,
+          "permutation_mean": 0.0014420777938836948,
+          "permutation_sd": 0.001915818241651229
+        },
+        {
+          "gain_mean": 0.011719004229385549,
+          "gain_sd": 0.0010638577438465975,
+          "group": "candidate_absolute:lexical",
+          "n_folds": 12,
+          "permutation_mean": 0.0010727841163093998,
+          "permutation_sd": 0.0020808481363451237
+        },
+        {
+          "gain_mean": 0.025684675327841428,
+          "gain_sd": 0.006390726183514876,
+          "group": "candidate_absolute:structural_syntax",
+          "n_folds": 12,
+          "permutation_mean": 0.0006647084017329293,
+          "permutation_sd": 0.0011256046443747323
+        },
+        {
+          "gain_mean": 0.004671792216523307,
+          "gain_sd": 0.0005018638916037473,
+          "group": "candidate_absolute:formatting_layout",
+          "n_folds": 12,
+          "permutation_mean": -1.4245324678160051e-05,
+          "permutation_sd": 0.0005549034852527834
+        },
+        {
+          "gain_mean": 0.08364433934476899,
+          "gain_sd": 0.015728809785294555,
+          "group": "delta:original_style",
+          "n_folds": 12,
+          "permutation_mean": 0.009455458582090986,
+          "permutation_sd": 0.004456078073413352
+        },
+        {
+          "gain_mean": 0.12051009581890587,
+          "gain_sd": 0.011800755188699382,
+          "group": "delta:lexical",
+          "n_folds": 12,
+          "permutation_mean": 0.00889727023178378,
+          "permutation_sd": 0.0055767443516422125
+        },
+        {
+          "gain_mean": 0.1617385999133125,
+          "gain_sd": 0.029726210083646024,
+          "group": "delta:structural_syntax",
+          "n_folds": 12,
+          "permutation_mean": 0.006412852698957684,
+          "permutation_sd": 0.003438580643071643
+        },
+        {
+          "gain_mean": 0.01695831842877705,
+          "gain_sd": 0.00293810801971056,
+          "group": "delta:formatting_layout",
+          "n_folds": 12,
+          "permutation_mean": 0.0006453694043117852,
+          "permutation_sd": 0.0016553362893324667
+        },
+        {
+          "gain_mean": 0.05637110902723774,
+          "gain_sd": 0.015099388593401073,
+          "group": "relative_delta:original_style",
+          "n_folds": 12,
+          "permutation_mean": 0.001526788981813687,
+          "permutation_sd": 0.002237254488355156
+        },
+        {
+          "gain_mean": 0.10351531865494774,
+          "gain_sd": 0.027828317145461096,
+          "group": "relative_delta:lexical",
+          "n_folds": 12,
+          "permutation_mean": 0.0051967050443681535,
+          "permutation_sd": 0.0042180537469175515
+        },
+        {
+          "gain_mean": 0.3396719606618879,
+          "gain_sd": 0.059587698101570455,
+          "group": "relative_delta:structural_syntax",
+          "n_folds": 12,
+          "permutation_mean": 0.007178538313698672,
+          "permutation_sd": 0.0035747318750033977
+        },
+        {
+          "gain_mean": 0.011577583933400531,
+          "gain_sd": 0.002546100240665371,
+          "group": "relative_delta:formatting_layout",
+          "n_folds": 12,
+          "permutation_mean": -4.2880738502661574e-05,
+          "permutation_sd": 0.0010924878925501536
+        }
+      ]
+    },
+    "unseen_llm": {
+      "feature_rows": [
+        {
+          "feature": "human_absolute:original_style_00",
+          "gain_mean": 0.002143075114357075,
+          "gain_sd": 0.0013727040138172186,
+          "n_folds": 240,
+          "permutation_mean": -6.818100900335919e-05,
+          "permutation_sd": 0.0012867246626001685
+        },
+        {
+          "feature": "human_absolute:original_style_01",
+          "gain_mean": 0.0021115969299745703,
+          "gain_sd": 0.0008944760163436471,
+          "n_folds": 240,
+          "permutation_mean": 9.489895822015574e-05,
+          "permutation_sd": 0.001260852834956301
+        },
+        {
+          "feature": "human_absolute:original_style_02",
+          "gain_mean": 0.0018828823851964138,
+          "gain_sd": 0.0020488423936309043,
+          "n_folds": 240,
+          "permutation_mean": 4.1632757732935435e-05,
+          "permutation_sd": 0.0004308670768369601
+        },
+        {
+          "feature": "human_absolute:original_style_03",
+          "gain_mean": 0.001792148054009327,
+          "gain_sd": 0.0016672166960138453,
+          "n_folds": 240,
+          "permutation_mean": -6.058416193769021e-05,
+          "permutation_sd": 0.000590227736790511
+        },
+        {
+          "feature": "human_absolute:original_style_04",
+          "gain_mean": 0.0020500027947491844,
+          "gain_sd": 0.0009221005371612483,
+          "n_folds": 240,
+          "permutation_mean": -2.7799821091821497e-05,
+          "permutation_sd": 0.0011687413451585543
+        },
+        {
+          "feature": "human_absolute:original_style_05",
+          "gain_mean": 0.0028322317742784445,
+          "gain_sd": 0.002570317440000413,
+          "n_folds": 240,
+          "permutation_mean": 9.683295936545322e-05,
+          "permutation_sd": 0.000698834303548464
+        },
+        {
+          "feature": "human_absolute:original_style_06",
+          "gain_mean": 0.0020882790009534953,
+          "gain_sd": 0.0006758549568294029,
+          "n_folds": 240,
+          "permutation_mean": 4.3451037065160106e-05,
+          "permutation_sd": 0.0012187846678710942
+        },
+        {
+          "feature": "human_absolute:original_style_07",
+          "gain_mean": 0.002049692703098872,
+          "gain_sd": 0.000774214692319366,
+          "n_folds": 240,
+          "permutation_mean": -4.1965771034421785e-06,
+          "permutation_sd": 0.0015461949541033238
+        },
+        {
+          "feature": "human_absolute:original_style_08",
+          "gain_mean": 0.002604135836255501,
+          "gain_sd": 0.0016681288156491097,
+          "n_folds": 240,
+          "permutation_mean": 0.00013101280234738649,
+          "permutation_sd": 0.0020251034565856186
+        },
+        {
+          "feature": "human_absolute:original_style_09",
+          "gain_mean": 0.0023402769253161727,
+          "gain_sd": 0.0013906904842478811,
+          "n_folds": 240,
+          "permutation_mean": 6.725998459594513e-05,
+          "permutation_sd": 0.0014841750085549154
+        },
+        {
+          "feature": "human_absolute:lexical_00",
+          "gain_mean": 0.0032126731311047396,
+          "gain_sd": 0.0009563116664409108,
+          "n_folds": 240,
+          "permutation_mean": 0.00040249762259594266,
+          "permutation_sd": 0.0024933362014651467
+        },
+        {
+          "feature": "human_absolute:lexical_01",
+          "gain_mean": 0.0029126882024181067,
+          "gain_sd": 0.0012177639822774117,
+          "n_folds": 240,
+          "permutation_mean": 7.265627529207119e-05,
+          "permutation_sd": 0.0017849930643333378
+        },
+        {
+          "feature": "human_absolute:lexical_02",
+          "gain_mean": 0.0029300746650850204,
+          "gain_sd": 0.0013332968119851988,
+          "n_folds": 240,
+          "permutation_mean": 0.00013639960398550144,
+          "permutation_sd": 0.001650227620821055
+        },
+        {
+          "feature": "human_absolute:lexical_03",
+          "gain_mean": 0.002371197352174661,
+          "gain_sd": 0.0010219266786605768,
+          "n_folds": 240,
+          "permutation_mean": 0.0001313897776506608,
+          "permutation_sd": 0.001179742844992338
+        },
+        {
+          "feature": "human_absolute:lexical_04",
+          "gain_mean": 0.0023554763894858147,
+          "gain_sd": 0.0007770785378522324,
+          "n_folds": 240,
+          "permutation_mean": 0.00019103745651360878,
+          "permutation_sd": 0.0016343833937182857
+        },
+        {
+          "feature": "human_absolute:lexical_05",
+          "gain_mean": 0.0027700894993745173,
+          "gain_sd": 0.0010396888329660741,
+          "n_folds": 240,
+          "permutation_mean": 0.0002990207033624741,
+          "permutation_sd": 0.0016384262049615789
+        },
+        {
+          "feature": "human_absolute:structural_syntax_00",
+          "gain_mean": 0.002160483988542472,
+          "gain_sd": 0.0010089971061626863,
+          "n_folds": 240,
+          "permutation_mean": -3.0029011770742648e-05,
+          "permutation_sd": 0.0011543868143841505
+        },
+        {
+          "feature": "human_absolute:structural_syntax_01",
+          "gain_mean": 0.0017075337161419903,
+          "gain_sd": 0.0006947798354133344,
+          "n_folds": 240,
+          "permutation_mean": 0.00013499698859682172,
+          "permutation_sd": 0.0012118121083214343
+        },
+        {
+          "feature": "human_absolute:structural_syntax_02",
+          "gain_mean": 0.002472577126419511,
+          "gain_sd": 0.0014851413120037878,
+          "n_folds": 240,
+          "permutation_mean": 1.978201697524634e-05,
+          "permutation_sd": 0.0013740622559327096
+        },
+        {
+          "feature": "human_absolute:structural_syntax_03",
+          "gain_mean": 0.00297669545432738,
+          "gain_sd": 0.0017378759678133887,
+          "n_folds": 240,
+          "permutation_mean": -1.0747802165709622e-05,
+          "permutation_sd": 0.0006788445456548973
+        },
+        {
+          "feature": "human_absolute:structural_syntax_04",
+          "gain_mean": 0.0022524501798245095,
+          "gain_sd": 0.0011531425436101896,
+          "n_folds": 240,
+          "permutation_mean": 3.7965945510005e-05,
+          "permutation_sd": 0.0016944497348112346
+        },
+        {
+          "feature": "human_absolute:structural_syntax_05",
+          "gain_mean": 0.002016047951851544,
+          "gain_sd": 0.0009447223227293522,
+          "n_folds": 240,
+          "permutation_mean": -5.1844074040666156e-05,
+          "permutation_sd": 0.0009050538528380407
+        },
+        {
+          "feature": "human_absolute:structural_syntax_06",
+          "gain_mean": 0.002368840626024657,
+          "gain_sd": 0.0009018266055323148,
+          "n_folds": 240,
+          "permutation_mean": 8.938395758466833e-05,
+          "permutation_sd": 0.00148592238952836
+        },
+        {
+          "feature": "human_absolute:structural_syntax_07",
+          "gain_mean": 0.0007433974401109679,
+          "gain_sd": 0.0008647949212886995,
+          "n_folds": 240,
+          "permutation_mean": 1.9830576235509156e-05,
+          "permutation_sd": 0.0003437171644007288
+        },
+        {
+          "feature": "human_absolute:formatting_layout_00",
+          "gain_mean": 0.0018344293571016168,
+          "gain_sd": 0.0007367214787570263,
+          "n_folds": 240,
+          "permutation_mean": -6.584060201340845e-05,
+          "permutation_sd": 0.0024180063916101613
+        },
+        {
+          "feature": "human_absolute:formatting_layout_01",
+          "gain_mean": 0.0023738684165843624,
+          "gain_sd": 0.0009396630597740937,
+          "n_folds": 240,
+          "permutation_mean": 0.00011718260415059986,
+          "permutation_sd": 0.001305332512599077
+        },
+        {
+          "feature": "human_absolute:formatting_layout_02",
+          "gain_mean": 0.00209493438531983,
+          "gain_sd": 0.0007501010190190395,
+          "n_folds": 240,
+          "permutation_mean": -6.396914556754119e-06,
+          "permutation_sd": 0.0011771594799787949
+        },
+        {
+          "feature": "human_absolute:formatting_layout_03",
+          "gain_mean": 0.0021215514016690814,
+          "gain_sd": 0.0008057361099613742,
+          "n_folds": 240,
+          "permutation_mean": -0.0001265289208753619,
+          "permutation_sd": 0.0012968101510180657
+        },
+        {
+          "feature": "candidate_absolute:original_style_00",
+          "gain_mean": 0.0022566491378678923,
+          "gain_sd": 0.0011371683064504729,
+          "n_folds": 240,
+          "permutation_mean": 0.00011167783647520329,
+          "permutation_sd": 0.0010061978912059065
+        },
+        {
+          "feature": "candidate_absolute:original_style_01",
+          "gain_mean": 0.0019074200867853937,
+          "gain_sd": 0.0008076701766396193,
+          "n_folds": 240,
+          "permutation_mean": 2.5489298670117178e-05,
+          "permutation_sd": 0.0009592109835764358
+        },
+        {
+          "feature": "candidate_absolute:original_style_02",
+          "gain_mean": 0.0019000714183578867,
+          "gain_sd": 0.0017496488020757523,
+          "n_folds": 240,
+          "permutation_mean": -5.830234669291223e-05,
+          "permutation_sd": 0.0007226306294817242
+        },
+        {
+          "feature": "candidate_absolute:original_style_03",
+          "gain_mean": 0.002023039041827875,
+          "gain_sd": 0.0022092508048929585,
+          "n_folds": 240,
+          "permutation_mean": 6.692753772713222e-05,
+          "permutation_sd": 0.0005626709200811469
+        },
+        {
+          "feature": "candidate_absolute:original_style_04",
+          "gain_mean": 0.001980767043969035,
+          "gain_sd": 0.0009532275660076847,
+          "n_folds": 240,
+          "permutation_mean": -3.0110981957139534e-05,
+          "permutation_sd": 0.001507953852667001
+        },
+        {
+          "feature": "candidate_absolute:original_style_05",
+          "gain_mean": 0.002593028366753918,
+          "gain_sd": 0.0015828150095644554,
+          "n_folds": 240,
+          "permutation_mean": 2.0864775139722847e-05,
+          "permutation_sd": 0.0019752652052875343
+        },
+        {
+          "feature": "candidate_absolute:original_style_06",
+          "gain_mean": 0.0027260989706048766,
+          "gain_sd": 0.0010999529327490748,
+          "n_folds": 240,
+          "permutation_mean": 4.1048632373577586e-05,
+          "permutation_sd": 0.0015346361805913798
+        },
+        {
+          "feature": "candidate_absolute:original_style_07",
+          "gain_mean": 0.002786381599535205,
+          "gain_sd": 0.0011132801296947134,
+          "n_folds": 240,
+          "permutation_mean": -2.3837926408773467e-05,
+          "permutation_sd": 0.0018374833847845744
+        },
+        {
+          "feature": "candidate_absolute:original_style_08",
+          "gain_mean": 0.0029550704344466815,
+          "gain_sd": 0.0014193021666402128,
+          "n_folds": 240,
+          "permutation_mean": 0.0001288757898128055,
+          "permutation_sd": 0.0012742869922263765
+        },
+        {
+          "feature": "candidate_absolute:original_style_09",
+          "gain_mean": 0.0024395806028192865,
+          "gain_sd": 0.0010119845154827089,
+          "n_folds": 240,
+          "permutation_mean": 5.3601948090359344e-05,
+          "permutation_sd": 0.0013176023539909906
+        },
+        {
+          "feature": "candidate_absolute:lexical_00",
+          "gain_mean": 0.003746113744365966,
+          "gain_sd": 0.0009494482274290085,
+          "n_folds": 240,
+          "permutation_mean": 0.0005464989120431316,
+          "permutation_sd": 0.002790280988848241
+        },
+        {
+          "feature": "candidate_absolute:lexical_01",
+          "gain_mean": 0.0033671914348835435,
+          "gain_sd": 0.0013384542024436066,
+          "n_folds": 240,
+          "permutation_mean": 9.935604983811649e-05,
+          "permutation_sd": 0.001905423905209587
+        },
+        {
+          "feature": "candidate_absolute:lexical_02",
+          "gain_mean": 0.0034305077871495133,
+          "gain_sd": 0.0014963405816277773,
+          "n_folds": 240,
+          "permutation_mean": 3.910624579545561e-05,
+          "permutation_sd": 0.0016779700656387965
+        },
+        {
+          "feature": "candidate_absolute:lexical_03",
+          "gain_mean": 0.002429148979633427,
+          "gain_sd": 0.001087725027151739,
+          "n_folds": 240,
+          "permutation_mean": 0.00023943861163246472,
+          "permutation_sd": 0.001792775441893876
+        },
+        {
+          "feature": "candidate_absolute:lexical_04",
+          "gain_mean": 0.002510066512752811,
+          "gain_sd": 0.0007535920195794804,
+          "n_folds": 240,
+          "permutation_mean": 0.00020695417526710446,
+          "permutation_sd": 0.0017456767168906628
+        },
+        {
+          "feature": "candidate_absolute:lexical_05",
+          "gain_mean": 0.0031006986731616512,
+          "gain_sd": 0.0011285198017625259,
+          "n_folds": 240,
+          "permutation_mean": 0.00022435389697172958,
+          "permutation_sd": 0.002373680923809377
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_00",
+          "gain_mean": 0.003426711921770847,
+          "gain_sd": 0.0014936426604262242,
+          "n_folds": 240,
+          "permutation_mean": 0.00028284676114076756,
+          "permutation_sd": 0.0019306671332624248
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_01",
+          "gain_mean": 0.0019151358978943109,
+          "gain_sd": 0.000817925076792593,
+          "n_folds": 240,
+          "permutation_mean": 2.0091621901921024e-05,
+          "permutation_sd": 0.0011967000882774118
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_02",
+          "gain_mean": 0.002719897217098563,
+          "gain_sd": 0.001881915528740892,
+          "n_folds": 240,
+          "permutation_mean": -4.431160669616148e-06,
+          "permutation_sd": 0.0013231566444331445
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_03",
+          "gain_mean": 0.00991078385082295,
+          "gain_sd": 0.007224528354700114,
+          "n_folds": 240,
+          "permutation_mean": 7.686573654574803e-05,
+          "permutation_sd": 0.0016733066790031908
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_04",
+          "gain_mean": 0.0026130835056271807,
+          "gain_sd": 0.0014163953522193192,
+          "n_folds": 240,
+          "permutation_mean": 2.8205744991439963e-05,
+          "permutation_sd": 0.0017253979543951946
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_05",
+          "gain_mean": 0.0025428322323984547,
+          "gain_sd": 0.001489719484375045,
+          "n_folds": 240,
+          "permutation_mean": -5.907853123969566e-05,
+          "permutation_sd": 0.0010540729665064474
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_06",
+          "gain_mean": 0.0025922534003226536,
+          "gain_sd": 0.0009458049004690015,
+          "n_folds": 240,
+          "permutation_mean": 0.00024763603489157544,
+          "permutation_sd": 0.0012245266952607874
+        },
+        {
+          "feature": "candidate_absolute:structural_syntax_07",
+          "gain_mean": 0.0012392155960524588,
+          "gain_sd": 0.0012929262728160844,
+          "n_folds": 240,
+          "permutation_mean": -1.5581116704183513e-05,
+          "permutation_sd": 0.0003757381423292912
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_00",
+          "gain_mean": 0.0018333364781541615,
+          "gain_sd": 0.0007859282328036341,
+          "n_folds": 240,
+          "permutation_mean": 1.073178856954756e-05,
+          "permutation_sd": 0.0013585224010196973
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_01",
+          "gain_mean": 0.0020786976720064848,
+          "gain_sd": 0.0007438029558636411,
+          "n_folds": 240,
+          "permutation_mean": -4.469215528834179e-05,
+          "permutation_sd": 0.001761884380636416
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_02",
+          "gain_mean": 0.0019552834049577075,
+          "gain_sd": 0.0006295239270022704,
+          "n_folds": 240,
+          "permutation_mean": -0.0001483459715850774,
+          "permutation_sd": 0.0017574038993126788
+        },
+        {
+          "feature": "candidate_absolute:formatting_layout_03",
+          "gain_mean": 0.00227541505902934,
+          "gain_sd": 0.0010233803336992644,
+          "n_folds": 240,
+          "permutation_mean": 9.953986668331065e-05,
+          "permutation_sd": 0.0013115250355258425
+        },
+        {
+          "feature": "delta:original_style_00",
+          "gain_mean": 0.007088196922397253,
+          "gain_sd": 0.007243021124684361,
+          "n_folds": 240,
+          "permutation_mean": 0.00011195995201305764,
+          "permutation_sd": 0.0024270247892968977
+        },
+        {
+          "feature": "delta:original_style_01",
+          "gain_mean": 0.005914922895104267,
+          "gain_sd": 0.002834162089309971,
+          "n_folds": 240,
+          "permutation_mean": 0.000730489382203237,
+          "permutation_sd": 0.003857670207897208
+        },
+        {
+          "feature": "delta:original_style_02",
+          "gain_mean": 0.005728116263288855,
+          "gain_sd": 0.004756889447125888,
+          "n_folds": 240,
+          "permutation_mean": 0.0006382807970416931,
+          "permutation_sd": 0.0017307389411487858
+        },
+        {
+          "feature": "delta:original_style_03",
+          "gain_mean": 0.0036504656344571516,
+          "gain_sd": 0.0026092600266804235,
+          "n_folds": 240,
+          "permutation_mean": 0.00039092493388436883,
+          "permutation_sd": 0.0014002534923038081
+        },
+        {
+          "feature": "delta:original_style_04",
+          "gain_mean": 0.004322668543104812,
+          "gain_sd": 0.0022481644017956796,
+          "n_folds": 240,
+          "permutation_mean": 0.0001317420360455642,
+          "permutation_sd": 0.0024294731277910244
+        },
+        {
+          "feature": "delta:original_style_05",
+          "gain_mean": 0.007914745419090994,
+          "gain_sd": 0.005856904620029981,
+          "n_folds": 240,
+          "permutation_mean": 0.0004175130181088921,
+          "permutation_sd": 0.002236038686460083
+        },
+        {
+          "feature": "delta:original_style_06",
+          "gain_mean": 0.010941077376740584,
+          "gain_sd": 0.005828444590278399,
+          "n_folds": 240,
+          "permutation_mean": 0.0010130117410335185,
+          "permutation_sd": 0.004311121433483021
+        },
+        {
+          "feature": "delta:original_style_07",
+          "gain_mean": 0.0031536074817134488,
+          "gain_sd": 0.0016948204376158265,
+          "n_folds": 240,
+          "permutation_mean": 0.000273221730086326,
+          "permutation_sd": 0.0018768003365749603
+        },
+        {
+          "feature": "delta:original_style_08",
+          "gain_mean": 0.024802854341122338,
+          "gain_sd": 0.027738827499080645,
+          "n_folds": 240,
+          "permutation_mean": 0.0034298360860322147,
+          "permutation_sd": 0.0065893365527364125
+        },
+        {
+          "feature": "delta:original_style_09",
+          "gain_mean": 0.008949013337374263,
+          "gain_sd": 0.005423274161507459,
+          "n_folds": 240,
+          "permutation_mean": 0.0008166509343449397,
+          "permutation_sd": 0.003439525354997222
+        },
+        {
+          "feature": "delta:lexical_00",
+          "gain_mean": 0.04497820189887623,
+          "gain_sd": 0.017917525551313675,
+          "n_folds": 240,
+          "permutation_mean": 0.003511412721147068,
+          "permutation_sd": 0.006740202529462335
+        },
+        {
+          "feature": "delta:lexical_01",
+          "gain_mean": 0.020287841115729968,
+          "gain_sd": 0.011800135021176083,
+          "n_folds": 240,
+          "permutation_mean": 0.000446399246233956,
+          "permutation_sd": 0.0054171738623585266
+        },
+        {
+          "feature": "delta:lexical_02",
+          "gain_mean": 0.019578902399759,
+          "gain_sd": 0.015310563830249485,
+          "n_folds": 240,
+          "permutation_mean": 0.0010700617258120192,
+          "permutation_sd": 0.0047388619319111884
+        },
+        {
+          "feature": "delta:lexical_03",
+          "gain_mean": 0.014463689199000745,
+          "gain_sd": 0.006743624583375681,
+          "n_folds": 240,
+          "permutation_mean": 0.0006222327191806284,
+          "permutation_sd": 0.003762489153108842
+        },
+        {
+          "feature": "delta:lexical_04",
+          "gain_mean": 0.01377611572517892,
+          "gain_sd": 0.007261140357162762,
+          "n_folds": 240,
+          "permutation_mean": 0.0010057824356371166,
+          "permutation_sd": 0.004411033699480454
+        },
+        {
+          "feature": "delta:lexical_05",
+          "gain_mean": 0.016562762938740698,
+          "gain_sd": 0.0074326611373971155,
+          "n_folds": 240,
+          "permutation_mean": 0.0017095491960397327,
+          "permutation_sd": 0.005461928987724276
+        },
+        {
+          "feature": "delta:structural_syntax_00",
+          "gain_mean": 0.006859458345570269,
+          "gain_sd": 0.004934662313307959,
+          "n_folds": 240,
+          "permutation_mean": 0.00036256209083671367,
+          "permutation_sd": 0.001940908319441947
+        },
+        {
+          "feature": "delta:structural_syntax_01",
+          "gain_mean": 0.01169622482379723,
+          "gain_sd": 0.005822645611405978,
+          "n_folds": 240,
+          "permutation_mean": 0.001266031738048292,
+          "permutation_sd": 0.004421474874706399
+        },
+        {
+          "feature": "delta:structural_syntax_02",
+          "gain_mean": 0.009157268829546249,
+          "gain_sd": 0.008210694103674837,
+          "n_folds": 240,
+          "permutation_mean": 0.0006935134430357958,
+          "permutation_sd": 0.004053406497371032
+        },
+        {
+          "feature": "delta:structural_syntax_03",
+          "gain_mean": 0.10203210524057361,
+          "gain_sd": 0.05046923988143632,
+          "n_folds": 240,
+          "permutation_mean": 0.0018787869089986753,
+          "permutation_sd": 0.005002033366705666
+        },
+        {
+          "feature": "delta:structural_syntax_04",
+          "gain_mean": 0.004121583220461613,
+          "gain_sd": 0.002071358752147633,
+          "n_folds": 240,
+          "permutation_mean": 0.000114328120100451,
+          "permutation_sd": 0.001746438083408316
+        },
+        {
+          "feature": "delta:structural_syntax_05",
+          "gain_mean": 0.008480888354775121,
+          "gain_sd": 0.005698849622966412,
+          "n_folds": 240,
+          "permutation_mean": 0.0002647760100705975,
+          "permutation_sd": 0.0018949110270997183
+        },
+        {
+          "feature": "delta:structural_syntax_06",
+          "gain_mean": 0.013971900376556405,
+          "gain_sd": 0.016487060713051355,
+          "n_folds": 240,
+          "permutation_mean": 0.0004520160227165509,
+          "permutation_sd": 0.0037348149145191196
+        },
+        {
+          "feature": "delta:structural_syntax_07",
+          "gain_mean": 0.0016039957083489413,
+          "gain_sd": 0.0016145780599485164,
+          "n_folds": 240,
+          "permutation_mean": 5.326330365247785e-05,
+          "permutation_sd": 0.0008162771263908088
+        },
+        {
+          "feature": "delta:formatting_layout_00",
+          "gain_mean": 0.003330207470884685,
+          "gain_sd": 0.0008751709590552093,
+          "n_folds": 240,
+          "permutation_mean": 0.00039660620464552256,
+          "permutation_sd": 0.002728436959769893
+        },
+        {
+          "feature": "delta:formatting_layout_01",
+          "gain_mean": 0.005153611687938978,
+          "gain_sd": 0.0018524497830091275,
+          "n_folds": 240,
+          "permutation_mean": 0.0001936040469931117,
+          "permutation_sd": 0.0023811438319606276
+        },
+        {
+          "feature": "delta:formatting_layout_02",
+          "gain_mean": 0.0036832086744589478,
+          "gain_sd": 0.0013281892870487416,
+          "n_folds": 240,
+          "permutation_mean": -8.561310391631827e-06,
+          "permutation_sd": 0.0026499382616430372
+        },
+        {
+          "feature": "delta:formatting_layout_03",
+          "gain_mean": 0.0031863899539846894,
+          "gain_sd": 0.0012749136603751284,
+          "n_folds": 240,
+          "permutation_mean": 7.634919522453431e-06,
+          "permutation_sd": 0.0015408849858188417
+        },
+        {
+          "feature": "relative_delta:original_style_00",
+          "gain_mean": 0.0035263530033059778,
+          "gain_sd": 0.00661955518567157,
+          "n_folds": 240,
+          "permutation_mean": 4.078182573436044e-05,
+          "permutation_sd": 0.000615189226409855
+        },
+        {
+          "feature": "relative_delta:original_style_01",
+          "gain_mean": 0.00353883430662907,
+          "gain_sd": 0.0023610214940975017,
+          "n_folds": 240,
+          "permutation_mean": -6.77064282464714e-06,
+          "permutation_sd": 0.0007694080616503976
+        },
+        {
+          "feature": "relative_delta:original_style_02",
+          "gain_mean": 0.0058978157574608525,
+          "gain_sd": 0.0064239599536448574,
+          "n_folds": 240,
+          "permutation_mean": 0.00021904853925186948,
+          "permutation_sd": 0.0010878103004185588
+        },
+        {
+          "feature": "relative_delta:original_style_03",
+          "gain_mean": 0.0033292500889589164,
+          "gain_sd": 0.0031443165593663105,
+          "n_folds": 240,
+          "permutation_mean": -1.1621246099327113e-05,
+          "permutation_sd": 0.0007964295416882187
+        },
+        {
+          "feature": "relative_delta:original_style_04",
+          "gain_mean": 0.003543262665862427,
+          "gain_sd": 0.0015281734533247212,
+          "n_folds": 240,
+          "permutation_mean": -0.00014378712156242618,
+          "permutation_sd": 0.001844927499947673
+        },
+        {
+          "feature": "relative_delta:original_style_05",
+          "gain_mean": 0.005721239247805417,
+          "gain_sd": 0.011106579904346891,
+          "n_folds": 240,
+          "permutation_mean": 0.0002126412895925555,
+          "permutation_sd": 0.0016069782683561646
+        },
+        {
+          "feature": "relative_delta:original_style_06",
+          "gain_mean": 0.007805346260611373,
+          "gain_sd": 0.004629084415918968,
+          "n_folds": 240,
+          "permutation_mean": 0.00019285131923138613,
+          "permutation_sd": 0.0031927869716343745
+        },
+        {
+          "feature": "relative_delta:original_style_07",
+          "gain_mean": 0.005263022281230497,
+          "gain_sd": 0.0019985966136436004,
+          "n_folds": 240,
+          "permutation_mean": 0.0005743818218854201,
+          "permutation_sd": 0.003339157579660576
+        },
+        {
+          "feature": "relative_delta:original_style_08",
+          "gain_mean": 0.011988601400007202,
+          "gain_sd": 0.018904939983576608,
+          "n_folds": 240,
+          "permutation_mean": 7.470234983393461e-05,
+          "permutation_sd": 0.001296124605010233
+        },
+        {
+          "feature": "relative_delta:original_style_09",
+          "gain_mean": 0.009011068495343657,
+          "gain_sd": 0.016733152219798507,
+          "n_folds": 240,
+          "permutation_mean": -1.4957099470740143e-05,
+          "permutation_sd": 0.001548245556171289
+        },
+        {
+          "feature": "relative_delta:lexical_00",
+          "gain_mean": 0.01950497497476956,
+          "gain_sd": 0.015102407557062972,
+          "n_folds": 240,
+          "permutation_mean": 0.0002108866583372911,
+          "permutation_sd": 0.0033464908953083
+        },
+        {
+          "feature": "relative_delta:lexical_01",
+          "gain_mean": 0.031713575490470165,
+          "gain_sd": 0.025967515757521948,
+          "n_folds": 240,
+          "permutation_mean": 0.0010009125141200864,
+          "permutation_sd": 0.0055859227594984035
+        },
+        {
+          "feature": "relative_delta:lexical_02",
+          "gain_mean": 0.024015736168437055,
+          "gain_sd": 0.019861577142889754,
+          "n_folds": 240,
+          "permutation_mean": 0.0008817486649521991,
+          "permutation_sd": 0.005356084095268546
+        },
+        {
+          "feature": "relative_delta:lexical_03",
+          "gain_mean": 0.019639399174807778,
+          "gain_sd": 0.012022223933566277,
+          "n_folds": 240,
+          "permutation_mean": 0.0007656497517082755,
+          "permutation_sd": 0.00385892855599487
+        },
+        {
+          "feature": "relative_delta:lexical_04",
+          "gain_mean": 0.006494900833350498,
+          "gain_sd": 0.0042268825618482515,
+          "n_folds": 240,
+          "permutation_mean": 1.7993600843601668e-05,
+          "permutation_sd": 0.002235986300992864
+        },
+        {
+          "feature": "relative_delta:lexical_05",
+          "gain_mean": 0.018949207196011626,
+          "gain_sd": 0.009728603115316765,
+          "n_folds": 240,
+          "permutation_mean": 0.0016357505134532112,
+          "permutation_sd": 0.004367502318974965
+        },
+        {
+          "feature": "relative_delta:structural_syntax_00",
+          "gain_mean": 0.006659645576647286,
+          "gain_sd": 0.005101936649384526,
+          "n_folds": 240,
+          "permutation_mean": 0.0006986307803580991,
+          "permutation_sd": 0.004013755193615793
+        },
+        {
+          "feature": "relative_delta:structural_syntax_01",
+          "gain_mean": 0.021059753129076774,
+          "gain_sd": 0.011550788497584072,
+          "n_folds": 240,
+          "permutation_mean": 0.0002638841989833186,
+          "permutation_sd": 0.003399436805127298
+        },
+        {
+          "feature": "relative_delta:structural_syntax_02",
+          "gain_mean": 0.04332087954791646,
+          "gain_sd": 0.03444133715221542,
+          "n_folds": 240,
+          "permutation_mean": 0.002568039885170942,
+          "permutation_sd": 0.006096386224519443
+        },
+        {
+          "feature": "relative_delta:structural_syntax_03",
+          "gain_mean": 0.09804393633852053,
+          "gain_sd": 0.058373696708294086,
+          "n_folds": 240,
+          "permutation_mean": 0.003878752617183726,
+          "permutation_sd": 0.009628837973854262
+        },
+        {
+          "feature": "relative_delta:structural_syntax_04",
+          "gain_mean": 0.004721236143601477,
+          "gain_sd": 0.0035461500594019535,
+          "n_folds": 240,
+          "permutation_mean": 8.357574516522313e-05,
+          "permutation_sd": 0.0012671357745891775
+        },
+        {
+          "feature": "relative_delta:structural_syntax_05",
+          "gain_mean": 0.04336656653820063,
+          "gain_sd": 0.022814470634008262,
+          "n_folds": 240,
+          "permutation_mean": 0.0005451272592604033,
+          "permutation_sd": 0.004890072884766431
+        },
+        {
+          "feature": "relative_delta:structural_syntax_06",
+          "gain_mean": 0.05714357919423726,
+          "gain_sd": 0.0222818899739832,
+          "n_folds": 240,
+          "permutation_mean": 0.0024223800493404007,
+          "permutation_sd": 0.007078519405426586
+        },
+        {
+          "feature": "relative_delta:structural_syntax_07",
+          "gain_mean": 0.004720432945942985,
+          "gain_sd": 0.005502942550487864,
+          "n_folds": 240,
+          "permutation_mean": 0.0004917789873530106,
+          "permutation_sd": 0.0016633100874478416
+        },
+        {
+          "feature": "relative_delta:formatting_layout_00",
+          "gain_mean": 0.002751721041939616,
+          "gain_sd": 0.0010760085392618698,
+          "n_folds": 240,
+          "permutation_mean": 6.116751456863948e-05,
+          "permutation_sd": 0.002200631229009382
+        },
+        {
+          "feature": "relative_delta:formatting_layout_01",
+          "gain_mean": 0.005396696401672365,
+          "gain_sd": 0.002608117507047601,
+          "n_folds": 240,
+          "permutation_mean": 0.0005910840750422909,
+          "permutation_sd": 0.0036233043784878144
+        },
+        {
+          "feature": "relative_delta:formatting_layout_02",
+          "gain_mean": 0.003932000026519804,
+          "gain_sd": 0.0018750943267250128,
+          "n_folds": 240,
+          "permutation_mean": 6.201951256688958e-05,
+          "permutation_sd": 0.0027443331760666936
+        },
+        {
+          "feature": "relative_delta:formatting_layout_03",
+          "gain_mean": 0.0027271307192865543,
+          "gain_sd": 0.0014535672819883116,
+          "n_folds": 240,
+          "permutation_mean": -0.00014081593529972116,
+          "permutation_sd": 0.0016981013352652334
+        }
+      ],
+      "group_rows": [
+        {
+          "gain_mean": 0.021894321518189055,
+          "gain_sd": 0.006800556639358585,
+          "group": "human_absolute:original_style",
+          "n_folds": 240,
+          "permutation_mean": 0.00031432693019072303,
+          "permutation_sd": 0.005275306360588159
+        },
+        {
+          "gain_mean": 0.01655219923964286,
+          "gain_sd": 0.0047049568472772195,
+          "group": "human_absolute:lexical",
+          "n_folds": 240,
+          "permutation_mean": 0.001233001439400259,
+          "permutation_sd": 0.00559537187706655
+        },
+        {
+          "gain_mean": 0.016698026483243034,
+          "gain_sd": 0.004818530736020131,
+          "group": "human_absolute:structural_syntax",
+          "n_folds": 240,
+          "permutation_mean": 0.00020933859692513212,
+          "permutation_sd": 0.003846505746854354
+        },
+        {
+          "gain_mean": 0.00842478356067489,
+          "gain_sd": 0.0024241888779883048,
+          "group": "human_absolute:formatting_layout",
+          "n_folds": 240,
+          "permutation_mean": -8.158383329492462e-05,
+          "permutation_sd": 0.003941963438018897
+        },
+        {
+          "gain_mean": 0.02356810670296805,
+          "gain_sd": 0.004469314577129989,
+          "group": "candidate_absolute:original_style",
+          "n_folds": 240,
+          "permutation_mean": 0.00033623456323009275,
+          "permutation_sd": 0.0057720833616419715
+        },
+        {
+          "gain_mean": 0.018583727131946913,
+          "gain_sd": 0.004606971530632708,
+          "group": "candidate_absolute:lexical",
+          "n_folds": 240,
+          "permutation_mean": 0.0013557078915480026,
+          "permutation_sd": 0.006748749979264042
+        },
+        {
+          "gain_mean": 0.02695991362198742,
+          "gain_sd": 0.008044682307717864,
+          "group": "candidate_absolute:structural_syntax",
+          "n_folds": 240,
+          "permutation_mean": 0.0005765550908579567,
+          "permutation_sd": 0.005672467159482153
+        },
+        {
+          "gain_mean": 0.008142732614147694,
+          "gain_sd": 0.002472595875532581,
+          "group": "candidate_absolute:formatting_layout",
+          "n_folds": 240,
+          "permutation_mean": -8.276647162056098e-05,
+          "permutation_sd": 0.003757009321427044
+        },
+        {
+          "gain_mean": 0.08246566821439397,
+          "gain_sd": 0.04716586089154246,
+          "group": "delta:original_style",
+          "n_folds": 240,
+          "permutation_mean": 0.007953630610793813,
+          "permutation_sd": 0.014096329005349054
+        },
+        {
+          "gain_mean": 0.12964751327728555,
+          "gain_sd": 0.02308280403579415,
+          "group": "delta:lexical",
+          "n_folds": 240,
+          "permutation_mean": 0.008365438044050521,
+          "permutation_sd": 0.017020220016554784
+        },
+        {
+          "gain_mean": 0.15792342489962946,
+          "gain_sd": 0.05306203362037306,
+          "group": "delta:structural_syntax",
+          "n_folds": 240,
+          "permutation_mean": 0.005085277637459554,
+          "permutation_sd": 0.012341232015554735
+        },
+        {
+          "gain_mean": 0.0153534177872673,
+          "gain_sd": 0.0031883983008243327,
+          "group": "delta:formatting_layout",
+          "n_folds": 240,
+          "permutation_mean": 0.0005892838607694558,
+          "permutation_sd": 0.005760803185158084
+        },
+        {
+          "gain_mean": 0.05962479350721539,
+          "gain_sd": 0.026910002083012325,
+          "group": "relative_delta:original_style",
+          "n_folds": 240,
+          "permutation_mean": 0.0011372710355723856,
+          "permutation_sd": 0.007088627405979106
+        },
+        {
+          "gain_mean": 0.1203177938378467,
+          "gain_sd": 0.04238915783640004,
+          "group": "relative_delta:lexical",
+          "n_folds": 240,
+          "permutation_mean": 0.004512941703414665,
+          "permutation_sd": 0.013480722275141264
+        },
+        {
+          "gain_mean": 0.2790360294141434,
+          "gain_sd": 0.05749921445978882,
+          "group": "relative_delta:structural_syntax",
+          "n_folds": 240,
+          "permutation_mean": 0.010952169522815124,
+          "permutation_sd": 0.02159804060494273
+        },
+        {
+          "gain_mean": 0.014807548189418337,
+          "gain_sd": 0.004945668175880486,
+          "group": "relative_delta:formatting_layout",
+          "n_folds": 240,
+          "permutation_mean": 0.0005734551668780989,
+          "permutation_sd": 0.006161524681625923
+        }
+      ]
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,23 @@
+{
+  "current": {
+    "method": "seed_cluster_bootstrap",
+    "seed": 250217749,
+    "replicates": 10000,
+    "low": 0.014660397049516957,
+    "high": 0.019322463998887714
+  },
+  "random": {
+    "method": "seed_cluster_bootstrap",
+    "seed": 250217749,
+    "replicates": 10000,
+    "low": 0.016473142566280675,
+    "high": 0.018960517659674807
+  },
+  "hard": {
+    "method": "seed_cluster_bootstrap",
+    "seed": 250217749,
+    "replicates": 10000,
+    "low": 0.03430884213564545,
+    "high": 0.03807562443180769
+  }
+}

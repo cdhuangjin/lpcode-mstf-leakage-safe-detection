@@ -1,0 +1,63 @@
+{
+  "artifacts": [
+    {
+      "bytes": 220,
+      "language": "c",
+      "path": "repro/2502.17749/code/experiment/task1/c_results.pkl",
+      "sha256": "49865c2f9276b32259af6663cbfa1d3252833b3d3f74dd2f6083912ea7910ca3",
+      "task": "task1"
+    },
+    {
+      "bytes": 220,
+      "language": "cpp",
+      "path": "repro/2502.17749/code/experiment/task1/cpp_results.pkl",
+      "sha256": "94648615a6796b0d88bbd9f442815e9837eb177d2a1350bf06db7e06d4f0d384",
+      "task": "task1"
+    },
+    {
+      "bytes": 220,
+      "language": "java",
+      "path": "repro/2502.17749/code/experiment/task1/java_results.pkl",
+      "sha256": "e7c6e8e5eeee90ba92a99debb84fb2997c6438982f96b63d99519ccd84352731",
+      "task": "task1"
+    },
+    {
+      "bytes": 220,
+      "language": "py",
+      "path": "repro/2502.17749/code/experiment/task1/py_results.pkl",
+      "sha256": "59c8442ddf8469327d2c840df090772c6a0fb4dc066f95a24a55f2c5b37d02ba",
+      "task": "task1"
+    },
+    {
+      "bytes": 220,
+      "language": "c",
+      "path": "repro/2502.17749/code/experiment/task2/c_total_results.pkl",
+      "sha256": "75399af2e9a6fc6c6f39025fa8a7c34fd99a4cc8a8e4856967892b6909b51560",
+      "task": "task2"
+    },
+    {
+      "bytes": 220,
+      "language": "cpp",
+      "path": "repro/2502.17749/code/experiment/task2/cpp_total_results.pkl",
+      "sha256": "ec219df223a525eee664570bb00eb3da9307c6f2a5cacdd60d67cd3af02d3ed1",
+      "task": "task2"
+    },
+    {
+      "bytes": 220,
+      "language": "java",
+      "path": "repro/2502.17749/code/experiment/task2/java_total_results.pkl",
+      "sha256": "74bf72ca5b92f8e768f41aca12dfc1d838eb20b79a5dabd25d4d2973966182c9",
+      "task": "task2"
+    },
+    {
+      "bytes": 220,
+      "language": "py",
+      "path": "repro/2502.17749/code/experiment/task2/py_total_results.pkl",
+      "sha256": "d7ce060931e3435ff030d03f4fe31b70c508774c7a903dc1b0b6064384edbc37",
+      "task": "task2"
+    }
+  ],
+  "generated_at": "2026-08-31T04:43:53.274446+00:00",
+  "official_commit": "b3660c8262ae57e14498528119607ee673d4257a",
+  "schema_version": 1
+}

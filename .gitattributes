@@ -1,0 +1,2 @@
+# Frozen evidence is byte-hashed. Never normalise line endings on checkout.
+* -text

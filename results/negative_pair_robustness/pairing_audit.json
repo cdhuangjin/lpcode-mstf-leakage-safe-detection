@@ -1,0 +1,322 @@
+{
+  "pass": true,
+  "cells": {
+    "c:42": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "c:123": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "c:2024": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "cpp:42": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "cpp:123": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "cpp:2024": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "java:42": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "java:123": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "java:2024": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "py:42": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "py:123": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    },
+    "py:2024": {
+      "classifier_config_sha256": "eed62eff932b2721b4e2f841e95f8957d6769dfedcfd4d0194df8b0cb8b43de4",
+      "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+      "same_positive_pairs": true,
+      "variants": {
+        "current": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "random": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        },
+        "hard": {
+          "fold_count": 5,
+          "positives_equal_negatives": true,
+          "endpoint_and_content_isolation": true,
+          "no_duplicate_pairs": true
+        }
+      },
+      "pass": true
+    }
+  },
+  "pair_counts": {
+    "current": 512520,
+    "random": 512520,
+    "hard": 512520
+  }
+}

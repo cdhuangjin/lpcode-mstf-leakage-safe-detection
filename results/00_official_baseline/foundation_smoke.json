@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-08-31T04:48:30.600352+00:00",
+  "languages": {
+    "c": {
+      "feature_shape": [
+        45,
+        20
+      ],
+      "folds": 3,
+      "label_counts": {
+        "0": 21,
+        "1": 24
+      },
+      "leakage_count": 0,
+      "rows": 45,
+      "unique_sources": 6
+    },
+    "cpp": {
+      "feature_shape": [
+        43,
+        20
+      ],
+      "folds": 3,
+      "label_counts": {
+        "0": 19,
+        "1": 24
+      },
+      "leakage_count": 0,
+      "rows": 43,
+      "unique_sources": 6
+    },
+    "java": {
+      "feature_shape": [
+        40,
+        20
+      ],
+      "folds": 3,
+      "label_counts": {
+        "0": 20,
+        "1": 20
+      },
+      "leakage_count": 0,
+      "rows": 40,
+      "unique_sources": 5
+    },
+    "py": {
+      "feature_shape": [
+        45,
+        20
+      ],
+      "folds": 3,
+      "label_counts": {
+        "0": 21,
+        "1": 24
+      },
+      "leakage_count": 0,
+      "rows": 45,
+      "unique_sources": 6
+    }
+  },
+  "limit_per_language": 40,
+  "schema_version": 1,
+  "status": "passed"
+}

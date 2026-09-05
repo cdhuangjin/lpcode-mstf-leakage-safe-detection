@@ -1,0 +1,31 @@
+{
+  "classifier_config": {
+    "model": "xgb",
+    "representations": {
+      "baseline": "concat",
+      "mstf": "concat_delta"
+    }
+  },
+  "feature_extraction_sha256": "384abf92bf6dd8a5219fe1fe697c80a98beeea307a336489187524583ab2a17d",
+  "frozen_n0_config_sha256": "23826ec01bec54a35ad155b4f34c8c622a243e52d03f87bcf629a7c6a5228e29",
+  "frozen_n0_folds_sha256": "7c2c7887a0ee795b05d633eb3ddf2f4bc7fc9f27f503e5e9c8956ca5761157bd",
+  "languages": [
+    "c",
+    "cpp",
+    "java",
+    "py"
+  ],
+  "modes": [
+    "current",
+    "random",
+    "hard"
+  ],
+  "n0_reused_not_rerun": true,
+  "n_splits": 5,
+  "seeds": [
+    42,
+    123,
+    2024
+  ],
+  "task": "negative_pair_robustness_gate_a"
+}

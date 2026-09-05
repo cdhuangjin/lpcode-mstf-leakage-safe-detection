@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-05",
+  "platform": "Windows, fresh CPython 3.11.15 environment",
+  "research_pytest": {"passed": 423, "warnings": 19, "seconds": 81.33},
+  "release_pytest": {"passed": 4},
+  "frozen_gate_files": 20,
+  "gate_record_counts": [480, 960, 1440, 48],
+  "ablation_records": 1800,
+  "portable_figure_export": "5 figures; PDF/SVG/PNG/TIFF",
+  "secret_pattern_scan_hits": 0,
+  "formal_retraining": false,
+  "notes": "Observed tool-output summary, not an invented raw console log. Tests include small synthetic model-fitting fixtures."
+}

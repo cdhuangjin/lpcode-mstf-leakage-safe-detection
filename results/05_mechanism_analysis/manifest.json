@@ -1,0 +1,14 @@
+{
+  "files": {
+    "config.json": {
+      "bytes": 942,
+      "sha256": "b1e177d4f02602cd2a5d7c53116e4e976a2bd93672977206287d51b19afe07ea"
+    },
+    "folds.jsonl": {
+      "bytes": 1518733,
+      "sha256": "73c24ae80ab6dcfa36acb857456818e005cbfbedc2197fb720c0098d7f300903"
+    }
+  },
+  "frozen_registry_sha256": "f18c06f33f3f7f4037c074c58543ed7ff96342108bb4d39838262b626974df62",
+  "schema_version": 1
+}

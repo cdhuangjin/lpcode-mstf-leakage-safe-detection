@@ -1,0 +1,20 @@
+{
+  "validator": "public-axes-geometry-v1",
+  "scope": "axes finite, positive and inside canvas; not text collision or equal-gutter certification",
+  "axes": [
+    [
+      0.17,
+      0.18000000000000005,
+      0.2962962962962963,
+      0.6399999999999999
+    ],
+    [
+      0.6737037037037037,
+      0.18000000000000005,
+      0.2962962962962963,
+      0.6399999999999999
+    ]
+  ],
+  "errors": [],
+  "status": "PASS"
+}

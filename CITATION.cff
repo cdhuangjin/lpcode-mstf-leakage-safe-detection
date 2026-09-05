@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this software/evidence deposit and the original LPcode work when using them."
+type: software
+title: "LPcode / MSTF: leakage-safe paired provenance detection"
+authors:
+  - family-names: Huang
+    given-names: Jin
+    orcid: "https://orcid.org/0009-0005-7489-2018"
+  - family-names: Li
+    given-names: Qiao
+  - family-names: Gao
+    given-names: Qisen
+version: 1.0.0
+date-released: 2026-09-05
+repository-code: "https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection"
+url: "https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection/releases/tag/v1.0.0"
+abstract: "Research implementation and frozen numerical evidence for source-candidate code-style transition detection, with exact-code and dual-endpoint-isolated evaluation."
+keywords:
+  - code provenance
+  - reproducibility
+  - paired transition
+  - leakage-safe evaluation

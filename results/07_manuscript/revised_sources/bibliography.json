@@ -1,0 +1,561 @@
+[
+  {
+    "id": "2502.17749",
+    "url": "https://arxiv.org/abs/2502.17749",
+    "title": [
+      "Detection of LLM-Paraphrased Code and Identification of the Responsible LLM Using Coding Style Features"
+    ],
+    "authors": [
+      "Park, Shinwoo",
+      "Jin, Hyundong",
+      "Cha, Jeong-won",
+      "Han, Yo-Sub"
+    ],
+    "date": [
+      "2025/02/25"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 1,
+    "cited_year": "2025",
+    "cited_venue": "arXiv:2502.17749",
+    "primary_url": "https://arxiv.org/abs/2502.17749"
+  },
+  {
+    "id": "2010.09470",
+    "url": "https://arxiv.org/abs/2010.09470",
+    "title": [
+      "Dos and Don'ts of Machine Learning in Computer Security"
+    ],
+    "authors": [
+      "Arp, Daniel",
+      "Quiring, Erwin",
+      "Pendlebury, Feargus",
+      "Warnecke, Alexander",
+      "Pierazzi, Fabio",
+      "Wressnegger, Christian",
+      "Cavallaro, Lorenzo",
+      "Rieck, Konrad"
+    ],
+    "date": [
+      "2020/10/19"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 2,
+    "cited_year": "2022",
+    "cited_venue": "31st USENIX Security Symposium, pp. 3971–3988",
+    "primary_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp"
+  },
+  {
+    "id": "2506.11059",
+    "url": "https://arxiv.org/abs/2506.11059",
+    "title": [
+      "CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs"
+    ],
+    "authors": [
+      "Guo, Hanxi",
+      "Cheng, Siyuan",
+      "Zhang, Kaiyuan",
+      "Shen, Guangyu",
+      "Zhang, Xiangyu"
+    ],
+    "date": [
+      "2025/05/27"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 3,
+    "cited_year": "2025",
+    "cited_venue": "arXiv:2506.11059",
+    "primary_url": "https://arxiv.org/abs/2506.11059"
+  },
+  {
+    "id": "2409.01382",
+    "url": "https://arxiv.org/abs/2409.01382",
+    "title": [
+      "Automatic Detection of LLM-Generated Code: A Comparative Case Study of Contemporary Models Across Function and Class Granularities"
+    ],
+    "authors": [
+      "Rahman, Musfiqur",
+      "Khatoonabadi, SayedHassan",
+      "Abdellatif, Ahmad",
+      "Shihab, Emad"
+    ],
+    "date": [
+      "2024/09/02"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 4,
+    "cited_year": "2024",
+    "cited_venue": "arXiv:2409.01382",
+    "primary_url": "https://arxiv.org/abs/2409.01382"
+  },
+  {
+    "id": "2412.14611",
+    "url": "https://arxiv.org/abs/2412.14611",
+    "title": [
+      "Is This You, LLM? Recognizing AI-written Programs with Multilingual Code Stylometry"
+    ],
+    "authors": [
+      "Gurioli, Andrea",
+      "Gabbrielli, Maurizio",
+      "Zacchiroli, Stefano"
+    ],
+    "date": [
+      "2024/12/19"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": "IEEE International Conference on Software Analysis, Evolution and Reengineering, SANER 2025, Mar 2025, Montr{茅}al, Canada",
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 5,
+    "cited_year": "2024",
+    "cited_venue": "arXiv:2412.14611",
+    "primary_url": "https://arxiv.org/abs/2412.14611"
+  },
+  {
+    "id": "2301.11305",
+    "url": "https://arxiv.org/abs/2301.11305",
+    "title": [
+      "DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature"
+    ],
+    "authors": [
+      "Mitchell, Eric",
+      "Lee, Yoonho",
+      "Khazatsky, Alexander",
+      "Manning, Christopher D.",
+      "Finn, Chelsea"
+    ],
+    "date": [
+      "2023/01/26"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 6,
+    "cited_year": "2023",
+    "cited_venue": "arXiv:2301.11305",
+    "primary_url": "https://arxiv.org/abs/2301.11305"
+  },
+  {
+    "id": "2310.05130",
+    "url": "https://arxiv.org/abs/2310.05130",
+    "title": [
+      "Fast-DetectGPT: Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature"
+    ],
+    "authors": [
+      "Bao, Guangsheng",
+      "Zhao, Yanbin",
+      "Teng, Zhiyang",
+      "Yang, Linyi",
+      "Zhang, Yue"
+    ],
+    "date": [
+      "2023/10/08"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 7,
+    "cited_year": "2023",
+    "cited_venue": "arXiv:2310.05130",
+    "primary_url": "https://arxiv.org/abs/2310.05130"
+  },
+  {
+    "id": "2303.11156",
+    "url": "https://arxiv.org/abs/2303.11156",
+    "title": [
+      "Can AI-Generated Text be Reliably Detected?"
+    ],
+    "authors": [
+      "Sadasivan, Vinu Sankar",
+      "Kumar, Aounon",
+      "Balasubramanian, Sriram",
+      "Wang, Wenxiao",
+      "Feizi, Soheil"
+    ],
+    "date": [
+      "2023/03/17"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 8,
+    "cited_year": "2023",
+    "cited_venue": "arXiv:2303.11156",
+    "primary_url": "https://arxiv.org/abs/2303.11156"
+  },
+  {
+    "title": [
+      "De-anonymizing Programmers via Code Stylometry"
+    ],
+    "authors": [
+      "Caliskan-Islam, Aylin",
+      "Harang, Richard",
+      "Liu, Andrew",
+      "Narayanan, Arvind",
+      "Voss, Clare",
+      "Yamaguchi, Fabian",
+      "Greenstadt, Rachel"
+    ],
+    "date": [
+      "2015"
+    ],
+    "url": "https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/caliskan-islam",
+    "venue": "24th USENIX Security Symposium, pp. 255–270",
+    "doi": [],
+    "id": null,
+    "number": 9,
+    "cited_year": "2015",
+    "cited_venue": "24th USENIX Security Symposium, pp. 255–270",
+    "primary_url": "https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/caliskan-islam"
+  },
+  {
+    "id": "2001.11593",
+    "url": "https://arxiv.org/abs/2001.11593",
+    "title": [
+      "Authorship Attribution of Source Code: A Language-Agnostic Approach and Applicability in Software Engineering"
+    ],
+    "authors": [
+      "Bogomolov, Egor",
+      "Kovalenko, Vladimir",
+      "Rebryk, Yurii",
+      "Bacchelli, Alberto",
+      "Bryksin, Timofey"
+    ],
+    "date": [
+      "2020/01/30"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 10,
+    "cited_year": "2021",
+    "cited_venue": "29th ACM Joint ESEC/FSE",
+    "primary_url": "https://2021.esec-fse.org/details/fse-2021-papers/75/Authorship-Attribution-of-Source-Code-A-Language-Agnostic-Approach-and-Applicability"
+  },
+  {
+    "id": "2002.08155",
+    "url": "https://arxiv.org/abs/2002.08155",
+    "title": [
+      "CodeBERT: A Pre-Trained Model for Programming and Natural Languages"
+    ],
+    "authors": [
+      "Feng, Zhangyin",
+      "Guo, Daya",
+      "Tang, Duyu",
+      "Duan, Nan",
+      "Feng, Xiaocheng",
+      "Gong, Ming",
+      "Shou, Linjun",
+      "Qin, Bing",
+      "Liu, Ting",
+      "Jiang, Daxin",
+      "Zhou, Ming"
+    ],
+    "date": [
+      "2020/02/19"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 11,
+    "cited_year": "2020",
+    "cited_venue": "arXiv:2002.08155",
+    "primary_url": "https://arxiv.org/abs/2002.08155"
+  },
+  {
+    "id": "2009.08366",
+    "url": "https://arxiv.org/abs/2009.08366",
+    "title": [
+      "GraphCodeBERT: Pre-training Code Representations with Data Flow"
+    ],
+    "authors": [
+      "Guo, Daya",
+      "Ren, Shuo",
+      "Lu, Shuai",
+      "Feng, Zhangyin",
+      "Tang, Duyu",
+      "Liu, Shujie",
+      "Zhou, Long",
+      "Duan, Nan",
+      "Svyatkovskiy, Alexey",
+      "Fu, Shengyu",
+      "Tufano, Michele",
+      "Deng, Shao Kun",
+      "Clement, Colin",
+      "Drain, Dawn",
+      "Sundaresan, Neel",
+      "Yin, Jian",
+      "Jiang, Daxin",
+      "Zhou, Ming"
+    ],
+    "date": [
+      "2020/09/17"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 12,
+    "cited_year": "2020",
+    "cited_venue": "arXiv:2009.08366",
+    "primary_url": "https://arxiv.org/abs/2009.08366"
+  },
+  {
+    "id": "2109.00859",
+    "url": "https://arxiv.org/abs/2109.00859",
+    "title": [
+      "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation"
+    ],
+    "authors": [
+      "Wang, Yue",
+      "Wang, Weishi",
+      "Joty, Shafiq",
+      "Hoi, Steven C. H."
+    ],
+    "date": [
+      "2021/09/02"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 13,
+    "cited_year": "2021",
+    "cited_venue": "arXiv:2109.00859",
+    "primary_url": "https://arxiv.org/abs/2109.00859"
+  },
+  {
+    "id": "2203.03850",
+    "url": "https://arxiv.org/abs/2203.03850",
+    "title": [
+      "UniXcoder: Unified Cross-Modal Pre-training for Code Representation"
+    ],
+    "authors": [
+      "Guo, Daya",
+      "Lu, Shuai",
+      "Duan, Nan",
+      "Wang, Yanlin",
+      "Zhou, Ming",
+      "Yin, Jian"
+    ],
+    "date": [
+      "2022/03/08"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 14,
+    "cited_year": "2022",
+    "cited_venue": "arXiv:2203.03850",
+    "primary_url": "https://arxiv.org/abs/2203.03850"
+  },
+  {
+    "id": "1909.09436",
+    "url": "https://arxiv.org/abs/1909.09436",
+    "title": [
+      "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search"
+    ],
+    "authors": [
+      "Husain, Hamel",
+      "Wu, Ho-Hsiang",
+      "Gazit, Tiferet",
+      "Allamanis, Miltiadis",
+      "Brockschmidt, Marc"
+    ],
+    "date": [
+      "2019/09/20"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 15,
+    "cited_year": "2019",
+    "cited_venue": "arXiv:1909.09436",
+    "primary_url": "https://arxiv.org/abs/1909.09436"
+  },
+  {
+    "id": "1905.12386",
+    "url": "https://arxiv.org/abs/1905.12386",
+    "title": [
+      "Misleading Authorship Attribution of Source Code using Adversarial Learning"
+    ],
+    "authors": [
+      "Quiring, Erwin",
+      "Maier, Alwin",
+      "Rieck, Konrad"
+    ],
+    "date": [
+      "2019/05/29"
+    ],
+    "doi": [],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 16,
+    "cited_year": "2019",
+    "cited_venue": "28th USENIX Security Symposium, pp. 479–496",
+    "primary_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/quiring"
+  },
+  {
+    "id": "2202.06043",
+    "url": "https://arxiv.org/abs/2202.06043",
+    "title": [
+      "RoPGen: Towards Robust Code Authorship Attribution via Automatic Coding Style Transformation"
+    ],
+    "authors": [
+      "Li, Zhen",
+      "Chen, Guenevere (Qian)",
+      "Chen, Chen",
+      "Zou, Yayi",
+      "Xu, Shouhuai"
+    ],
+    "date": [
+      "2022/02/12"
+    ],
+    "doi": [
+      "10.1145/3510003.3510181"
+    ],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 17,
+    "cited_year": "2022",
+    "cited_venue": "44th International Conference on Software Engineering",
+    "primary_url": "https://doi.org/10.1145/3510003.3510181"
+  },
+  {
+    "id": "1603.02754",
+    "url": "https://arxiv.org/abs/1603.02754",
+    "title": [
+      "XGBoost: A Scalable Tree Boosting System"
+    ],
+    "authors": [
+      "Chen, Tianqi",
+      "Guestrin, Carlos"
+    ],
+    "date": [
+      "2016/03/09"
+    ],
+    "doi": [
+      "10.1145/2939672.2939785"
+    ],
+    "journal": [],
+    "journal_ref": null,
+    "verification": "arXiv primary metadata; journal status only where explicitly recorded",
+    "checked": "2026-09-05",
+    "number": 18,
+    "cited_year": "2016",
+    "cited_venue": "arXiv:1603.02754",
+    "primary_url": "https://arxiv.org/abs/1603.02754"
+  },
+  {
+    "title": [
+      "Scikit-learn: Machine Learning in Python"
+    ],
+    "authors": [
+      "Pedregosa, Fabian",
+      "Varoquaux, Gaël",
+      "Gramfort, Alexandre",
+      "Michel, Vincent",
+      "Thirion, Bertrand",
+      "Grisel, Olivier",
+      "Blondel, Mathieu",
+      "Prettenhofer, Peter",
+      "Weiss, Ron",
+      "Dubourg, Vincent",
+      "Vanderplas, Jake",
+      "Passos, Alexandre",
+      "Cournapeau, David",
+      "Brucher, Matthieu",
+      "Perrot, Matthieu",
+      "Duchesnay, Édouard"
+    ],
+    "date": [
+      "2011"
+    ],
+    "url": "https://www.jmlr.org/papers/v12/pedregosa11a.html",
+    "venue": "Journal of Machine Learning Research 12(85):2825–2830",
+    "doi": [],
+    "id": null,
+    "number": 19,
+    "cited_year": "2011",
+    "cited_venue": "Journal of Machine Learning Research 12(85):2825–2830",
+    "primary_url": "https://www.jmlr.org/papers/v12/pedregosa11a.html"
+  },
+  {
+    "title": [
+      "No Unbiased Estimator of the Variance of K-Fold Cross-Validation"
+    ],
+    "authors": [
+      "Bengio, Yoshua",
+      "Grandvalet, Yves"
+    ],
+    "date": [
+      "2004"
+    ],
+    "url": "https://www.jmlr.org/papers/volume5/grandvalet04a/grandvalet04a.pdf",
+    "venue": "Journal of Machine Learning Research 5:1089–1105",
+    "doi": [],
+    "id": null,
+    "number": 20,
+    "cited_year": "2004",
+    "cited_venue": "Journal of Machine Learning Research 5:1089–1105",
+    "primary_url": "https://www.jmlr.org/papers/volume5/grandvalet04a/grandvalet04a.pdf"
+  },
+  {
+    "title": [
+      "All Models are Wrong, but Many are Useful: Learning a Variable’s Importance by Studying an Entire Class of Prediction Models Simultaneously"
+    ],
+    "authors": [
+      "Fisher, Aaron",
+      "Rudin, Cynthia",
+      "Dominici, Francesca"
+    ],
+    "date": [
+      "2019"
+    ],
+    "url": "https://jmlr.org/papers/v20/18-760.html",
+    "venue": "Journal of Machine Learning Research 20(177):1–81",
+    "doi": [],
+    "id": null,
+    "number": 21,
+    "cited_year": "2019",
+    "cited_venue": "Journal of Machine Learning Research 20(177):1–81",
+    "primary_url": "https://jmlr.org/papers/v20/18-760.html"
+  }
+]

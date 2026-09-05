@@ -1,0 +1,45 @@
+{
+  "commit": "b3660c8262ae57e14498528119607ee673d4257a",
+  "files": [
+    {
+      "upstream_path": "experiment/task1/dataset/c.jsonl",
+      "bytes": 13110344,
+      "sha256": "a5c9eb95fcfb52ed0d49db4c7d9e5ebb99e8170a57071394878e81a8eb030dc4"
+    },
+    {
+      "upstream_path": "experiment/task1/dataset/cpp.jsonl",
+      "bytes": 11103833,
+      "sha256": "6fe03c3794845c8c50a7506b7b025f801822b1bffc5920ca8b002db1fb46235b"
+    },
+    {
+      "upstream_path": "experiment/task1/dataset/java.jsonl",
+      "bytes": 53777937,
+      "sha256": "f61041a9c91eb4a743f9f061d47ed19523e12ab0e26f8645c4bbf334c7c6d971"
+    },
+    {
+      "upstream_path": "experiment/task1/dataset/py.jsonl",
+      "bytes": 70802936,
+      "sha256": "985aa9a219d38a74a86d07664c178551e7939e439f19f3c28a09863ab6f2739b"
+    },
+    {
+      "upstream_path": "experiment/task2/dataset/c.jsonl",
+      "bytes": 6536284,
+      "sha256": "3d88cbb41a3b30c281cf6ef4be39dcc21e348d2d27b41cc841a8bf050323fb40"
+    },
+    {
+      "upstream_path": "experiment/task2/dataset/cpp.jsonl",
+      "bytes": 5512576,
+      "sha256": "56e6036961e533b01d1fc9ecdb6e079cb55b54be470a30ae81cbc00eca76bc5a"
+    },
+    {
+      "upstream_path": "experiment/task2/dataset/java.jsonl",
+      "bytes": 26702306,
+      "sha256": "b503bdb23275eb8af79a8ce15994b1c356dd93aae1c04bfc43c31c3b2de56e9f"
+    },
+    {
+      "upstream_path": "experiment/task2/dataset/py.jsonl",
+      "bytes": 35286143,
+      "sha256": "99c7c3c154e0f00ae1199df12a732d3f2f67882e29016609331a557fc6c624f3"
+    }
+  ]
+}

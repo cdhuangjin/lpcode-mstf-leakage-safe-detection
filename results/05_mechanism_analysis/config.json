@@ -1,0 +1,38 @@
+{
+  "expected_clean": 360,
+  "expected_unseen": 1440,
+  "frozen_registry_sha256": "f18c06f33f3f7f4037c074c58543ed7ff96342108bb4d39838262b626974df62",
+  "methods": {
+    "A0": {
+      "feature_count": 10,
+      "feature_family": "official10",
+      "representation": "concat"
+    },
+    "A1": {
+      "feature_count": 10,
+      "feature_family": "official10",
+      "representation": "concat_delta"
+    },
+    "A2": {
+      "feature_count": 28,
+      "feature_family": "enhanced28",
+      "representation": "concat"
+    },
+    "A3": {
+      "feature_count": 28,
+      "feature_family": "enhanced28",
+      "representation": "delta"
+    },
+    "A4": {
+      "feature_count": 28,
+      "feature_family": "enhanced28",
+      "representation": "concat_delta"
+    },
+    "A5": {
+      "feature_count": 28,
+      "feature_family": "enhanced28",
+      "representation": "full"
+    }
+  },
+  "schema_version": 1
+}
