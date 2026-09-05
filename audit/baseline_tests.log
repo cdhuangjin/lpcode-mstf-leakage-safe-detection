@@ -1,0 +1,41 @@
+........................................................................ [ 16%]
+........................................................................ [ 33%]
+........................................................................ [ 50%]
+........................................................................ [ 67%]
+........................................................................ [ 84%]
+...................................................................      [100%]
+============================== warnings summary ===============================
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+  C:\Users\PC\Documents\Codex\Reproduction005\release\submission-audit-20260905\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+  C:\Users\PC\Documents\Codex\Reproduction005\release\submission-audit-20260905\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+.venv\Lib\site-packages\matplotlib\_mathtext.py:30
+  C:\Users\PC\Documents\Codex\Reproduction005\release\submission-audit-20260905\.venv\Lib\site-packages\matplotlib\_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+tests/test_t1.py::test_real_smoke_runs_all_models_and_writes_16_clean_records
+tests/test_t1.py::test_real_smoke_runs_all_models_and_writes_16_clean_records
+tests/test_t1.py::test_real_smoke_runs_all_models_and_writes_16_clean_records
+tests/test_t1.py::test_real_smoke_runs_all_models_and_writes_16_clean_records
+tests/test_t1.py::test_real_smoke_runs_all_models_and_writes_16_clean_records
+tests/test_t1.py::test_real_smoke_runs_all_models_and_writes_16_clean_records
+tests/test_t1.py::test_real_smoke_runs_all_models_and_writes_16_clean_records
+tests/test_t1.py::test_real_smoke_runs_all_models_and_writes_16_clean_records
+  C:\Users\PC\Documents\Codex\Reproduction005\release\submission-audit-20260905\.venv\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: C:\Users\PC\Documents\Codex\Reproduction005\release\submission-audit-20260905\audit\baseline_tests.xml -
+427 passed, 19 warnings in 108.17s (0:01:48)

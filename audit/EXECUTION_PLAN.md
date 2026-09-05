@@ -1,0 +1,40 @@
+# Submission hardening implementation plan
+
+> For agentic workers: follow the supplied phase order. Use subagent-driven
+> development for bounded implementation and independent review; never start
+> external training before the reproducibility gate passes.
+
+**Goal:** independently verify the public deposit, add reviewer entry points,
+then evaluate CodeMirage only if provenance and reproducibility permit it.
+
+**Architecture:** preserve nested research modules and frozen bytes. Add
+scripts, tests and separate audit/recomputed outputs. Reuse the existing
+extractors, pairing, fixed models and ledger contracts.
+
+**Tech stack:** pinned Python 3.11 environment, pytest, existing NumPy /
+scikit-learn / XGBoost / tree-sitter code; GitHub versioned sources.
+
+- [x] Phase 0: inspect repository contracts and write repository_inventory.md.
+- [x] Phase 1: new clone + venv, pinned install, upstream acquisition, all tests
+  with JUnit XML; report exact counts, environment and elapsed time.
+- [x] Phase 2: test-first saved-ledger aggregation, strict matched contrasts,
+  rounded manuscript checks; JSON/Markdown audit, fail on missing cells.
+- [x] Phase 3: verify hashes, reconstruct pair isolation from raw sources and
+  compare saved split digests; missing evidence is BLOCKED, never zero.
+- [ ] Phase 4: test-first reproduce.py modes smoke/audit/table2/table3/all-saved;
+  smoke must actually fit fixed A0/A1 on one held-out fold.
+- [ ] Phases 5–6: README and reproducibility.md with tested commands, output
+  mapping, measured runtime and frozen/recomputed/full-training distinctions.
+- [ ] Reproducibility gate: all required checks PASS before external work.
+- [ ] Phases 7–14: official CodeMirage source/licence/schema audit; explicit
+  positive and negative provenance feasibility; freeze E1 five-seed A0/A4/A5
+  configuration before scoring. No parser or hyperparameter expansion.
+- [ ] Phases 15–21: run shared manifests, save all metrics and hashes, inspect
+  errors only from saved predictions, generate paired tables and simple plot.
+- [ ] Phases 22–30: manuscript-ready additions, A4/A5 positioning, CodeBERT
+  feasibility only, final reports and evidence-conditioned recommendation.
+
+The supplied task document defines the full requirements. Later implementation
+details depend on audited schemas; no adapter or experimental labels will be
+invented ahead of that audit. Report any unresolved blocking condition with
+the precise next decision required.
