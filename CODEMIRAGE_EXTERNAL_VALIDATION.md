@@ -18,4 +18,4 @@ Q1 (actual human-source/paraphrase pair) is not established; Q2 (verified nonmat
 
 Detailed evidence: [dataset audit](external/codemirage_dataset_audit.md), [schema probe](external/schema_probe_notes.md), [source metadata](external/codemirage_source_metadata.json). The licence metadata is CC-BY-NC-ND-4.0; no broader permission is inferred.
 
-No external scores, predictions or performance plot were produced. Request an author-verified versioned ancestry mapping and clarify direct-human paraphrase availability. The [request draft](external/provenance_request_draft.md) has not been sent. Existing results remain limited to LPcode.
+No external scores, predictions or performance plot were produced. External validation would require an author-verified versioned ancestry mapping and clarification of direct-human paraphrase availability. No request was sent during the recorded audit. Existing results remain limited to LPcode.

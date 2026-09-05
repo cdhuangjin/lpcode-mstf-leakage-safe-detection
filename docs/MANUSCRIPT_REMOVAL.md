@@ -6,4 +6,6 @@ The latest submitted manuscript remains in the authors' local archive. Research 
 
 This is a normal forward commit, not a history rewrite. Earlier commit URLs, existing tags and their automatically generated source archives may still expose historical manuscript files. It is not a claim that all historical copies or third-party downloads have been erased.
 
+The authors subsequently requested cleanup of internal manuscript plans, replacement prose, unsent correspondence and an obsolete manuscript handover. Those files were removed from the current branch, while research code, frozen results and technical audit evidence were retained. Existing commits and tags remain unchanged to preserve manuscript citations.
+
 Historical manuscript-specific audits require the private manuscript input at `results/07_manuscript/paper_revised.md`; without that input their complete manuscript-checking step is not expected to pass. Their saved reports remain historical evidence. Saved numerical-result reproduction and research source integrity checks do not require republishing the manuscript. Do not describe prior full-suite results as a fresh all-tests pass for this removal commit.

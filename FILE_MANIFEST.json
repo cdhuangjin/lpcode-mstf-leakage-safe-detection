@@ -9,8 +9,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 720,
-      "sha256": "0043c3df6ee84bd39e7db82db3d9bb0767dca3dcc911e9f2cdc1d3175b63f80d"
+      "bytes": 858,
+      "sha256": "fbd82eaff4c986be94b6b241f132f2ac9ccc9fa0d57ed3d0b5644afae98f673a"
     },
     {
       "path": "CITATION.cff",
@@ -34,8 +34,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14308,
-      "sha256": "937d224e0b32314f4aafcaba121db7555209a556ba25bbcd71a1753e43760820"
+      "bytes": 14322,
+      "sha256": "8acf1927fe05faa38fb6e28d67d9bd144d684461340c03130b9e481472dcd179"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -84,8 +84,8 @@
     },
     {
       "path": "docs/MANUSCRIPT_REMOVAL.md",
-      "bytes": 1405,
-      "sha256": "ca9190f6d66fb98c82ccc4842fb992869cb3025ac809caaf1346871219c2c6ce"
+      "bytes": 1764,
+      "sha256": "102f3a65c1e5b04be39a216bb0175a900eeb5ffd5edb4a46e6f81cd7c6507760"
     },
     {
       "path": "docs/RELEASE_STATUS.md",
@@ -751,11 +751,6 @@
       "path": "results/06_paper_assets/frozen_result_registry.json",
       "bytes": 8964,
       "sha256": "f18c06f33f3f7f4037c074c58543ed7ff96342108bb4d39838262b626974df62"
-    },
-    {
-      "path": "results/07_manuscript/PUBLIC_RELEASE_HANDOVER.md",
-      "bytes": 3487,
-      "sha256": "0f1527eadabb15629b3de2ab716625fa42c827e0fc1ead4647b31018a4625c1f"
     },
     {
       "path": "results/07_manuscript/REFERENCE_AUDIT_REVISED.md",

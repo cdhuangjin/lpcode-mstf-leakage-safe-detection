@@ -141,7 +141,7 @@ This rendering command writes revised figure artifacts and public QA outputs at 
 
 ## External validation
 
-The reproducibility gate passed. The subsequent CodeMirage eligibility audit found insufficient public source/paraphrase provenance for the frozen paired task. Gate E is BLOCKED and was not run; no external scores or generalization claim are included. See the [external validation report](CODEMIRAGE_EXTERNAL_VALIDATION.md), [paper update plan](PAPER_UPDATE_PLAN.md) and [next decision](NEXT_DECISION.md). Metadata probes are recorded separately from any corpus acquisition or training.
+The reproducibility gate passed. The subsequent CodeMirage eligibility audit found insufficient public source/paraphrase provenance for the frozen paired task. Gate E is BLOCKED and was not run; no external scores or generalization claim are included. See the [external validation report](CODEMIRAGE_EXTERNAL_VALIDATION.md). Metadata probes are recorded separately from any corpus acquisition or training. Internal manuscript plans and correspondence drafts are not distributed in the current branch.
 
 ## Outputs and integrity scope
 

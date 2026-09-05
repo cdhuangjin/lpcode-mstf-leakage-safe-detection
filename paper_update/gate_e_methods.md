@@ -1,2 +1,0 @@
-# Eligibility-audit text, not executed Gate E Methods
-We assessed whether the public CodeMirage release could support the paired-provenance task without changing its labels. The audit examined the versioned file inventory, dataset schema and generation procedure. The release exposed code, language, source and variant but no row-level origin mapping. We therefore did not construct training or test pairs. The prospective language intersection was Python, C, C++ and Java; no external feature extraction or model fitting was performed.

@@ -31,4 +31,4 @@ E1 and optional E2 were not run; no pair labels, adapter outputs, predictions, f
 
 Obtain an author-supplied mapping binding candidate IDs/hashes to direct parent IDs/hashes, ultimate human origins, language, generator, transformation stage and dataset revision. Ask whether direct human-to-paraphrase examples exist. Verify mapping coverage and rights, then determine compatibility before freezing a run. No fallback to single-endpoint AI-code classification is authorized.
 
-[Draft request](provenance_request_draft.md) is not sent.
+No provenance request was sent during this audit. The internal correspondence draft is not distributed in the current branch.
