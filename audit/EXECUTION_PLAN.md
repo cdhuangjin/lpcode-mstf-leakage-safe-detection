@@ -23,9 +23,9 @@ scikit-learn / XGBoost / tree-sitter code; GitHub versioned sources.
   compare saved split digests; missing evidence is BLOCKED, never zero.
 - [x] Phase 4: test-first reproduce.py modes smoke/audit/table2/table3/all-saved;
   smoke must actually fit fixed A0/A1 on one held-out fold.
-- [ ] Phases 5–6: README and reproducibility.md with tested commands, output
+- [x] Phases 5–6: README and reproducibility.md with tested commands, output
   mapping, measured runtime and frozen/recomputed/full-training distinctions.
-- [ ] Reproducibility gate: all required checks PASS before external work.
+- [x] Reproducibility gate: all required checks PASS before external work.
 - [ ] Phases 7–14: official CodeMirage source/licence/schema audit; explicit
   positive and negative provenance feasibility; freeze E1 five-seed A0/A4/A5
   configuration before scoring. No parser or hyperparameter expansion.
