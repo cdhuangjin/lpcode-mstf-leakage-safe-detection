@@ -4,7 +4,7 @@
 
 Research software and frozen evidence for **Multi-view coding-style transitions for leakage-safe paired detection of LLM-paraphrased code**, by Jin Huang, Qiao Li and Qisen Gao. The input is a **human source–candidate pair**; the task is to classify its labelled paraphrase relationship. This is not a standalone, candidate-only AI-code detector, a semantic-equivalence test or proof of historical provenance.
 
-The [public repository](https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection) has an existing v1.0.1 release. The audit and reproduction additions described here are local submission-preparation work until explicitly published; no new release version, accepted publication or DOI is asserted. Start with saved-result reproduction below, or read the complete [reproducibility guide](reproducibility.md).
+The [public repository](https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection) has an existing v1.0.1 release. This hardening revision adds audit and reviewer reproduction tools; it does not assert a new tagged version, accepted publication or DOI. Start with saved-result reproduction below, or read the complete [reproducibility guide](reproducibility.md) and [final audit](FINAL_REPRODUCIBILITY_AUDIT.md).
 
 ## Paper task
 
@@ -141,7 +141,7 @@ This rendering command writes revised figure artifacts and public QA outputs at 
 
 ## External validation
 
-External CodeMirage / Gate E validation has not started. No external data, results or generalization claim is included. Feasibility assessment remains pending completion of the reproduction gate.
+The reproducibility gate passed. The subsequent CodeMirage eligibility audit found insufficient public source/paraphrase provenance for the frozen paired task. Gate E is BLOCKED and was not run; no external scores or generalization claim are included. See the [external validation report](CODEMIRAGE_EXTERNAL_VALIDATION.md), [paper update plan](PAPER_UPDATE_PLAN.md) and [next decision](NEXT_DECISION.md). Metadata probes are recorded separately from any corpus acquisition or training.
 
 ## Outputs and integrity scope
 

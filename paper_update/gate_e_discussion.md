@@ -1,0 +1,2 @@
+# Discussion addition
+The remaining external-validity gap cannot be closed by treating a source-labelled corpus as a paired benchmark. A paired transition model requires evidence connecting each candidate to its source; source-category labels alone do not provide that relationship. Future external evaluation should preserve both task semantics and auditable ancestry rather than reuse a superficially similar classification label.

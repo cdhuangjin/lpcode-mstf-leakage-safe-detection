@@ -1,0 +1,270 @@
+{
+  "observed_date": "2026-09-05",
+  "revision": "174c25ffa9e9f218f8526d403b3aba9631dcfc43",
+  "license_label": "cc-by-nc-nd-4.0",
+  "csv_headers": {
+    "test": "code,language,source,variant",
+    "train": "code,language,source,variant"
+  },
+  "header_probe": {
+    "bytes_read_per_file": 128,
+    "http_status": 206
+  },
+  "tree": [
+    {
+      "type": "file",
+      "oid": "0b43cccb81ccd4907d130ab47f0e642caeff37e0",
+      "size": 2552,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "3532924d726464f5a47f379c3e1acad663e9738c",
+      "size": 1019,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "ba68abbd8c8f57e8e3f73483baf33ebd709528d2",
+      "size": 210549770,
+      "lfs": {
+        "oid": "d6385634ba8fc1c7c945021bdd0789786eab54d7421a50a4009be0b32220d8d6",
+        "size": 210549770,
+        "pointerSize": 134
+      },
+      "xetHash": "037206d58d4e4df269bc292f65c1244f7a2ef66af95f5a818d67ff78d99056a1",
+      "path": "test.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a435994220f3679e4f059ce6726d62557519caf9",
+      "size": 493199393,
+      "lfs": {
+        "oid": "2c3d105207a6852495b19b3aa2fb5b4458ed1270c36c1f773123edb8605fdbfc",
+        "size": 493199393,
+        "pointerSize": 134
+      },
+      "xetHash": "7aed53f447b45b2254cb6597a78f9b1ffb37d8ef3be8d41b394f709309cc556f",
+      "path": "train.csv"
+    }
+  ],
+  "statistics": {
+    "test": {
+      "num_examples": 62996,
+      "statistics": [
+        {
+          "column_name": "code",
+          "column_type": "string_text",
+          "column_statistics": {
+            "nan_count": 0,
+            "nan_proportion": 0,
+            "min": 33,
+            "max": 69146,
+            "mean": 3277.84621,
+            "median": 2932,
+            "std": 1846.21428,
+            "histogram": {
+              "hist": [
+                60325,
+                2577,
+                83,
+                5,
+                4,
+                0,
+                0,
+                0,
+                0,
+                2
+              ],
+              "bin_edges": [
+                33,
+                6945,
+                13857,
+                20769,
+                27681,
+                34593,
+                41505,
+                48417,
+                55329,
+                62241,
+                69146
+              ]
+            }
+          }
+        },
+        {
+          "column_name": "language",
+          "column_type": "string_label",
+          "column_statistics": {
+            "nan_count": 0,
+            "nan_proportion": 0,
+            "no_label_count": 0,
+            "no_label_proportion": 0,
+            "n_unique": 10,
+            "frequencies": {
+              "PHP": 6298,
+              "HTML": 6300,
+              "CSharp": 6299,
+              "CPP": 6299,
+              "JavaScript": 6300,
+              "Java": 6300,
+              "C": 6300,
+              "Python": 6300,
+              "Ruby": 6300,
+              "Go": 6300
+            }
+          }
+        },
+        {
+          "column_name": "source",
+          "column_type": "string_label",
+          "column_statistics": {
+            "nan_count": 0,
+            "nan_proportion": 0,
+            "no_label_count": 0,
+            "no_label_proportion": 0,
+            "n_unique": 11,
+            "frequencies": {
+              "gemini-2.0-flash": 6000,
+              "gemini-2.0-pro-exp": 5998,
+              "gpt-4o-mini": 6000,
+              "gemini-2.0-flash-thinking-exp": 6000,
+              "qwen2.5-coder": 6000,
+              "o3-mini": 6000,
+              "Human": 3000,
+              "deepseek-v3": 6000,
+              "claude-3.5-haiku": 6000,
+              "llama3.3-70b": 6000,
+              "deepseek-r1": 5998
+            }
+          }
+        },
+        {
+          "column_name": "variant",
+          "column_type": "string_label",
+          "column_statistics": {
+            "nan_count": 3000,
+            "nan_proportion": 0.04762,
+            "no_label_count": 0,
+            "no_label_proportion": 0,
+            "n_unique": 2,
+            "frequencies": {
+              "Normal": 29999,
+              "Paraphrased": 29997
+            }
+          }
+        }
+      ],
+      "partial": false
+    },
+    "train": {
+      "num_examples": 146992,
+      "statistics": [
+        {
+          "column_name": "code",
+          "column_type": "string_text",
+          "column_statistics": {
+            "nan_count": 2,
+            "nan_proportion": 0.00001,
+            "min": 3,
+            "max": 69607,
+            "mean": 3291.29491,
+            "median": 2956,
+            "std": 1800.38536,
+            "histogram": {
+              "hist": [
+                140745,
+                6102,
+                130,
+                9,
+                0,
+                0,
+                1,
+                0,
+                2,
+                1
+              ],
+              "bin_edges": [
+                3,
+                6964,
+                13925,
+                20886,
+                27847,
+                34808,
+                41769,
+                48730,
+                55691,
+                62652,
+                69607
+              ]
+            }
+          }
+        },
+        {
+          "column_name": "language",
+          "column_type": "string_label",
+          "column_statistics": {
+            "nan_count": 0,
+            "nan_proportion": 0,
+            "no_label_count": 0,
+            "no_label_proportion": 0,
+            "n_unique": 10,
+            "frequencies": {
+              "Java": 14700,
+              "JavaScript": 14700,
+              "PHP": 14698,
+              "HTML": 14698,
+              "CSharp": 14696,
+              "Python": 14700,
+              "CPP": 14700,
+              "Ruby": 14700,
+              "C": 14700,
+              "Go": 14700
+            }
+          }
+        },
+        {
+          "column_name": "source",
+          "column_type": "string_label",
+          "column_statistics": {
+            "nan_count": 0,
+            "nan_proportion": 0,
+            "no_label_count": 0,
+            "no_label_proportion": 0,
+            "n_unique": 11,
+            "frequencies": {
+              "gemini-2.0-flash": 14000,
+              "claude-3.5-haiku": 14000,
+              "gpt-4o-mini": 14000,
+              "deepseek-v3": 14000,
+              "gemini-2.0-flash-thinking-exp": 14000,
+              "qwen2.5-coder": 14000,
+              "llama3.3-70b": 14000,
+              "gemini-2.0-pro-exp": 13992,
+              "o3-mini": 14000,
+              "deepseek-r1": 14000,
+              "Human": 7000
+            }
+          }
+        },
+        {
+          "column_name": "variant",
+          "column_type": "string_label",
+          "column_statistics": {
+            "nan_count": 7000,
+            "nan_proportion": 0.04762,
+            "no_label_count": 0,
+            "no_label_proportion": 0,
+            "n_unique": 2,
+            "frequencies": {
+              "Paraphrased": 69996,
+              "Normal": 69996
+            }
+          }
+        }
+      ],
+      "partial": false
+    }
+  },
+  "scope": "Public metadata only; no full CSV downloaded, no snippets saved, no pair mapping inferred. Statistics endpoint is unpinned."
+}

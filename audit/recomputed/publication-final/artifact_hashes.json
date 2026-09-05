@@ -1,0 +1,7 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "report.json": "b9c585246006f608778808f3c0cb583ebea87bc3021c4174bcdd2f056fb28f42"
+  },
+  "scope": "All files in this run directory; manifest itself excluded. Runtime-dependent files may differ."
+}

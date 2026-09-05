@@ -126,6 +126,6 @@ The current local suite completed 481 tests passed, 19 warnings, in 109.32 s; [a
 
 ## External validation and availability
 
-CodeMirage / Gate E external validation has not started; feasibility assessment is pending the reproduction gate. No external experiment, dataset acquisition or result is asserted here.
+The reproducibility gate passed before CodeMirage feasibility was examined. The public schema and sampled CSV headers do not establish the source/paraphrase ancestry required by this paired task. Gate E is BLOCKED and was not run. Only public metadata and partial header requests were inspected; no full external corpus was downloaded, no pair labels were inferred, and no external results are claimed. See [CODEMIRAGE_EXTERNAL_VALIDATION.md](CODEMIRAGE_EXTERNAL_VALIDATION.md) for evidence and restart requirements.
 
 Raw LPcode data are available from the pinned upstream source and are not redistributed because no open licence was identified. Frozen numerical evidence and figure sources are publicly inspectable in the [project repository](https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection), without an additional open-data reuse grant. MIT applies only to authors' new software under [LICENSE_SCOPE.md](LICENSE_SCOPE.md); see [DATA_LICENSE.md](DATA_LICENSE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). 原始数据从固定上游版本获取；本仓库公开的指标与绘图源数据不附加开放复用许可，作者新增软件单独适用 MIT。No CC BY licence, new release version, DOI or archival preservation guarantee is implied.

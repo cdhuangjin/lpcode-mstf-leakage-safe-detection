@@ -26,13 +26,14 @@ scikit-learn / XGBoost / tree-sitter code; GitHub versioned sources.
 - [x] Phases 5–6: README and reproducibility.md with tested commands, output
   mapping, measured runtime and frozen/recomputed/full-training distinctions.
 - [x] Reproducibility gate: all required checks PASS before external work.
-- [ ] Phases 7–14: official CodeMirage source/licence/schema audit; explicit
+- [x] Phases 7–9: official CodeMirage source/licence/schema and eligibility audit; Q1/Q3 provenance is not established. See external/codemirage_dataset_audit.md. E1/E2 are BLOCKED, not negative results.
+- [ ] Phases 10–14 (BLOCKED): adapter and configuration require verified
   positive and negative provenance feasibility; freeze E1 five-seed A0/A4/A5
   configuration before scoring. No parser or hyperparameter expansion.
-- [ ] Phases 15–21: run shared manifests, save all metrics and hashes, inspect
+- [ ] Phases 15–21 (BLOCKED): run shared manifests, save all metrics and hashes, inspect
   errors only from saved predictions, generate paired tables and simple plot.
-- [ ] Phases 22–30: manuscript-ready additions, A4/A5 positioning, CodeBERT
-  feasibility only, final reports and evidence-conditioned recommendation.
+- [x] Phases 22–27, 29–30: boundary-aware manuscript draft additions, A4/A5 positioning, CodeBERT feasibility only, final reports and HOLD recommendation. Frozen Word/PDF remains unchanged; no external-result prose is invented.
+- [ ] Phase 28 external artifact CSV utility (DEFERRED with the blocked run); existing smoke/saved-output SHA-256 manifests are complete.
 
 The supplied task document defines the full requirements. Later implementation
 details depend on audited schemas; no adapter or experimental labels will be
