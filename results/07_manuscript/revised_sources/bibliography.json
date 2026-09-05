@@ -557,5 +557,26 @@
     "cited_year": "2019",
     "cited_venue": "Journal of Machine Learning Research 20(177):1–81",
     "primary_url": "https://jmlr.org/papers/v20/18-760.html"
+  },
+  {
+    "title": [
+      "LPcode / MSTF: leakage-safe paired provenance detection — software and numerical evidence"
+    ],
+    "authors": [
+      "Huang, Jin",
+      "Li, Qiao",
+      "Gao, Qisen"
+    ],
+    "date": [
+      "2026"
+    ],
+    "url": "https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection/tree/1b6a5b9f7f274b22a718b53219581d5f57a30792",
+    "venue": "GitHub, research deposit, revision 1b6a5b9",
+    "doi": [],
+    "id": null,
+    "number": 22,
+    "cited_year": "2026",
+    "cited_venue": "GitHub, research deposit, revision 1b6a5b9",
+    "primary_url": "https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection/tree/1b6a5b9f7f274b22a718b53219581d5f57a30792"
   }
 ]

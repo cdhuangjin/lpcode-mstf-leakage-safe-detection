@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "anonymous": true,
+  "commit": "1b6a5b9f7f274b22a718b53219581d5f57a30792",
+  "repository": "https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection",
+  "checks": [
+    {
+      "path": "README.md",
+      "url": "https://api.github.com/repos/cdhuangjin/lpcode-mstf-leakage-safe-detection/contents/README.md?ref=1b6a5b9f7f274b22a718b53219581d5f57a30792",
+      "http_status": 200,
+      "sha256": "41b75fd43627c077ae1df77bd11642df93c930b931ffdcca578a448cfa19f6f4"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "url": "https://api.github.com/repos/cdhuangjin/lpcode-mstf-leakage-safe-detection/contents/scripts/verify_release.py?ref=1b6a5b9f7f274b22a718b53219581d5f57a30792",
+      "http_status": 200,
+      "sha256": "ffa3c04a74e07de4ea75ea950ca3ee400015f5f8c67f0b8e22b715a573bb722b"
+    },
+    {
+      "path": "results/06_paper_assets/frozen_result_registry.json",
+      "url": "https://api.github.com/repos/cdhuangjin/lpcode-mstf-leakage-safe-detection/contents/results/06_paper_assets/frozen_result_registry.json?ref=1b6a5b9f7f274b22a718b53219581d5f57a30792",
+      "http_status": 200,
+      "sha256": "f18c06f33f3f7f4037c074c58543ed7ff96342108bb4d39838262b626974df62"
+    }
+  ]
+}

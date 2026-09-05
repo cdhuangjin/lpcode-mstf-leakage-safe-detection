@@ -28,7 +28,7 @@ def run():
             kind,num,caption=cap.groups()
             commands.extend([dict(command='set',path=path,props={'text':kind+' ','style':'Caption','keepWithNext':'true' if kind=='Table' else 'false','size':'9pt'}),dict(command='add',parent=path,type='field',props={'fieldType':'seq','identifier':kind}),dict(command='add',parent=path,type='run',props={'text':'. '+caption,'size':'9pt'})])
         if re.match(r'^\[\d+\] ',text):commands.append(dict(command='set',path=path,props={'indent':'360','hangingIndent':'360','size':'9pt','spaceAfter':'5pt'}))
-        if text in ['Funding','Conflict of interest','Data availability']:commands.append(dict(command='set',path=path,props={'style':'Heading2'}))
+        if text in ['Funding','Conflict of interest','Data availability','Code availability']:commands.append(dict(command='set',path=path,props={'style':'Heading2'}))
     commands+= [dict(command='add',parent='/',type='header',props={'text':'MSTF · Leakage-safe paired provenance','align':'right','size':'9pt'}),dict(command='add',parent='/',type='footer',props={'field':'page','align':'center','size':'9pt'}),dict(command='set',path='/',props={'recalcFields':'seq'}),dict(command='set',path='/settings',props={'updateFields':'true'})]
     batch=OUT/'word_format_commands.json';batch.write_text(json.dumps(commands,ensure_ascii=False,indent=2),encoding='utf-8')
     result=cli(['batch',str(P),'--input',str(batch),'--stop-on-error'])

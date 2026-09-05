@@ -293,3 +293,14 @@ T2  - Journal of Machine Learning Research 20(177):1–81
 UR  - https://jmlr.org/papers/v20/18-760.html
 N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
 ER  -
+
+TY  - GEN
+TI  - LPcode / MSTF: leakage-safe paired provenance detection — software and numerical evidence
+AU  - Huang, Jin
+AU  - Li, Qiao
+AU  - Gao, Qisen
+PY  - 2026
+T2  - GitHub, research deposit, revision 1b6a5b9
+UR  - https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection/tree/1b6a5b9f7f274b22a718b53219581d5f57a30792
+N1  - Consulted manuscript bibliography record; preprint and published metadata are not conflated.
+ER  -

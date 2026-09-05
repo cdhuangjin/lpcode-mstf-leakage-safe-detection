@@ -8,14 +8,16 @@ def check():
     refs=json.loads((OUT/'bibliography.json').read_text(encoding='utf-8'))
     prose,bib=text.split('## References')
     cited={int(n) for m in re.finditer(r'\[(\d+(?:,\d+)*)\]',prose) for n in m[1].split(',')}
-    checks['citation_bijection']=cited==set(range(1,22))==set(map(int,re.findall(r'(?m)^\[(\d+)\]',bib)))
-    checks['reference_titles_unique']=len({r['title'][0].casefold() for r in refs})==21
+    checks['citation_bijection']=cited==set(range(1,len(refs)+1))==set(map(int,re.findall(r'(?m)^\[(\d+)\]',bib)))
+    checks['reference_titles_unique']=len({r['title'][0].casefold() for r in refs})==len(refs)
     checks['eleven_sections']=len(re.findall(r'(?m)^## \d+ ',prose))==11
     checks['abstract_under_200']=len(prose.split('## Abstract')[1].split('Keywords:')[0].split())<=200
     checks['seven_tables']=re.findall(r'(?m)^Table (\d+)\.',prose)==list('1234567')
     checks['five_figures']=re.findall(r'!\[Figure (\d+)\.',prose)==list('12345')
     checks['negative_c4_preserved']='-0.019' in text and '+0.007' in text
-    checks['explicit_release_blocker']=text.count('TODO_PUBLIC_RELEASE')==1
+    release=json.loads((A/'public_repository_verification.json').read_text(encoding='utf-8'))
+    checks['verified_public_access']=release['status']=='PASS' and release['anonymous'] is True
+    checks['no_public_release_placeholder']='TODO_PUBLIC_RELEASE' not in text
     checks['no_other_template_tokens']=not re.search(r'\{\{.*?\}\}|\bXX\b|lorem ipsum',text)
     checks['mean_f1_definition']='positive-class' in text and 'does not average F1 over the two class labels' in text
     for i,r in enumerate(e['main']):
@@ -54,6 +56,6 @@ def check():
     (OUT/'figure_source_preflight.txt').write_text(r.stdout,encoding='utf-8')
     checks['figure_source_no_fail']='[FAIL]' not in r.stdout
     status='PASS' if all(checks.values()) else 'FAIL'
-    report={'status':status,'checks':checks,'pdf_pages':len(pdf),'word_editable_review_format':True,'release_status':'BLOCKER','outputs_sha256':{x.name:digest(x) for x in [P/'paper_revised.md',P/'LPcode_MSTF_Wiley_Revised.pdf',P/'LPcode_MSTF_Wiley_Revised.docx']}}
+    report={'status':status,'checks':checks,'pdf_pages':len(pdf),'word_editable_review_format':True,'release_status':'PUBLIC; open-reuse licence confirmation pending','outputs_sha256':{x.name:digest(x) for x in [P/'paper_revised.md',P/'LPcode_MSTF_Wiley_Revised.pdf',P/'LPcode_MSTF_Wiley_Revised.docx']}}
     (A/'revised_final_audit.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(status,[k for k,v in checks.items() if not v]);return report
 if __name__=='__main__':check()

@@ -38,7 +38,7 @@ def build():
     body=re.sub(r'(?m)^Table (\d+)\. ([^\n]*)\n\n((?:\|[^\n]*\n)+)',tbl,body)
     # Strip hand-written section numbers; USG supplies numbering.
     body=re.sub(r'(?m)^## \d+ ', '# ',body);body=re.sub(r'(?m)^### \d+\.\d+ ', '## ',body)
-    body=body.replace('## Declarations','# Declarations').replace('### Funding','## Funding').replace('### Conflict of interest','## Conflict of interest').replace('### Data availability','## Data availability')
+    body=body.replace('## Declarations','# Declarations').replace('### Funding','## Funding').replace('### Conflict of interest','## Conflict of interest').replace('### Data availability','## Data availability').replace('### Code availability','## Code availability')
     texbody=pandoc(body)
     refs=json.loads((OUT/'bibliography.json').read_text(encoding='utf-8'))
     bibliography=['\\begin{thebibliography}{99}']
