@@ -177,4 +177,4 @@ Raw data are obtained from pinned upstream LPcode and are not redistributed here
 
 ## Citation
 
-Use [CITATION.cff](CITATION.cff) for this software/evidence release, and cite the original LPcode work and dataset independently. The [main manuscript](results/07_manuscript/LPcode_MSTF_Wiley_Revised.pdf), [supplement](results/07_manuscript/LPcode_MSTF_Supplementary.pdf) and [RIS bibliography](references.ris) accompany the evidence. The work is a manuscript; no acceptance, invented DOI or DOI-backed preservation deposit is claimed.
+Use [CITATION.cff](CITATION.cff) for this software/evidence release, and cite the original LPcode work and dataset independently. The [RIS bibliography](references.ris) accompanies the evidence. Manuscript and supplementary-document downloads were removed from the current branch and release attachments at the authors' request on 6 September 2026; the latest submitted manuscript is not published here. Code, frozen numerical evidence and figure source data are retained. No acceptance or archival DOI is claimed. See [document removal scope](docs/MANUSCRIPT_REMOVAL.md).

@@ -21,3 +21,11 @@ repro/2502.17749/v1/.venv/
 validation-local/
 results/07_manuscript/revised_preview/
 results/07_manuscript/revised_build/
+# Keep private manuscript and submission documents out of future releases.
+results/07_manuscript/*.docx
+results/07_manuscript/*.pdf
+results/07_manuscript/LPcode_MSTF_Supplementary.*
+results/07_manuscript/paper_revised.md
+results/07_manuscript/revised_sources/manuscript_template.md
+**/cover_letter.*
+**/license_corrected_20260905/
