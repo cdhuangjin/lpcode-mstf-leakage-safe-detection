@@ -1,0 +1,577 @@
+{
+  "status": "PASS",
+  "scope": "Gate A-D, A0-A5 means, negative-pair means and paired deltas; CIs not recomputed",
+  "sources": {
+    "FILE_MANIFEST.json": "09e4a39142d62574235885d966709f39ac959ea9d3400d0c624fde67601406d0",
+    "results/01_transition_test_strict_origins/folds.jsonl": "7c2c7887a0ee795b05d633eb3ddf2f4bc7fc9f27f503e5e9c8956ca5761157bd",
+    "results/02_unseen_llm/folds.jsonl": "ee56023c4e4555e7a826708f9da7f279cab4eb06fdebbde2adcfc69997a57fae",
+    "results/03_style_attack/folds.jsonl": "fddc0c61fea7dfdd2658d6e3b5119b63ae8a2c604606dfb3d1e8c6ddae065c0b",
+    "repro/2502.17749/v1/results/04_cross_language/folds.jsonl": "ea714f618542ece8d101d24a6edd558b91c362c3916bafb3351ce5e99283ffe6",
+    "results/05_mechanism_analysis/folds.jsonl": "73c24ae80ab6dcfa36acb857456818e005cbfbedc2197fb720c0098d7f300903",
+    "results/negative_pair_robustness/raw_results.json": "7aebf034cdd3011d1d24def8640b04c19638607080894145197a95fb9498159b",
+    "results/07_manuscript/paper_revised.md": "4a6828f7d0e8982b2184180b98eeae0cc59b33be196d1e2193cb3e91a4a6bfaa"
+  },
+  "statistics": {
+    "Gate A": {
+      "baseline": 0.9149157323442745,
+      "method": 0.9317469169035462,
+      "delta_pp": 1.6831184559271604,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "Gate B": {
+      "baseline": 0.8914988430842783,
+      "method": 0.9671298032333194,
+      "delta_pp": 7.563096014904112,
+      "cells": 240,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "Gate C": {
+      "baseline": 0.8415260387132605,
+      "method": 0.9531278544597213,
+      "delta_pp": 11.160181574646076,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "Gate D": {
+      "baseline": 0.8938137486214468,
+      "method": 0.9652215804841137,
+      "delta_pp": 7.140783186266681,
+      "cells": 12,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A0 clean": {
+      "baseline": 0.9149157323442745,
+      "method": 0.9149157323442745,
+      "delta_pp": 0.0,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A0 unseen": {
+      "baseline": 0.9089372771555689,
+      "method": 0.9089372771555689,
+      "delta_pp": 0.0,
+      "cells": 240,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A1 clean": {
+      "baseline": 0.9149157323442745,
+      "method": 0.9317469169035462,
+      "delta_pp": 1.6831184559271604,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A1 unseen": {
+      "baseline": 0.9089372771555689,
+      "method": 0.9204700419564912,
+      "delta_pp": 1.1532764800922186,
+      "cells": 240,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A2 clean": {
+      "baseline": 0.9149157323442745,
+      "method": 0.9608392760430582,
+      "delta_pp": 4.5923543698783655,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A2 unseen": {
+      "baseline": 0.9089372771555689,
+      "method": 0.9586926313377425,
+      "delta_pp": 4.975535418217351,
+      "cells": 240,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A3 clean": {
+      "baseline": 0.9149157323442745,
+      "method": 0.9682945361059245,
+      "delta_pp": 5.337880376165005,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A3 unseen": {
+      "baseline": 0.9089372771555689,
+      "method": 0.964108952932598,
+      "delta_pp": 5.517167577702904,
+      "cells": 240,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A4 clean": {
+      "baseline": 0.9149157323442745,
+      "method": 0.9726656538111014,
+      "delta_pp": 5.774992146682682,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A4 unseen": {
+      "baseline": 0.9089372771555689,
+      "method": 0.967057722913079,
+      "delta_pp": 5.8120445757510035,
+      "cells": 240,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A5 clean": {
+      "baseline": 0.9149157323442745,
+      "method": 0.9724806385938991,
+      "delta_pp": 5.756490624962463,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "A5 unseen": {
+      "baseline": 0.9089372771555689,
+      "method": 0.9671298032333194,
+      "delta_pp": 5.819252607775051,
+      "cells": 240,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "negative current": {
+      "baseline": 0.9149157323442745,
+      "method": 0.9317469169035462,
+      "delta_pp": 1.6831184559271604,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "negative random": {
+      "baseline": 0.9119408464963992,
+      "method": 0.9299871418711275,
+      "delta_pp": 1.8046295374728367,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    },
+    "negative hard": {
+      "baseline": 0.8463202413433392,
+      "method": 0.882370405486086,
+      "delta_pp": 3.605016414274688,
+      "cells": 60,
+      "matching": "PASS",
+      "complete_cells": "PASS"
+    }
+  },
+  "checks": [
+    {
+      "name": "A: source hash",
+      "computed": "7c2c7887a0ee795b05d633eb3ddf2f4bc7fc9f27f503e5e9c8956ca5761157bd",
+      "expected": "7c2c7887a0ee795b05d633eb3ddf2f4bc7fc9f27f503e5e9c8956ca5761157bd",
+      "observed": "7c2c7887a0ee795b05d633eb3ddf2f4bc7fc9f27f503e5e9c8956ca5761157bd",
+      "status": "PASS"
+    },
+    {
+      "name": "B: source hash",
+      "computed": "ee56023c4e4555e7a826708f9da7f279cab4eb06fdebbde2adcfc69997a57fae",
+      "expected": "ee56023c4e4555e7a826708f9da7f279cab4eb06fdebbde2adcfc69997a57fae",
+      "observed": "ee56023c4e4555e7a826708f9da7f279cab4eb06fdebbde2adcfc69997a57fae",
+      "status": "PASS"
+    },
+    {
+      "name": "C: source hash",
+      "computed": "fddc0c61fea7dfdd2658d6e3b5119b63ae8a2c604606dfb3d1e8c6ddae065c0b",
+      "expected": "fddc0c61fea7dfdd2658d6e3b5119b63ae8a2c604606dfb3d1e8c6ddae065c0b",
+      "observed": "fddc0c61fea7dfdd2658d6e3b5119b63ae8a2c604606dfb3d1e8c6ddae065c0b",
+      "status": "PASS"
+    },
+    {
+      "name": "D: source hash",
+      "computed": "ea714f618542ece8d101d24a6edd558b91c362c3916bafb3351ce5e99283ffe6",
+      "expected": "ea714f618542ece8d101d24a6edd558b91c362c3916bafb3351ce5e99283ffe6",
+      "observed": "ea714f618542ece8d101d24a6edd558b91c362c3916bafb3351ce5e99283ffe6",
+      "status": "PASS"
+    },
+    {
+      "name": "ablation: source hash",
+      "computed": "73c24ae80ab6dcfa36acb857456818e005cbfbedc2197fb720c0098d7f300903",
+      "expected": "73c24ae80ab6dcfa36acb857456818e005cbfbedc2197fb720c0098d7f300903",
+      "observed": "73c24ae80ab6dcfa36acb857456818e005cbfbedc2197fb720c0098d7f300903",
+      "status": "PASS"
+    },
+    {
+      "name": "negative: source hash",
+      "computed": "7aebf034cdd3011d1d24def8640b04c19638607080894145197a95fb9498159b",
+      "expected": "7aebf034cdd3011d1d24def8640b04c19638607080894145197a95fb9498159b",
+      "observed": "7aebf034cdd3011d1d24def8640b04c19638607080894145197a95fb9498159b",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate A: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "Gate A: baseline",
+      "computed": 0.9149157323442745,
+      "expected": 0.9149,
+      "observed": "0.9149",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate A: method",
+      "computed": 0.9317469169035462,
+      "expected": 0.9317,
+      "observed": "0.9317",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate A: delta_pp",
+      "computed": 1.6831184559271604,
+      "expected": 1.683,
+      "observed": "+1.683",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate B: complete cells and matched train/test hashes",
+      "computed": 240,
+      "expected": 240,
+      "observed": 240,
+      "status": "PASS"
+    },
+    {
+      "name": "Gate B: baseline",
+      "computed": 0.8914988430842783,
+      "expected": 0.8915,
+      "observed": "0.8915",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate B: method",
+      "computed": 0.9671298032333194,
+      "expected": 0.9671,
+      "observed": "0.9671",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate B: delta_pp",
+      "computed": 7.563096014904112,
+      "expected": 7.563,
+      "observed": "+7.563",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate C: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "Gate C: baseline",
+      "computed": 0.8415260387132605,
+      "expected": 0.8415,
+      "observed": "0.8415",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate C: method",
+      "computed": 0.9531278544597213,
+      "expected": 0.9531,
+      "observed": "0.9531",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate C: delta_pp",
+      "computed": 11.160181574646076,
+      "expected": 11.16,
+      "observed": "+11.160",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate D: complete cells and matched train/test hashes",
+      "computed": 12,
+      "expected": 12,
+      "observed": 12,
+      "status": "PASS"
+    },
+    {
+      "name": "Gate D: baseline",
+      "computed": 0.8938137486214468,
+      "expected": 0.8938,
+      "observed": "0.8938",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate D: method",
+      "computed": 0.9652215804841137,
+      "expected": 0.9652,
+      "observed": "0.9652",
+      "status": "PASS"
+    },
+    {
+      "name": "Gate D: delta_pp",
+      "computed": 7.140783186266681,
+      "expected": 7.141,
+      "observed": "+7.141",
+      "status": "PASS"
+    },
+    {
+      "name": "A0 clean: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "A0 clean: F1",
+      "computed": 0.9149157323442745,
+      "expected": 0.9149,
+      "observed": "0.9149",
+      "status": "PASS"
+    },
+    {
+      "name": "A0 unseen: complete cells and matched train/test hashes",
+      "computed": 240,
+      "expected": 240,
+      "observed": 240,
+      "status": "PASS"
+    },
+    {
+      "name": "A0 unseen: F1",
+      "computed": 0.9089372771555689,
+      "expected": 0.9089,
+      "observed": "0.9089",
+      "status": "PASS"
+    },
+    {
+      "name": "A1 clean: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "A1 clean: F1",
+      "computed": 0.9317469169035462,
+      "expected": 0.9317,
+      "observed": "0.9317",
+      "status": "PASS"
+    },
+    {
+      "name": "A1 unseen: complete cells and matched train/test hashes",
+      "computed": 240,
+      "expected": 240,
+      "observed": 240,
+      "status": "PASS"
+    },
+    {
+      "name": "A1 unseen: F1",
+      "computed": 0.9204700419564912,
+      "expected": 0.9205,
+      "observed": "0.9205",
+      "status": "PASS"
+    },
+    {
+      "name": "A2 clean: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "A2 clean: F1",
+      "computed": 0.9608392760430582,
+      "expected": 0.9608,
+      "observed": "0.9608",
+      "status": "PASS"
+    },
+    {
+      "name": "A2 unseen: complete cells and matched train/test hashes",
+      "computed": 240,
+      "expected": 240,
+      "observed": 240,
+      "status": "PASS"
+    },
+    {
+      "name": "A2 unseen: F1",
+      "computed": 0.9586926313377425,
+      "expected": 0.9587,
+      "observed": "0.9587",
+      "status": "PASS"
+    },
+    {
+      "name": "A3 clean: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "A3 clean: F1",
+      "computed": 0.9682945361059245,
+      "expected": 0.9683,
+      "observed": "0.9683",
+      "status": "PASS"
+    },
+    {
+      "name": "A3 unseen: complete cells and matched train/test hashes",
+      "computed": 240,
+      "expected": 240,
+      "observed": 240,
+      "status": "PASS"
+    },
+    {
+      "name": "A3 unseen: F1",
+      "computed": 0.964108952932598,
+      "expected": 0.9641,
+      "observed": "0.9641",
+      "status": "PASS"
+    },
+    {
+      "name": "A4 clean: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "A4 clean: F1",
+      "computed": 0.9726656538111014,
+      "expected": 0.9727,
+      "observed": "0.9727",
+      "status": "PASS"
+    },
+    {
+      "name": "A4 unseen: complete cells and matched train/test hashes",
+      "computed": 240,
+      "expected": 240,
+      "observed": 240,
+      "status": "PASS"
+    },
+    {
+      "name": "A4 unseen: F1",
+      "computed": 0.967057722913079,
+      "expected": 0.9671,
+      "observed": "0.9671",
+      "status": "PASS"
+    },
+    {
+      "name": "A5 clean: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "A5 clean: F1",
+      "computed": 0.9724806385938991,
+      "expected": 0.9725,
+      "observed": "0.9725",
+      "status": "PASS"
+    },
+    {
+      "name": "A5 unseen: complete cells and matched train/test hashes",
+      "computed": 240,
+      "expected": 240,
+      "observed": 240,
+      "status": "PASS"
+    },
+    {
+      "name": "A5 unseen: F1",
+      "computed": 0.9671298032333194,
+      "expected": 0.9671,
+      "observed": "0.9671",
+      "status": "PASS"
+    },
+    {
+      "name": "negative current: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "negative current: baseline",
+      "computed": 0.9149157323442745,
+      "expected": 0.9149,
+      "observed": "0.9149",
+      "status": "PASS"
+    },
+    {
+      "name": "negative current: method",
+      "computed": 0.9317469169035462,
+      "expected": 0.9317,
+      "observed": "0.9317",
+      "status": "PASS"
+    },
+    {
+      "name": "negative current: delta_pp",
+      "computed": 1.6831184559271604,
+      "expected": 1.683,
+      "observed": "+1.683",
+      "status": "PASS"
+    },
+    {
+      "name": "negative random: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "negative random: baseline",
+      "computed": 0.9119408464963992,
+      "expected": 0.9119,
+      "observed": "0.9119",
+      "status": "PASS"
+    },
+    {
+      "name": "negative random: method",
+      "computed": 0.9299871418711275,
+      "expected": 0.93,
+      "observed": "0.9300",
+      "status": "PASS"
+    },
+    {
+      "name": "negative random: delta_pp",
+      "computed": 1.8046295374728367,
+      "expected": 1.805,
+      "observed": "+1.805",
+      "status": "PASS"
+    },
+    {
+      "name": "negative hard: complete cells and matched train/test hashes",
+      "computed": 60,
+      "expected": 60,
+      "observed": 60,
+      "status": "PASS"
+    },
+    {
+      "name": "negative hard: baseline",
+      "computed": 0.8463202413433392,
+      "expected": 0.8463,
+      "observed": "0.8463",
+      "status": "PASS"
+    },
+    {
+      "name": "negative hard: method",
+      "computed": 0.882370405486086,
+      "expected": 0.8824,
+      "observed": "0.8824",
+      "status": "PASS"
+    },
+    {
+      "name": "negative hard: delta_pp",
+      "computed": 3.605016414274688,
+      "expected": 3.605,
+      "observed": "+3.605",
+      "status": "PASS"
+    }
+  ],
+  "manuscript_checked_text_sha256": "4a6828f7d0e8982b2184180b98eeae0cc59b33be196d1e2193cb3e91a4a6bfaa"
+}
