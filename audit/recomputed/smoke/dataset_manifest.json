@@ -1,0 +1,11 @@
+{
+  "candidate_code_hashes_sha256": "56678436c2f98e1c367fd92704c0d4ceb891ea50ce546ac1be112c73032525f6",
+  "human_code_hashes_sha256": "92dda93e1bd7934c8b81ecd3878afcb7f11a9a1e9d07c8218287a10f8671c811",
+  "positive_bank_content_sha256": "83b9a5408608c79e7f77e35035b2a4db2e9bb94ed85d0798774caecfb05d3a49",
+  "positive_rows": 1828,
+  "rows": 3656,
+  "source": "repro/2502.17749/code/experiment/task1/dataset/c.jsonl",
+  "source_sha256": "a5c9eb95fcfb52ed0d49db4c7d9e5ebb99e8170a57071394878e81a8eb030dc4",
+  "unique_candidate_code_hashes": 1823,
+  "unique_human_code_hashes": 417
+}

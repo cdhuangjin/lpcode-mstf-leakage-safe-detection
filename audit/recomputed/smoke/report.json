@@ -1,0 +1,10 @@
+{
+  "a0_f1": 0.896551724137931,
+  "a1_f1": 0.9186206896551725,
+  "cache_reused": true,
+  "delta_pp": 2.206896551724147,
+  "elapsed_seconds": 2.5764652000070782,
+  "mode": "smoke",
+  "scope": "One language, seed42 fold0/5, actual A0/A1 fits; not a paper-level replication.",
+  "status": "PASS"
+}

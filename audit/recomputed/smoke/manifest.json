@@ -1,0 +1,14 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "config.json": "9bc9c740de6d88924d846393234b1c1ae22cc00c32900506387e3cef97f54ce9",
+    "dataset_manifest.json": "64e889d79c4e9082f6dd900a88ee209c41800e0c8a64a4bf2769992fca7182fc",
+    "environment.json": "716d14c15afd2da000ffc2fdfeef7a3d6799ed1f03f2bb6597afb0d36ad154ca",
+    "metrics.csv": "7a75a22bfa564c21ae44f0af12579e77afcbda5e22e56456883893d43c757d0b",
+    "metrics.json": "c3824eda9d1933e91d0cfca73a2411a30fef2936fca2f618fdaf3e8a452b24a9",
+    "pair_manifest.csv": "cbaa20e0ae231e8db3e90035ad212d8b802f06c1490bd4345bb15192a8440f11",
+    "pair_manifest.json": "359c00c8256fa39a8cd19ddfd25d6beac69f333a70919bee88e86e333d11fc53",
+    "summary.json": "37397ebc640b0dbaf7dc1ac0abb790cc11c418d46adb3e2c09a713ab2e22adbe"
+  },
+  "scope": "Smoke config, environment, dataset provenance, complete pair records, measured metrics and summary. This manifest excluded."
+}

@@ -21,7 +21,7 @@ scikit-learn / XGBoost / tree-sitter code; GitHub versioned sources.
   rounded manuscript checks; JSON/Markdown audit, fail on missing cells.
 - [x] Phase 3: verify hashes, reconstruct pair isolation from raw sources and
   compare saved split digests; missing evidence is BLOCKED, never zero.
-- [ ] Phase 4: test-first reproduce.py modes smoke/audit/table2/table3/all-saved;
+- [x] Phase 4: test-first reproduce.py modes smoke/audit/table2/table3/all-saved;
   smoke must actually fit fixed A0/A1 on one held-out fold.
 - [ ] Phases 5–6: README and reproducibility.md with tested commands, output
   mapping, measured runtime and frozen/recomputed/full-training distinctions.

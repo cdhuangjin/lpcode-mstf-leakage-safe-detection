@@ -1,0 +1,16 @@
+{
+  "interval_policy": "Frozen intervals retained, not rebootstrap estimates; all means and paired differences recomputed from row ledgers.",
+  "sources": {
+    "repro/2502.17749/v1/results/04_cross_language/folds.jsonl": "ea714f618542ece8d101d24a6edd558b91c362c3916bafb3351ce5e99283ffe6",
+    "repro/2502.17749/v1/results/04_cross_language/summary.json": "1b22004c59e20978db653a41a2b6f3d67d824301f7d9feb70c05783f40be467a",
+    "results/01_transition_test_strict_origins/folds.jsonl": "7c2c7887a0ee795b05d633eb3ddf2f4bc7fc9f27f503e5e9c8956ca5761157bd",
+    "results/02_unseen_llm/folds.jsonl": "ee56023c4e4555e7a826708f9da7f279cab4eb06fdebbde2adcfc69997a57fae",
+    "results/02_unseen_llm/summary.json": "7f9e81cf153ea09e8a26f796508ffb0d133b096660dd71699cda1db8484d161e",
+    "results/03_style_attack/folds.jsonl": "fddc0c61fea7dfdd2658d6e3b5119b63ae8a2c604606dfb3d1e8c6ddae065c0b",
+    "results/03_style_attack/summary.json": "ea5d89b21c0af7c496c47f3f2883c001e4d3171b809bb8605867cbd841643b3a",
+    "results/05_mechanism_analysis/ablation_summary.json": "0f2d7e67d19cad44626b02f4c7e252f53441170f0815e35d79d43772624fc576",
+    "results/05_mechanism_analysis/folds.jsonl": "73c24ae80ab6dcfa36acb857456818e005cbfbedc2197fb720c0098d7f300903",
+    "results/negative_pair_robustness/raw_results.json": "7aebf034cdd3011d1d24def8640b04c19638607080894145197a95fb9498159b"
+  },
+  "summary_validation": "PASS: paired differences; sample SD not in requested table"
+}

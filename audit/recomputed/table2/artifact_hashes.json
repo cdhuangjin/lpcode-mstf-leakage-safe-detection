@@ -1,0 +1,10 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "provenance.json": "c4ff435393b18f740967cd0a935e5a49d2714f41f5ff7766c06bb87368eae6f7",
+    "report.json": "34e6512e477a89c5a03286773362da370a13a69a9b3b72eb64c6ba287e7f2d1f",
+    "table2.csv": "ccb8ec765a57f29ca659d543e33ae6f33bbbbe567cfedb3e5a8f3de01a95d5d4",
+    "table2.md": "e200a758466fdd58539c44eada07485553378e916c97156c1a56980b35271b25"
+  },
+  "scope": "All files in this run directory; manifest itself excluded. Runtime-dependent files may differ."
+}

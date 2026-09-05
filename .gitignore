@@ -5,6 +5,7 @@ __pycache__/
 .pytest-tmp/
 .pytest-spec-review-*/
 audit/pytest-*/
+audit/recomputed/
 *.egg-info/
 repro/2502.17749/code/
 repro/2502.17749/v1/.venv/

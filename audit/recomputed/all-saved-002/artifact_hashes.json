@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "figure_contrasts.csv": "2bf592780abb3992c72893f546d4446cfa626a12b3eca33cab033d5140f6f2a6",
+    "figure_generator.csv": "9adabca8226d17b4f9516d426f9b13b4514d0fc8d51e1dd65aa7c73e9395908d",
+    "figure_language.csv": "75369b27f4a4b20c2c0af62fda11c8e33f2e9490fcdadf181701ea98271a80b4",
+    "figure_main.csv": "ccb8ec765a57f29ca659d543e33ae6f33bbbbe567cfedb3e5a8f3de01a95d5d4",
+    "figure_mechanism.csv": "07dc2ab90c958df7d3b00fe9cddaa35e12cabcb89e30e2a162a677d950dbc62a",
+    "figure_negative.csv": "53d75d136cdab559292f85adae26fd23f16e8260ff31219e25b8c809ceb76d91",
+    "figure_transformations.csv": "3db596697e64c937e4cf8402ea7f3b6cba77fbe99752813a2451eee787c156e7",
+    "figure_variants.csv": "4e96ccc986cd1999d01be46fe32282d828564f74c2b447cc2a2c8edda450b348",
+    "provenance.json": "fcae1c5e3d3263ecb16b9e83bce4bdfde5380df5f43fdd511322f848e5d3e8be",
+    "report.json": "b75177a0466c1dfdf566860b26ade2006c696124960a443b8847d2789fd33a22",
+    "table2.csv": "ccb8ec765a57f29ca659d543e33ae6f33bbbbe567cfedb3e5a8f3de01a95d5d4",
+    "table2.md": "e200a758466fdd58539c44eada07485553378e916c97156c1a56980b35271b25",
+    "table3.csv": "4e96ccc986cd1999d01be46fe32282d828564f74c2b447cc2a2c8edda450b348",
+    "table3.md": "ada122875cb31ce7369918876f47c7d4f7286ac4487a14eeaa12f1e813d0f916",
+    "table4.csv": "9adabca8226d17b4f9516d426f9b13b4514d0fc8d51e1dd65aa7c73e9395908d",
+    "table4.md": "5160ed1e429b98f3670f1cad23a3b14381ae02595bd982dfd62840f6c1d24d5d",
+    "table5.csv": "3db596697e64c937e4cf8402ea7f3b6cba77fbe99752813a2451eee787c156e7",
+    "table5.md": "e10aac409b4b9d2e8a96d7666eac28f3ff78cc2b2540bbe4985ce1c0320c1814",
+    "table6.csv": "75369b27f4a4b20c2c0af62fda11c8e33f2e9490fcdadf181701ea98271a80b4",
+    "table6.md": "e5e7743c7dd01b0357e5de95a36b96ba982f6296a19baa87d93de27dc631f0f4",
+    "table7.csv": "53d75d136cdab559292f85adae26fd23f16e8260ff31219e25b8c809ceb76d91",
+    "table7.md": "e2ebb8bd6af5c9174d2a7deb9a59429065f303182c238242729864ecf277e156"
+  },
+  "scope": "All files in this run directory; manifest itself excluded. Runtime-dependent files may differ."
+}
