@@ -1,6 +1,6 @@
 # Release status and limits
 
-Version 1.0.0, 2026-09-05. This is an authorised public research-review deposit, not a journal acceptance or a DOI-backed archive.
+Version 1.0.1, 2026-09-05: scoped MIT update to the v1.0.0 research deposit, not a journal acceptance or a DOI-backed archive.
 
 Included: every research module and test from the frozen implementation; public path/figure-QA helpers; complete primary Gate ledgers and their configurations/manifests; ablation, mechanism, negative-pair sensitivity and figure source data. Eight tiny historical baseline metric pickles are included for manifest tests, not trained models; the fetch script copies them without unpickling. Raw LPcode dataset and original program files are fetched from the pinned owner repository, not republished.
 
@@ -16,6 +16,6 @@ The standalone verifier checks 20 frozen Gate files, Gate record counts 480/960/
 
 ## Remaining rights/preservation conditions
 
-The author has authorised public posting, but has not yet confirmed a permissive code/data licence. `LICENSE` therefore retains rights explicitly instead of inventing MIT/CC BY approval. Publication availability and permission for unrestricted reuse are different claims. An open-licence decision can be applied in a subsequent version after confirmation, with inherited LPcode rights handled separately.
+The author has confirmed MIT for the authors' new software. LICENSE_SCOPE.md excludes inherited LPcode code and third-party material. Data, figures and manuscripts have no additional open-reuse grant; CC BY approval has not been given (DATA_LICENSE.md). Historical v1.0.0 manuscript assets and audit records retain their then-current pending-licence statements; MANUSCRIPT_LICENSE_ADDENDUM.md records the subsequent update without rewriting that immutable release.
 
 No Zenodo/DataCite DOI is claimed. A versioned GitHub release is inspectable but is not an independent long-term preservation guarantee. Source attribution and observed publication-version differences are detailed in `release_refs_01_11.md` and `release_refs_12_21.md`; single-source checks are not misrepresented as independent multi-source confirmation.

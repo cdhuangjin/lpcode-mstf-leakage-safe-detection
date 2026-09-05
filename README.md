@@ -80,4 +80,4 @@ Use `CITATION.cff` for this software/evidence release; the paper is a manuscript
 
 ## Rights and access
 
-Read `LICENSE` and `THIRD_PARTY_NOTICES.md`. Public availability is not permission to relicense third-party data. A versioned GitHub release is provided, but no DOI-backed preservation deposit is asserted. See `docs/RELEASE_STATUS.md` for author confirmations and validation scope.
+The authors' new software is licensed under **MIT**, with exclusions in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Inherited LPcode code (including `features_official.py`) and third-party material are not relicensed. Data, figures and manuscripts receive no additional open-reuse grant; see [DATA_LICENSE.md](DATA_LICENSE.md). Read `LICENSE` and `THIRD_PARTY_NOTICES.md`. No DOI-backed preservation deposit is asserted. See `docs/RELEASE_STATUS.md` for validation scope and `docs/MANUSCRIPT_LICENSE_ADDENDUM.md` for the post-v1.0.0 update.

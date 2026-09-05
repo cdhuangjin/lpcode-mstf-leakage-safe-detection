@@ -10,10 +10,10 @@ authors:
     given-names: Qiao
   - family-names: Gao
     given-names: Qisen
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-09-05
 repository-code: "https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection"
-url: "https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection/releases/tag/v1.0.0"
+url: "https://github.com/cdhuangjin/lpcode-mstf-leakage-safe-detection/releases/tag/v1.0.1"
 abstract: "Research implementation and frozen numerical evidence for source-candidate code-style transition detection, with exact-code and dual-endpoint-isolated evaluation."
 keywords:
   - code provenance

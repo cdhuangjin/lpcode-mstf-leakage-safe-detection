@@ -1,3 +1,13 @@
+# v1.0.1 — scoped MIT authorisation
+
+The authors' new software is now MIT-licensed. LICENSE_SCOPE.md excludes
+inherited LPcode code, third-party material, data, figures and manuscripts.
+DATA_LICENSE.md records that no CC BY or other additional data licence was
+authorised. Access notes and a manuscript licensing addendum are included.
+No research source, frozen result or manuscript binary changed. The v1.0.0
+tag and assets remain untouched. This version's source archive includes the
+complete existing deposit plus the licensing update.
+
 # v1.0.0 — research code, frozen evidence and manuscript
 
 Complete research implementation and test suite, formal Gate A–D ledgers/configurations/manifests, ablation and negative-pair sensitivity, mechanism/attack decomposition, source data and five reproducible figures. Includes README, pinned Python3.11 dependencies, dataset acquisition/checksums, citation metadata and updated manuscript/supplement.

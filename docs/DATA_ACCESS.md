@@ -33,4 +33,4 @@ Files use JSON, JSONL and CSV. Frozen files keep their original byte content, in
 
 ## FAIR limits
 
-Versioned GitHub tag/release and file checksums provide a stable inspectable route; there is no claimed archival DOI or preservation guarantee. Licence confirmation for original contributions remains explicitly recorded, and upstream reuse rights remain separate. Do not describe this as fully FAIR/openly licensed until those conditions are satisfied.
+Versioned GitHub releases and checksums provide an inspectable route, not an archival DOI or preservation guarantee. The authors' new software is MIT-licensed within LICENSE_SCOPE.md. Data and other non-software materials have no additional open-reuse grant (DATA_LICENSE.md); upstream rights remain separate. Do not describe the entire deposit as fully FAIR or openly licensed.

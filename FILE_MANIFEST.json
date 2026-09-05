@@ -15,22 +15,32 @@
     {
       "path": "CITATION.cff",
       "bytes": 884,
-      "sha256": "d925026f9308225af3744af50c88f1baf2fab0efa444972c26d8f6d49068e989"
+      "sha256": "b6602f153a242fc9864fcbeb2713b09236192f65a595a6b6dbded113d9a5738d"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 651,
+      "sha256": "9b77fca09f3e242e4752fd2b90665f3dfe58d4be72bdb36b91b05768e161b37a"
     },
     {
       "path": "LICENSE",
-      "bytes": 556,
-      "sha256": "00e55ebae0e73b03d6b025f1a2354bb58142ba85dc8be95f7284a333438c5a56"
+      "bytes": 1227,
+      "sha256": "77029d9e9cdd074e181e6f7fe2c8f87da71e3ed9a722fe35b4c01e958fc9da08"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 1142,
+      "sha256": "58b077d40db42c0ff12eb0d1aa61a177063ce8bcbecbda6faf5ec2ef8c1198a7"
     },
     {
       "path": "README.md",
-      "bytes": 5871,
-      "sha256": "41b75fd43627c077ae1df77bd11642df93c930b931ffdcca578a448cfa19f6f4"
+      "bytes": 6124,
+      "sha256": "bcc36faf5da8b60c5e34ff85a0a66bd6e3acc3531066ccf9630dcc2e7c27142e"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1402,
-      "sha256": "677a1374aed2db05c223a575a6337a563b6c4a1bf62f545c1b1fbc849692ab2f"
+      "bytes": 1945,
+      "sha256": "9339430db139380054b5d4e723bc296bb10ffe37ec71060a822352d9492d42a6"
     },
     {
       "path": "SOURCE_INVENTORY.json",
@@ -39,18 +49,23 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1817,
-      "sha256": "cffa0d389bef7b3926f09c2148707cdd065379381f915d23af562ccd5b637653"
+      "bytes": 1928,
+      "sha256": "b633257839ed3d74a31c78f3086da3884718fcc1500d629b745233d7e31dc311"
     },
     {
       "path": "docs/DATA_ACCESS.md",
-      "bytes": 3622,
-      "sha256": "c3408fe2dee75963975edd120b3b5b8233613d155cac92b75309e653d9cf8c20"
+      "bytes": 3648,
+      "sha256": "2c2a4064fc009556e32e9ba3ab22a8ce32ee029a218c26322ef3bb108ffc59a4"
+    },
+    {
+      "path": "docs/MANUSCRIPT_LICENSE_ADDENDUM.md",
+      "bytes": 866,
+      "sha256": "fa4428e7401db4be30db023c37ffd3e9a4d44e4349c57ee457e7befc6a8005fc"
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "bytes": 3194,
-      "sha256": "f05a4e6346a97518cf5c1d14390443a4d3ac5c6d3b1a0ba8d037596320dc7ede"
+      "bytes": 3250,
+      "sha256": "cbd6d03aea3f22cdbfb775b574b0cea875434fb18da9a1dbd5174b4f98de6518"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
